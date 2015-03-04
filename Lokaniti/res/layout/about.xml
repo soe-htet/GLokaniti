@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawing_area_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textSize="16sp"
+        android:text="@string/about_mm" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:text="@string/about_en" />
+
+    <Button
+        android:id="@+id/btnSendFeedback"
+        android:layout_width="234dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_shape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/feedback"
+        android:textColor="#0F17FF"
+        android:textSize="16sp" 
+        android:layout_marginTop="50sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:textColor="#C0C0C0"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:text="@string/owner" />
+ 
+</LinearLayout>

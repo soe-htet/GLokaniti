@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawing_area_bg"
+    android:layout_weight="13"
+    android:orientation="vertical" >
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#FFD700"
+            android:textSize="15sp" />
+<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/textview_bg"
+        android:layout_weight="12" >
+
+        <TextView
+            android:id="@+id/women_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="#FFD700"
+            android:textSize="18sp" />
+
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:background="@drawable/footer_bg"
+         >
+
+        <ImageButton
+            android:id="@+id/btn_women_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_left"
+            android:padding="4dp" />
+
+        <ImageButton
+            android:id="@+id/btn_women_mm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mm_flag4"
+            android:padding="4dp" />
+
+        <ImageButton
+            android:id="@+id/btn_women_uk"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/uk_flag4" />
+
+        <ImageButton
+            android:id="@+id/btn_women_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/arrow_right" />
+
+    </LinearLayout>
+
+</LinearLayout>

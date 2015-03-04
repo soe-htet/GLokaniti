@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LOKANITI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string-array name="mm_number">
+        <item>၁</item>
+        <item>၂</item>
+        <item>၃</item>
+        <item>၄</item>
+        <item>၅</item>
+        <item>၆</item>
+        <item>၇</item>
+        <item>၈</item>
+        <item>၉</item>
+        <item>၁၀</item>
+        <item>၁၁</item>
+        <item>၁၂</item>
+        <item>၁၃</item>
+        <item>၁၄</item>
+        <item>၁၅</item>
+        <item>၁၆</item>
+        <item>၁၇</item>
+        <item>၁၈</item>
+        <item>၁၉</item>
+        <item>၂၀</item>
+        <item>၂၁</item>
+        <item>၂၂</item>
+        <item>၂၃</item>
+        <item>၂၄</item>
+        <item>၂၅</item>
+        <item>၂၆</item>
+        <item>၂၇</item>
+        <item>၂၈</item>
+        <item>၂၉</item>
+        <item>၃၀</item>
+        <item>၃၁</item>
+        <item>၃၂</item>
+        <item>၃၃</item>
+        <item>၃၄</item>
+        <item>၃၅</item>
+        <item>၃၆</item>
+        <item>၃၇</item>
+        <item>၃၈</item>
+        <item>၃၉</item>
+        <item>၄၀</item>
+        
+    </string-array>
+    
+    <string name="lang_mm">ျမန္မာ</string>
+    <string name="lang_en">English</string>
+    <string name="shinchat">ရွင္းခ်က္</string>
+    
+    
+    <string name="part1_mm">အခန္း (၁)</string>
+    <string name="part1_mm_1">ငါသည္ ရတနာသံုုးပါးကိုု ရိွခိုုးျပီးထူးထူးေသာ က်မ္းဂန္တိုု ့ မွ ေကာက္ႏုုတ္အပ္ေသာ ေလာကနီတိအမည္ရိွေသာ က်မ္းကိုု မာဂဓ (ပါဌိ) ဘာသာျဖင့္ အက်ည္းမွ် ဆိုု အံံ့။</string>
+    <string name="part1_mm_2"> စင္စစ္ ဤက်မ္းသည္ ေလာက၌ ေယာက္်ားတို႔၏ အႏွစ္လည္း မည္၏ ။ မိဘလည္း မည္၏ ။ ဆရာလည္းမည္၏ ။ အေဆြခင္ပြင္းလည္းမည္၏ ။ ထို႔ေၾကာင့္ ဤနီတိက်မ္းကို သင္ၾကားတက္ ေျမာက္ေသာ ေယာက္်ားသည္ အၾကားအျမင္မ်ားေသာ ၊ ျမင့္ျမတ္ေသာ ပညာတက္ေယာက္်ား ျဖစ္၏။</string>
+    <string name="part1_mm_3"> ပ်င္းေသာသူအား အတက္ပညာ အဘယ္မွာတက္အံ့နည္း။ အတက္ပညာ မရွိေသာသူအား ဥစၥာ အဘယ္မွာ ရအံ့နည္း။ ဥစၥာမရွိေသာသူအား အေဆြခင္ပြန္း အဘယ္မွာရအံ့နည္း။ အေဆြခင္ ပြန္းမရွိေသာ သူအား ခ်မ္းသာ အဘယ္မွာရအံ့နည္း။ ခ်မ္းသာမရွိေသာသူအား ေကာင္းမႈအဘယ္ မွာ ရအံ့နည္း။ ေကာင္းမႈမရွိေသာသူအား နိဗၺာန္အဘယ္မွာ ရအံ့နည္း။</string>
+    <string name="part1_mm_4">အတက္ႏွင့္ တူေသာ ဥစၥာသည္ မရွိ။ အတက္ကို ခိုးသူတို႔သည္ မယူႏိုင္ကုန္။ ဤေလာက၌ အတက္သည္ကား အေဆြခင္ပြန္းျဖစ္၏ ။တမလြန္ဘ၀၌ ခ်မ္းသာကိုေဆာင္တက္၏။</string>
+    <string name="part1_mm_5">အၾကားအျမင္ပညာကို နည္း၏ဟူ၍ မေအာက္ေမ့ရ။ မိမိစိတ္ထဲ၌ သြင္းထားရာ၏။ ေတာင္ပို႔၌ ေရေပါက္သည္ က်ဖန္မ်ားစြာ ၾကာရွည္သျဖင့္ ျပည့္သကဲသို႔တည္း။</string>
+    <string name="part1_mm_6">	ႏႈတ္မႈပညာကိုလည္းေကာင္း၊ လက္မႈပညာကိုလည္းေကာင္း၊ ငယ္သည္ဟူ၍ မေအာက္ ေမ့ရာ။ ကုန္စင္ေအာင္တက္မႈကား တစ္ခုေသာအတက္သည္လည္း အသက္ေမြး၀မ္းေက်ာင္း ျဖစ္ပါသည္သာလွ်င္တည္း။</string>
+    <string name="part1_mm_7">တာင္ေတာင္ဟူသမွ်၌ ပတၱျမားမရွိ။ ဆင္ဆင္ဟူသမွ်၌ အျမဳေတမရွိ။ ေတာေတာဟူ သမွ်၌ စႏၵကူးမရွိ။ အရပ္တိုင္း အရပ္တိုင္း၌ ပညာရွိ သုခမိန္ မရွိ။</string>
+    <string name="part1_mm_8">သုတႏွင့္ျပည့္စံု ေသာ ပညာရွိသည္ အၾကင္အရပ္၌ ရွိ၏ဟူ၍ အကယ္၍ ၾကားျငားအံ့၊ ထိုအရပ္သို႔ သုတရွားေသာ အမ်ိဳးေကာင္းသားသည္ သည္းစြာအားထုတ္၍ သြားရာသည္ သာလွ်င္တည္း။</string>
+    <string name="part1_mm_9">အတက္ကို ျဖည္းျဖည္းသင္ရာ၏။ ဥစၥာကို ျဖည္းျဖည္းရွာရ၏။ ေတာင္ကိုတက္ေသာသူ သည္ ျဖည္းျဖည္းတက္ရာ၏။ ကာမဂုဏ္ကို ျဖည္းျဖည္းလိုရာ၏။ အမ်က္ကို ျဖည္းျဖည္းထြက္ရာ၏။ ဤငါးပါးတို႔ကို ျဖည္းျဖည္းအလိုရွိရာ၏။</string>
+    <string name="part1_mm_10">အၾကားအျမင္အတက္သည္လည္းေကာင္း၊ ဓမၼအတက္သည္ လက္ေကာင္း၊ သခ်ၤာဂဏန္း အတက္သည္လည္းေကာင္း၊ တံစည္း စူးေဆာင္အတက္သည္ လည္းေကာင္း၊ နီတိက်မ္းအတက္ သည္လည္းေကာင္း၊ ယာယီယၾတာစေသာ ဗ်ာကရိုဏ္းအတက္သည္လည္းေကာင္း၊ ေစာင္း စေသာ ကဗ်ာအတက္သည္လည္းေကာင္း၊ လက္ပစ္အတက္သည္ လည္းေကာင္း၊ ဒူးေလး လင္းေလးအတက္သည္ လည္းေကာင္း၊ စကားေဟာင္းအတက္သည္လည္းေကာင္း။</string>
+    <string name="part1_mm_11">	ေဆးအတက္သည္လည္းေကာင္း၊ ရယ္ရႊင္မႈအတက္သည္ လည္းေကာင္း၊ ေဗဒင္အတက္ သည္လည္းေကာင္း၊ လွည့္ပတ္တက္ေသအတက္သည္ လည္းေကာင္း၊ ဆန္းက်မ္းအတက္သည္ လည္းေကာင္း၊ သံတမန္အတက္သည္ လက္ေကာင္း၊ မႏၱန္အတက္သည္လည္းေကာင္း၊ သဒၵါက်မ္း အတက္သည္လည္းေကာင္း ဤသည္တုိ႔ကား ဆယ့္ရွစ္ပါးေသာ အတက္တို႔တည္း။</string>
+    <string name="part1_mm_12"> ေလာက၌ ပညာရွိသည္သူ မေမးမူကား စည္ႀကီးသဖြယ္ျဖစ္၏။ သူတည္း ေမးမူကား မိုးႀကိဳး သဖြယ္ျဖစ္၏။ လူမိုက္သည္ ေမးေသာ္လည္းေကာင္း၊၊ မေမးေသာ္လည္းေကာင္း၊ အခါခပ္သိမ္းမ်ား စြာလည္း ေဟာတက္ေျပာတက္သည္သာလွ်င္တည္း။</string>
+    <string name="part1_mm_13"> ေလာက၌ ေပတို႔၌ အၾကင္အတက္သည္လည္းေကာင္း၊ သူတစ္ပါးတို႔၏ လက္တို႔၌ အၾကင္ဥစၥာသည္ လည္းေကာင္းရွိ၏။ ျပဳဖြယ္ကိစၥသည္ ျဖစ္လတ္ေသာ ထိုေပ၌ရွိေသာ အတက္သည္ လည္းေကာင္း၊ အတက္မမည္။ ထိုသူတစ္ပါးတို႔၏ လက္၌ရွိေသာ ဥစၥာသည္လည္း ဥစၥာမမည္။</string>
+    <string name="part1_mm_14">	ေလာက၌ ေရတိမ္ေရနက္တုိ႔ကား ကုမုဒၵာၾကာကို ျမင္သျဖင့္ သိအပ္၏။ အမ်ိဳးယုတ္ျမတ္ ကိုကား ကုိယ္အမူအရာ၊ ႏႈတ္အမူအရားအားျဖင့္ သိအပ္၏။ ပညာရွိ မရွိကိုကား ဆိုေသာစကားျဖင့္ သိအပ္၏။ ေျမေကာင္း မေကာင္းကိုကား ျမတ္ညိွဳး မညိွဳးကိုျမင္သျဖင့္ သိအပ္၏။</string>
+    <string name="part1_mm_15">	ေလာက၌ နည္းေသာသုတရွိသူသည္ နည္းေသာသုတကို အမ်ားေအာက္ေမ့တက္၏။ မာန္မာနရွိတက္၏။ အဘယ္သုိ႔နည္းဟူမူကား သမုဒၵရာေရျပင္ကို မျမင္ဖူးေသာ ဖားသူငယ္သည္ တြင္း၀၌ ေရကိုအမ်ားထင္သကဲ့သို႔တည္း။</string>
+    <string name="part1_mm_16"> ေလာက၌ ပထမအရြယ္၌ကား အတက္မရတံုအံ့။ ဒုတိယအရြယ္ကား ဥစၥာမရတံုအံ့။ တတိယအရြယ္၌ကား တရားမရတံုအ့ံ။ စတုတၳအရြယ္တိုင္မွာကား အလယ္မူစအံ့နည္း။</string>
+    <string name="part1_mm_17">ခ်စ္သားတို႔ . . . အတက္ပညာသင္ကုန္ေလာ့။ အဘယ္ေၾကာင့္ ပ်င္းရိဘိသနည္း။ ခ်စ္သားတုိ႔ ေန႔တိုင္း ေန႔တိုင္း အတက္ပညာသင္ကုန္ေလာ့။ အတက္ပညာမရွိေသာသူသည္ သူ၏၀န္ထမ္းျဖစ္တက္၏။ အတက္ပညာရိွသူကို ေလာ့က၌ သူတစ္ပါးတို႔ ပူေဇာ္အပ္၏။</string>
+    <string name="part1_mm_18">အၾကင္အမိသည္ သားငယ္ကို အတက္ပညာသင္မေပး။ အတက္ပညာသင္၍ မေပးေသာ အမိသည္ရန္သူမည္၏။ အၾကင္အဖသည္ အတက္ပညာသင္၍မေပး။ အတက္ပညာသင္၍ မေပးေသာ အဖသည္ရန္သူမည္၏။ ထိုအတက္ပညာမရွိေသာသူသည္ ဟသၤာတို႔အလယ္၌ ဗ်ိဳင္းကဲ့သို႔ သဘင္အလယ္တြင္မတင့္တယ္။</string>
+    <string name="part1_mm_19"> ေတာင္ေခ်ာက္ၾကား၌ ေရာက္ေသာဆူးကို ဘယ္သူထက္ စိမ့္ခၽြန္သနည္း။ မိမိအလိုသာလွ်င္ ထက္ပေခ်၏။ သမင္တုိ႔၏ မ်က္စိ၌ ဘယ္သူမ်က္စဥ္းခတ္၍ၾကည္သနည္း။  မိမိအလုိသာလွ်င္ ၾကည္ပေခ်၏။ ညႊန္၌ၾကာကို ဘယ္သူအနံေကာင္း ထည့္ေပးေခ်သနည္း။ အလိုလိုသာလွ်င္ အနံေကာင္းထံု၏။ အမ်ိဳးေကာင္းသား၏ သေဘာသည္ ဘယ္သူျပဳ၍ ျဖစ္သနည္း။ မိမိအလိုလိုသာ ျဖစ္ပေခ်၏။</string>
+    <string name="part1_mm_20">ထံုုးမရွိေသာ ကြမ္းသည္အရသာမရွိ။ ဥစၥာမရွိသူ ၏တန္ဆာဆင္ျခင္းသည္လည္း အရသာမရွိ။ ဆားမရွိသည့္ စားဖြယ္သည္လည္းအရသာမရွိ ။ အတက္မရွိေသာ သူ၏ ပ်ိဳ႕ကဗ်ာဖြဲ႔ ျခင္းသည္လည္း အရသာမရွိ။</string>
+    <string name="part1_mm_21">နာျခင္း မွတ္ျခင္းခ ေကာင္စြာ အားထုတ္ေသာ သူသည္ သုတျဖင့္ျပည့္စံု၏။ သုတပညာျဖင့္ ပြား၏။ သုတပညာျဖင့္ အနက္ကိုသိ၏။ သိအပ္ေသာ အနက္သည္ ခ်မ္းသာကို ေဆာင္၏။</string>
+    <string name="part1_mm_22">	ေလာက၌ အစားစားျခင္းသည္ လည္ေကာင္း၊ ေမထုန္မွီ၀ဲျခင္းသည္ လည္းေကာင္း၊ အိပ္ျခင္း သည္လည္းေကာင္း၊ ႏြား၌ လည္းေကာင္း၊ ေယာက္်ား၌ လည္းေကာင္း ရွိ၏။ အတက္ ပညာ ဟူသည္ကား ေယာက္်ားအား အထူးေပးတည္း။ အတက္ပညာမွ ယုတ္ခဲ့မူကား ႏြားႏွင့္ တူသည္ ျဖစ္၏။</string>
+    <string name="part1_mm_23">	ေလာက၌ အတက္ပညာႏွင့္တူေသာ အေဆြခင္ပြန္းသည္ မရွိ။ အနာႏွင့္တူေသာ ရန္သူသည္ မရွိ။ ကိုယ္ႏွင့္တူေသာ ခ်စ္ေသာသူ မည္သည္မရွိ။ ကံႏွင့္ တူေသာ အားသည္မရွိ။</string>
+    <string name="part1_mm_24">	ေလာက၌ ဟသၤာသည္ က်ီးတို႔၏ အလယ္၌ မတင့္တယ္။ ျခေသၤသည္ ႏြားတို႔၏ အလယ္၌ မတင့္တယ္။ ျမင္းသည္ ျမည္းတုိ႔၏ အလယ္၌ မတင့္တယ္။ လူမိုက္တို႔၏ အလယ္၌ ပညာရွိသည္ မတင့္တယ္။</string>
+    <string name="part1_mm_25">သူမိုက္သည္ အသက္ထက္ဆံုးလည္း ပညာရွိကို အကယ္၍ ဆည္းကပ္ျငားအံ့၊ ထုိသူမိုက္သည္ တရားကိုမသိ။ အဘယ္ကဲ့သို႔ နည္းဟူမူ ေယာက္မသည္ ဟင္း၏ အရာသာကို မသိသကဲသို႔တည္း။</string>
+    <string name="part1_mm_26">	ေလာက၌ ဥစၥာပ်က္ျခင္းသည္ လည္းေကာင္း၊ ႏွလံုးပူပန္ျခင္းသည္ လည္းေကာင္း၊ အိမ္၌ မေကာင္းမႈကို ျပဳက်င့္ျခင္းတုိ႔သည္ လည္းေကာင္း၊ လွည့္ပတ္ျခင္းကိုလည္းေကာင္း၊ မထီမဲျမင္ျပဳ ျခင္းကို လည္းေကာင္း၊ ပညာရွိသည္ ထင္ရွားမျပရ။</string>
+    <string name="part1_mm_27">	ေလာက၌ အေရးအခြင့္ေရာက္သည္ႏွင့္ ေလ်ာ္ေသာ စကားကိုလည္းေကာင္း၊ ကိုယ့္အား ေလ်ာက္ပတ္ေသာ ခ်စ္အပ္ေသာသူကို လည္းေကာင္း၊ ကိုယ္ႏွင့္ တန္ရံုေသာအမ်က္ကို လည္း ေကာင္း အၾကင္သူသည္ သိတက္၏ ။ ထိုသူသည္ ပညာရွိမည္၏။</string>
+    <string name="part1_mm_28">ဥစၥာမရွိဘဲလ်က္ အရသာစားၾကဴးေသာသူ၊ ခြန္အားမရွိဘဲလ်က္ အသက္အပုတ္ ႀကိဳက္တက္ေသာ သူ၊ ပညာမရွိဘဲလ်က္ စကားလိုလားေသာသူ၊ ဤသူတို႔ကား သူရူးႏွင့္ တူကုန္၏။</string>
+    <string name="part1_mm_29">သူမေခၚဘဲ သူ႔အိမ္သို႔ သြားဖန္မ်ားေသာသူ၊ သူမေမးဘဲ စကားမ်ားမ်ားေျပာတက္သူ၊ မိမိဂုဏ္ေက်းဇူးကို ပလႊားတက္ေသာသူ၊ ဤသံုးပါသည္ သူယုတ္၏ လကၡဏာတည္း။</string>
+    <string name="part1_mm_30">အဆင္းမလွေသာ သူသည္ စကားမ်ားတက္၏။ ပညာနည္းေသာ သူသည္ ထင္းရွားျပ တက္၏။ ေရမျပည့္ေသာအိုးသည္ ေခ်ာက္ခ်ားတက္၏။ ႏို႔ရည္မထြက္ေသာ ႏြားမသည္ ေက်ာက္ကန္တက္၏။</string>
+    <string name="part1_mm_31">ဖားသူငယ္သည္လည္း ေဆာင့္ေၾကာင့္ထိုင္တက္ကာမူ ျခေသ့ၤဟုထင္၏။ က်ီးတည္းခ်ီမူ ကား၊ ခ်စ္ေဆြ ခ်စ္ေဆြဟုျမည္တက္၏။ ပညာမရွိေသာ လူမိုက္သည္လည္း မိမိကိုယ္ကို ပညာရွိထင္ျခင္းေၾကာင့္ ပညာရွိတို႔သည္ ေမးလတ္ေသာ္ ငါ့ရွင္ငါ့ရွင္ဟု ခ်စ္စဖြယ္ေသာ စကားကို ဆိုတက္၏။</string>
+    <string name="part1_mm_32">ဖားသူငယ္သည္လည္း ေဆာင့္ေၾကာင့္ထိုင္ျခင္း၊ တူမူကား ျခေသၤဟူ ေကာင္အံေလာ့။ ၀က္သည္လည္း အုတ္အုတ္ ျမည္းတက္ကာမူ ကူးသစ္ဟူေကာင္းအံ့ေလာ့။ ေၾကာင္သည္လည္း အဆင္းသဏၭာန္တူကာမူ က်ားဟူေကာင္းအံ့ေလာ့။ ပညာရွိတို႔သည္လည္း အတက္ခ်င္းတူ ေကာင္းအံ့ေလာ</string>
+    <string name="part1_mm_33">မင္းတုိ႔သေဘာ မည္သည့္ ဥစၥာ၌ ေရာင့္ရဲျခင္းမရွိ။ မ်က္စိေသာ္လည္း ခ်စ္ေသာသူကို ျမင္ ျခင္း၌ ေရာင့္ရဲျခင္းမရွိ။ သမုဒၵရာသည္ ေရ၌ရဲရင့္ျခင္းမရွိ။</string>
+    <string name="part1_mm_34">အဆင္းအရြယ္ႏွင့္ ျပည့္စံုျခင္းမူလည္း ျပန္႔ေျပာ ၾကြယ္၀ေသာ အမ်ိဳး၌ ျဖစ္လွ်င္မူလည္း အတက္ပညာမွ ယုတ္ခဲ့မူကား မတင့္တယ္ကုန္။ ေပါက္ပန္းတို႔သည္ အနံကင္းကုန္းသကဲ့သို႔ တည္း။</string>
+    <string name="part1_mm_35">	ေလာက၌ အမ်ိဳးယုတ္ေသာသူ၏ သားျဖစ္လ်က္ မင္း၏အမတ္ ျဖစ္တက္၏။ လူမိုက္၏ သားျဖစ္လ်က္ ပညာရွိျဖစ္တက္၏။ ဥစၥာမရွိေသာသူ၏ သားျဖစ္လ်က္ ဥစၥာမ်ားတက္၏။ ထို႔ေၾကာင့္ေယာက္်ားတို႔အား မထီမဲ့ျမင္ မျပဳကုန္ရာ။</string>
+    <string name="part1_mm_36">အၾကင္တပည့္သည္ အတက္ပညာလိုသျဖင့္ အထူးထူးအျပားျပားမ်ားစြာ သင္တက္၏။ ထိုတပည့္လည္း အတက္ကို အိမ္မက္ကိုျမင္ေသာ သူအကဲ့သို႔ ျပန္ဆိုျခင္းငွာ မစြမ္းႏိုင္ရာ။</string>
+    <string name="part1_mm_37">အိုးထိန္းသည္သည္ အိုးကို ကြဲစိမ့္ေသာငွာ မခတ္၊ တင့္တယ္စိမ့္ေသာငွာ ခတ္၏။ ဆရာသည္ တပည့္တို႔အား အပယ္ဆင္းရဲသို႔ က်ေစျခင္းငွာ မပုတ္ခတ္၊ အတက္ပညာ အစီးအပြား ဟူေသာ မေၾကာင္းေၾကာင့္ ပုတ္ခတ္၏။</string>
+    <string name="part1_mm_38">အၾကင္သူသည္ ေတာင္ဇလပ္ပန္းကိုလွ်င္ ေပါက္ဖတ္ႏွင့္ ထုပ္၏။ ထိုသူ၏ ေတာင္ဇလပ္ ပန္းသည္သာလွ်င္ ေကာင္းေသာအနံကို လိႈင္ေစသည္ကားမဟုတ္။ ေပါက္ဖတ္တို႔သည္လည္း ေကာင္းေသာအနံကို လိႈင္ေစကုန္၏။ ထိုအတူ ပညာရွိႏွင့္ ေပါင္းဖက္မွီ၀ဲရေသာ သူတုိ႔ကို မွတ္အပ္၏။</string>
+    <string name="part1_mm_39"></string>
+    <string name="part1_mm_40"></string>
+    
+    <string name="part1_mm_exp_1"> ေရွ႕ေခတ္က်မ္းျပဳဆရာတို႔သည္ ဘုရား၊ တရား၊ သံဃာ ရတနာသံုးပါးကို ရွိခိုးကန္ေတာ့ၿပီးေနာက္ မိမိတို႔ ေရးသားစီရင္မည့္ က်မ္းကိုျပဳၾကသည္။ ယင္းသည္ ထံုးစံအတိုင္းပင္ ျဖစ္၏။ ေလာကနီတိက်မ္းသည္ တျခားေသာက်မ္းမွားမွ အခ်က္အလက္မ်ားကို ေကာက္ႏုတ္၍ စီရင္ထားေသာက်မ္းျဖစ္သည္။</string>
+    <string name="part1_mm_exp_2">ဤေလာကနီတိက်မ္းသည္ လူသားတို႔၏ အားကိုးစရာ ပညာေပးစာအုပ္ျဖစ္ သည္။ ဤက်မ္းကိုတက္ေျမာက္သူသည္ ပညာဗဟုသုတႏွင့္ ျပည့္စံုေသာ ပညာတက္တစ္ဦး ျဖစ္သည္။</string>
+    <string name="part1_mm_exp_3">ဤအပိုဒ္သည္ ပ်င္းရိျခင္း၏ မေကာင္းေသာအက်ိဳးဆက္မ်ားကို ေဖာ္ျပထား သည္။ ပ်င္းလွ်င္ အတက္ပညာမရ၊ အတက္ပညာမရလွ်င္ ဥစၥာမရ၊ ဥစၥာမရ လွ်င္ မိတ္ေဆြမရ၊ မိတ္ေဆြမရလွ်င္ ခ်မ္းသာျခင္းမရ၊ ခ်မ္းသာျခင္းမရလွ်င္ ကုသိုလ္မရ၊ ကုသိုလ္မရလွ်င္ နိဗၺာန္ေရာက္မည္ မဟုတ္ဟူ၍ မေကာင္းက်ိဳးအဆက္မ်ားကို ေဖာ္ျပထားသည္။ အပ်င္းမရွိဖို႔ အဓိက ျဖစ္သည္။</string>
+    <string name="part1_mm_exp_4">လူ႔ဘ၀မွာ အတက္ပညာသည္အေရးအပါဆံုးျဖစ္သည္။ အတက္ပညာရွိလွ်င္ ယခုဘ၀ ေနာင္ဘ၀တို႔မွာ ခ်မ္းသာျခင္းရႏိုင္ေပမည္။</string>
+    <string name="part1_mm_exp_5">ဗဟုသုတကို အထင္မေသးပါႏွင့္။ မိမိစိတ္ထဲတြင္ ရသမွ်ဗဟုသုတကို သိမ္းဆည္းထားပါ။ ျခေတာင္ပို႔ေပၚမွာ ေရေပါက္မ်ားစြာ ၾကာရွည္က်လွ်င္ ထိုေတာင္ပို႔သည္ ေရျပည့္သြားေပလိမ့္မည္။</string>
+    <string name="part1_mm_exp_6"> ႏႈတ္မႈပညာသည္ ၀ိဇၨာပညာ၊ လက္မႈပညာသည္ သိပၸံပညာဟု မွတ္သင့္သည္။ အကယ္၍ သင္သည္ ဤပညာႏွစ္ရပ္ရွိ တစ္ခုခုေသာပညာကို တက္ကၽြမ္းလွ်င္ သင့္အဖို႔ သက္ေမြး၀မ္းေက်ာင္းပညာ ျဖစ္ေပလိမ့္မည္။</string>
+    <string name="part1_mm_exp_7"> ပတၱျမားသည္ ေကာင္းျမတ္ေသာ ေက်ာက္မ်က္ရတနာျဖစ္သည္။ အျမဳေတသည္ အသက္ကိုထိန္းေသာ (အသက္ မေသေစေသာ) ပုလဲရတနာတစ္မ်ိဳးျဖစ္သည္။ စႏၵကူးသည္ အၿမဲ ေမႊးႀကိဳင္ေသာသစ္ပင္ျဖစ္သည္။ ထိုအရာတုိ႔သည္ ရွား၏။ ထိုနည္းအတူ ေနရာတိုင္းမွာ ပညာရွိ မရွိေပ။ ရွားေပသည္။</string>
+    <string name="part1_mm_exp_8">ပညာရွာလိုသူသည္ ပညာရွိေနထိုင္ရာ အရပ္သို႔ေရာက္ေအာင္ ႀကိဳးစားသြားသင့္ သည္။</string>
+    <string name="part1_mm_exp_9">ပညာဥစၥာတို႔ကို ျဖည္းျဖည္းခ်င္း ဆည္းပူစုေဆာင္းသင့္သည္။ ေတာင္ကိုျဖည္း ျဖည္းတက္မွ ထိပ္သို႔ေ၇ာက္မည္။ ကာမဂုဏ္ကို ျဖည္းျဖည္းခံစားသင့္သည္။ အမ်က္ေဒါသကို ထိန္းရေေပမည္။ ဤငါးမ်ိဳးကို ျဖည္းျ့ဖည္း ျပဳရေပမည္။</string>
+    <string name="part1_mm_exp_10"></string>
+    <string name="part1_mm_exp_11"> ေရွ႕ေခတ္ကသတ္မွတ္ထားေသာ အတက္ပညာ တစ္ဆယ့္ရွစ္ပါးျဖစ္သည္။ ယခု ေခတ္သတ္မွတ္မ်ားႏွင့္ ယွဥ္ၾကည့္လွ်င္ တစ္ခ်ိဳ႕ေသာ အတက္မ်ားကို ေပါင္းစပ္၍ထားႏိုင္သည္။ အခ်ဳပ္မွာ ၀ိဇၨာႏွွင့္ သိပၸံပညာတုိ႔ပင္ ျဖစ္သည္။</string>
+    <string name="part1_mm_exp_12">ပညာရွိသည္ လိုအပ္သည့္အခါမွသာ စကားဆို၏။ စည္ကဲသို႔ မတီးမျမည္ေပ။ လူမိုက္က အၿမဲပင္ စကားမ်ားစြာေျပာသည္။</string>
+    <string name="part1_mm_exp_13">စာအုပ္စာေပထဲမွာရွိေသာ အတက္ပညာကို မဆည္းပူးလွ်င္ မိမိ၏အတက္ပညာ မျဖစ္။ သူတစ္ပါးတို႔၏ လက္၀ယ္ရွိေသာ ဥစၥာသည္လည္း မိမိ၏ ဥစၥာမဟုတ္။</string>
+    <string name="part1_mm_exp_14">ကုမုဒၵရာၾကာရိုးရွည္မရွည္ကို ၾကည့္ျခင္းအားျဖင့္ ေရတိမ္ေရနက္ကို သိႏိုင္၏ ေရျမင့္မွ ၾကာတင့္သည္ဆိုသကဲ့သို႔ပင္။ အမ်ိဳးျမတ္၊ အမ်ိဳးယုတ္ ခြဲျခားသိဖို႔မွာ ထိုသူ၏ အမူအရာ ရည္မြန္ရိုင္းစိုင္းျခင္းျဖင့္ သိႏိုင္သည္။ ပညာရွိမရွိကို ထိုသူ၏စကားကိုေထာက္ခ်င့္ျခင္းအားျဖင့္ သိႏိုင္သည္။ ေျမတစ္ကြက္၏ ေျမၾသဇာေကာင္းမေကာင္းကို ျမက္သန္မသန္ကိုၾကည့္ျခင္းအားျဖင့္ သိႏုိင္သည္။</string>
+    <string name="part1_mm_exp_15">သုတနည္းသျဖင့္ အျမင္က်ဥ္းသူသည္ သမုဒၵရာကိုမျမင္ဖူးသည့္ ဖားသူငယ္က သူ႔တြင္းထဲမွ ရွိသည့္ေရကို မ်ားလွၿပီထင္သကဲ့သို႔ သူ႔အတက္ပညာကေလးကိုႀကီးလွေပၿပီ ထင္သည္။</string>
+    <string name="part1_mm_exp_16">လူတစ္ေယာက္မွာ ငယ္ရြယ္စဥ္၌ အတက္ပညာမရ။ လူလတ္အရြယ္္၌ ဥစၥာမရ။ လူႀကီးအရြယ္မွာ တရားမရလွ်င္ ေနာက္ဆံုးအရြယ္တိုင္လွ်င္ ဘာလုပ္မည္နည္း။ အရြယ္အလိုက္ ရသင့္ရာကို ရမွသာ လူျဖစ္ရက်ိဳးနပ္မည္။</string>
+    <string name="part1_mm_exp_17">ပညာမတက္လွ်င္ သူမ်ား၀န္ထမ္းျဖစ္မည္။ ပညာတက္သူကိုလူအမ်ားက ရိုေသေလးစားၾကသည္။</string>
+    <string name="part1_mm_exp_18">မိဘမ်ားက သားသမီးကို ပညာသင္မေပးလွ်င္ ထိုမိဘတို႔သည္ သားသမီးမ်ား၏ ရန္သူဟုေခၚရေပမည္။ ပညာမတက္ေသာသူသည္ ေလာက၌ မတင့္တယ္ေခ်။ ပညာတက္မွ ပြဲလယ္တင့္သည္။</string>
+    <string name="part1_mm_exp_19">ဆူးကို ခၽြန္ေပသူမရွိ။ သမင္မ်က္စိကို မ်က္စဥ္းခက္ေပးသူ မရွိ။ ၾကာကို အနံေကာင္း ထည့္ေပးသူမရွိ။ အမ်ိဳးေကာင္းသား၏ သေဘာကိုျပဳေပးသူမရွိ။ မည္သူတို႔အသီးသီး ကျပဳသနည္း။ မည္သူကမွ် မျပဳေပ သူ႔အလိုအေလ်ာက္ျဖစ္သည္။</string>
+    <string name="part1_mm_exp_20">ကြမ္းမွာ ထံုးပါမွ အရသာရွိသည္။ မရွိဆင္းရဲသူ၏ ၀တ္စားတန္ဆာသည္တင့္ တယ္ျခင္းမရွိ။ စားစရာမွာ ဆားပါမွ အရသာရွိသည္။ စာမတက္သူ ကဗ်ာစပ္လွ်င္ အဓိပၸါယ္မရွိေခ်။</string>
+    <string name="part1_mm_exp_21">ၾကားနာျခင္း၊ မွတ္ယူျခင္းတို႔သည္ အတက္ပညာ သင္ရာတြင္အေရးပါသည္။ ထိုသုိ႔ ျပဳမွသာလွ်င္ သုတဆိုေသာ အတက္ပညာကိုရလိမ့္မည္။ ပညာကို ပညာျဖင့္ တိုးတက္ပြား မ်ားေအာင္လုပ္ရမည္။ ဆိုလိုသည္မွာ ေလ့က်င့္မႈျပဳလွ်င္ သုတဆိုေသာ အတက္ပညာကိုရလိမ့္ မည္။ ပညာ တိုးတက္မည္။ ပညာကို သိတက္နားလည္လွ်င္ ခ်မ္းသာမႈရေပလိမ့္မည္။ ခ်မ္းသာမႈ ဆိုသည္မွာ စိတ္၏ခ်မ္းသာျခင္းကို ဆုိလိုသည္။</string>
+    <string name="part1_mm_exp_22">စားျခင္း၊ အိပ္ျခင္း၊ ေမထုန္မွီ၀ဲျခင္းတုိ႔သည္ လူ၌ ႏြားမွာကဲ့သို႔ ပင္ရွိ၏။ လူအဖို႔ ထူးျခားခ်က္မွာ အတက္ပညာျဖစ္သည္။ အတက္ပညာမရွိေသာ လူသည္ ႏြားႏွင့္ အတူတူ ျဖစ္ေခ်သည္။</string>
+    <string name="part1_mm_exp_23">အတက္ပညာ သည္သာလွ်င္ လူကို ကူညီေစာင္မမည္။ အနာေရာဂါ ႏွင့္ တူေသာရန္သူသည္ မရွိ။ မိမိကုိယ္ကို ခ်စ္ေသာ အခ်စ္ႏွင့္တူေသာ အခ်စ္သည္မရွိ။ ကံႏွင့္တူေသာာ အင္အားသည္ မရွိ။ ပညာတက္မွ ဘ၀အေျခအေနေကာင္းမည္။ ေရာဂါသည္ လူကိုအႏွိပ္စက္ဆံုး ျဖစ္သည္။ အတၱသမံ ေပမံနတၳိ၊ မိမိကိုယ္ကို မိမိစြဲလမ္းခ်စ္ခင္ျခင္းထက္ စြဲလမ္းျခင္း မရွိေခ်။ ကံသည္ မိမိအားကိုရာ ျဖစ္သည္။ အားထားရာလည္း ျဖစ္သည္။ မိမိ၏ ယခု ျပဳေသာ ကုသိုလ္ အကုသိုလ္၊ ေရွ႕ဘ၀မ်ားကို ျပဳခဲ့သည့္ ကုသိုလ္ အကုသိုလ္တို႔က မိမိ၏ ယခုဘ၀ကို စီမံေပးသည္။</string>
+    <string name="part1_mm_exp_24">တင့္တယ္သည္ ဆိုသည္မွာ က်က္သေရ ရွိသည္ဟူ၍ပင္။ ဟသၤာသည္ က်ီးတုိ႔ ၾကားမွာရွိရန္ မအပ္စပ္။ ျခေသၤသည္ ႏြားတို႔ၾကားတြင္ရွိလွ်င္ ဂုဏ္ပ်က္သည္။ ျမင္းသည္ ျမည္းတို႔ၾကားတြင္ က်က္သေရမရွိ။ ထို႔အတူ ပညာရွိသည္ လူမိုက္တို႔ၾကားတြင္ ေရာက္ေနလွ်င္ ဂုဏ္သေရ ထိခိုက္သည္။ အျမတ္ႏွင့္ အယုတ္အညံ့တို႔ တြဲဖတ္လွ်င္ အျမတ္မွာနစ္နာသည္။</string>
+    <string name="part1_mm_exp_25">ပညာရွိအနားမွာ ေနလ်က္ရွိေသာ လူမိုက္သည္ မိုက္မဲသျဖင့္ ပညာရွိက သင္ၾကားေပးေသာ္လည္း တရားကို မသိေခ်။ ေယာက္မသည္ ဟင္းအုိးကိုေမႊ၏။ ဟင္းႏွင့္ ထိေတြ႔ ေသာ္လည္း ဟင္း၏အရသာကို မသိေခ်သကဲသို႔ပင္။</string>
+    <string name="part1_mm_exp_26">ပညာရွိသည္ မိမိကိုယ္ေရးကိုယ္ရာတြင္ သူတစ္ပါးကဲ့ရဲ့ဖြယ္ ကိစၥမ်ားကို အမ်ားသိေအာင္ မေဖာ္ျပေခ်။ အမ်ားသိသြားလွ်င္ အမ်ိဳးမ်ိဳးကဲ့ရဲ့ ေ၀ဖန္ျခင္းျဖင့္ အကုသိုလ္ ျဖစ္ၾကေခ်ဦးမည္။ ကိုယ္ေရးကိုယ္တာ ကိစၥမ်ားကို အမ်ားသိရန္ မလိုေပ။</string>
+    <string name="part1_mm_exp_27">အခါအားေလ်ာ္စြာ ဆိုအပ္ေသာ စကားကိုဆိုျခင္း၊ ခ်စ္ခင္ရင္းႏွီးထိုက္ေသာ သူကို ေရြးခ်ယ္ျခင္း၊ မိမိႏွင့္ သင့္ေလ်ာ္ေသာ မိမိ၏ေဒါသ၏ အတိုင္းအတာကိုသိျခင္း ျပဳတက္ေသာ သူ သည္ပညာရွိ ျဖစ္သည္။</string>
+    <string name="part1_mm_exp_28">မိမိမွာ မရွိဘဲ ရွိသူတို႔ကဲ့သို႔ လုပ္ခ်င္သူသည္ အရူးႏွင့္တူသည္။ ေငြမရွိဘဲ အစားႀကီးသူ၊ အင္းအားမရွိဘဲ ရိုက္ပုတ္ထိုးႀကိတ္ခင္သူ၊ ပညာမရွိဘဲႏွင့္ စကားႀကီး စကားက်ယ္ ေျပာခ်င္သူ၊ ထိုသူတို႔သည္ အရူးႏွင့္တူ၏။</string>
+    <string name="part1_mm_exp_29">လူယုတ္မာတို႔သည္ ၾကြားတက္ၾကသည္။ လူရာ၀င္ခ်င္ၾကသည္။ မိမိ မလုပ္အပ္ သည္တို႔ကို လုပ္တက္ၾကသည္။ ထိုသူတို႔၌ သူယုတ္တို႔၏ လကၡဏာရွိသည္။</string>
+    <string name="part1_mm_exp_30">မရွိသူက ရွိဟန္ျပတက္သည္။ ေအာက္က်ေနာက္က်စိတ္ရွိေသာ ေၾကာင့္ပင္။ မျပည့္တဲ့အိုး ေဘာင္ဘင္ခတ္ဟူေသာ ဆုိရိုးစကားရွိသည္။</string>
+    <string name="part1_mm_exp_31">ဂုဏ္မရွိသူတုိ႔သည္ သူတို႔ ကုိယ္သူတို႔ အထင္ႀကီးတက္သည္။ ဖားသူငယ္သည္ ေဆာင့္ေၾကာင့္ထိုက္တက္ေသာအခါ သူ႔ကိုယ္သူ ျခေသၤ့ဟုထင္သည္။ က်ီးခ်ီေသာအခါ သူကေခ်ာ့ သည့္ အသံျဖင့္ ခ်စ္ေဆြခ်စ္ေဆြ ဟုေခၚသည္။ ထိုနည္းတူစြာ ပညာမဲ့သူသည္ သူ႔ကုိယ္သူ ပညာရွိဟုထင္၏ ။ တကယ့္ပညာရွိက ေမးေသာအခါ (မေျဖတက္သျဖင့္) ပညာရွိကို ငါ့ရွင္ င့ါရွင္ ဟုေခၚသည္။</string>
+    <string name="part1_mm_exp_32">အသြင္အျပင္ ဆင္တူျဖစ္ရံုမွ်ျဖင့္ အတူတူဟု မဆိုႏိုင္ေပ။ ပညာရွိတို႔သည္ အတက္ပညာ အသီးသီးကို တက္ကၽြမ္းၾက၏။ သူတို႔အားလံုး ပညာရွိဟု ေခၚဆိုႏိုင္ေသာ္လည္း အတက္ပညာခ်င္း မတူၾကေပ။</string>
+    <string name="part1_mm_exp_33"> ေလာဘသည္ အေတာမသတ္ျဖစ္သည္ဟု ဆိုလိုသည္။ ရေလလိုေလ ျဖစ္သည္။ ေရာင္ရဲျခင္းသည္ ေပ်ာက္ကြယ္လ်က္ ရွိသည္။</string>
+    <string name="part1_mm_exp_34">အဆင္းလွ၍ အရြယ္ေတာ္ေသာ္လည္း ပညာမရွိလွ်င္ မတင့္တယ္။ အမ်ိဳးေကာင္း ေသာ္လည္း ပညာမရွိလွ်င္ တန္းဖိုးမရွိႏိုင္။ ေပါက္ပန္းတို႔သည္ အနံကင္းသကဲ့သို႔ ျဖစ္ေခ်သည္။</string>
+    <string name="part1_mm_exp_35">မိဘမ်ား မ်ိဳးရိုးမေကာင္းေသာ္လည္း သားျဖစ္သူသည္ အဆင့္ျမင့္ေသာဘ၀သို႔ ေရာက္ႏိုင္သည္။ မိဘတို႔၏ ဘ၀အေျခအေနသည္ သားတုိ႔၏ ႀကီးပြားတိုးတက္ေရးကို မဟန္တားႏိုင္ေပ့။ မိဘထက္သာေသာ သားမ်ားလည္း ရွိၾကေပသည္။</string>
+    <string name="part1_mm_exp_36">အတက္ပညာ အမ်ိဳးမ်ိဳးကို စုၿပံဳ၍ သင္ယူေသာ တပည့္သည္ မည္သည့္အတက္ ပညကိုမွ် မေၾကညွက္သျဖင့္ အိမ္မက္ကို ျပန္မေျပာတက္ေသာ အေသာသူသကဲ့သို႔ ျဖစ္ေခ်မည္။ အတက္ပညာကို တစ္မ်ိဳးၿပီးတစ္မ်ိဳး သင္ယူမွသာ ေက်ညက္စြာ တက္ကၽြမ္းေပလိမ့္မည္။ အတက္ပညာ မ်ိဳးစံုကို တစ္ၿပံဳတည္း သင္ယူသည္ ဘာမွ် တကယ္မတက္ျဖစ္တက္သည္။</string>
+    <string name="part1_mm_exp_37">အိုးထိန္းသည္ အိုးကို အခ်ိဳးအစားက်ေအာင္ရိုက္ေပးသည္။ ကြဲေစလို၍ မဟုတ္ ေပ။ ဆရာသည္လည္း တပည့္တု႔ိပညာ တိုးတက္ေစရန္ ရိုက္၏။ ငရဲက်ေစလို၍ မဟုတ္ေပ။ ေကာင္းေစလိုေသာ ေစတနာကုိ သတိျပဳရေပမည္။</string>
+    <string name="part1_mm_exp_38"> ေတာင္ဇလပ္ပန္းသည္ ေမႊး၏။ ေပါက္ဖက္၌ အနံမရွိ။ သို႔ေသာ္ေတာ္ဇလပ္းပန္း ကို ေပါက္ဖက္ႏွင့္ထုပ္လွ်င္ ေပါက္ဖက္သည္လည္း ေတာင္ဇလပ္ပန္း၏ အနံကိုရသျဖင့္ ေမြး၏။ ထို႔ အတူပင္ ပညာရွိႏွင့္ ေပါင္းသူတို႔သည္ ပညာရနံ႔စြဲ၍ ပညာရၾကကုန္၏။</string>
+    <string name="part1_mm_exp_39"></string>
+    <string name="part1_mm_exp_40"></string>
+    
+    
+    <string name="part1_en">part (1)</string>
+    <string name="part1_en_1">After kowtowing the Three Gems, I will recite in Pali this Loka Niti treatise made up of extracts from various texts.</string>
+    <string name="part1_en_2">In this world, Loka Niti is the essence, the parents, the teacher or the friend of men. The man who has mastered this treatise is full of general knowledge and is noble and educated.</string>
+    <string name="part1_en_3">How will the lazy person acquire knowledge? How will the person without knowledge get wealth? How will the person without wealth get friends? How will the person without friends obtain happiness? How will the person without happiness gain merit? How will the person without merit attain Nibbbana?</string>
+    <string name="part1_en_4">There is nothing equal to learning. Thieves cannot steal learning. In this world, friend and mate. It carries happiness to the next life.</string>
+    <string name="part1_en_5">Do not think little of general knowledge. You should store it in your mind. The anthill will be full after drops of water fall on it for a long time.</string>
+    <string name="part1_en_6">Do not think little of art or science. If one is wellversed in one of them, that one will be come a means of earning one\'s living.</string>
+    <string name="part1_en_7">There is no ruby in every mountain. There is no life-sustaining pearl in every elephant. There is no sandal-wood in every forest. There is no sage in every place.</string>
+    <string name="part1_en_8">If it is heard that a man of learning lives in a certain place, the knowledge- seeking person of good parentage should make a serous effeort to go to that place.</string>
+    <string name="part1_en_9">Knowledge should be acquired gradually. Wealth should be gathered slowly. The mountain climber should climb slowly and steadily. Passion should be satisfied slowly. Anger should be curved. All these five acts should be done slowly.</string>
+    <string name="part1_en_10">General Knowledge, Knowledge of the Law (Dhamma), mathematics, mechanics, the study of Niti, the art of propitiation, music, mental dexterity, archery, study of archaic terms.</string>
+    <string name="part1_en_11">Medical science, humour, astrology, strategy, versification, diplomacy, the art of incantation, grammar. These are the eighteen branches of knowledge.</string>
+    <string name="part1_en_12">The sage remains silent like a drum if not one puts questions. If someone asks, he acts lite the thunder. The foolish person always talk whether he is asked or not.</string>
+    <string name="part1_en_13">In this world, the knowledge on the palm-leaves (or in books),(or) the wealth in the hands of others, is not one\'s own knowledge or wealth when the need arises.</string>
+    <string name="part1_en_14">In this world, one can know the shallowness of the depth of water by looking at Kumuddra lotus.Noble-birth or low-birth can be discerned by that person\'s mode of conduct. A person\'s wisdom or ignorance can be inferred from his words. The quality of soil can be gauged from the weak or strong growth of grass.</string>
+    <string name="part1_en_15">In this world, the person who has little knowledge thinks much of it and has pride for it. How is it so? It is like the frog who has never seen the ocean thinks much of the water in the hole it lives in.</string>
+    <string name="part1_en_16">In this world, if a person has not had learning in the first stage of life; in the second stage, wealth; in the third stage, practice of the Dhamma, then what will be do in the fourth stage?</string>
+    <string name="part1_en_17">Dear sons,learn to  acquire knowledge. Why are you lazy?Dear sons, learn to gain knowledge every day?The one who has acquired no knowledge usually becomes another person\'s servant. In this world, others pay respects to the one who has acquired knowledge.</string>
+    <string name="part1_en_18">The mother who does not educate her son is his enemy. The father who does not educate his son is his enemy. The uneducated person is unseemly like an egret among Brahminy ducks (Hintha)	when he is at a formal function.</string>
+    <string name="part1_en_19">Who sharpens the mountain- thorn between the mountain-cliffs? It just happens.Who puts eye-drops into the deer\'s eyes to make them clear? It just happens. Who puts sweet scent into the lotus in the mire? It just happens. Who forms the nature of the son of good family? It just happiness.</string>
+    <string name="part1_en_20">Betel-quid without lime is flavourless.The dress of the man without wealth is ragged. Eatables without salt is tasteless.The versification of the man without knowledge of the art is meaningless.</string>
+    <string name="part1_en_21">The person who tries properly to listen and note is the one who is full of knowledge. He increases his knowledge by means of acquiring knowledge and understanding the meaning. Knowing the meaning bring happiness to him.</string>
+    <string name="part1_en_22">In this world, man , as well as the bull, has such acts as eating, having sex and sleeping. Knowledge makes the difference for the man from the bull. If man lacks knowledge, he is like the bull.</string>
+    <string name="part1_en_23">In this world, there is no friend like learning. There is no enemy like disease. There is no lover like oneself. There is no strength equal to one\'s kamma.</string>
+    <string name="part1_en_24">Hintha bird is not compatible among crows, nor is lion among oxen, nor is horse amid asses, so also in the midst of fools a wise man is out of place.</string>
+    <string name="part1_en_25">If a fool seeks company of a wise man all  his life, even than he will not know the Dhamma just as the ladle does not know the taste of the curry.</string>
+    <string name="part1_en_26">In this world, the wise man should not reveal the loss of wealth, the anxiety in his heart, the misdeeds at home, the deception and disrespect of others.</string>
+    <string name="part1_en_27">In this world, a person makes proper remarks on proper remarks on proper occasions; chooses suitable persons he should love, and knows the extent to which he should let off his anger, that person is a man of wisdom.</string>
+    <string name="part1_en_28">The person who indulges in eating though without wealth; the person who loves fighting though without physical strength; the person who want to make remakes though without learning such persons are like lunatics.</string>
+    <string name="part1_en_29">The person who often visits another\'s house though not invited; the person who talks too much without being asked; the person who boasts of his qualities; these three have of signs of mean person.</string>
+    <string name="part1_en_30">The ugly person is likely to be talkative. The person with little learning usually shows off. The pot that is not full makes trembling sound. The pot that is not full makes trembling sound. The milkless cow is apk to kick.</string>
+    <string name="part1_en_31">The little frog, when able to squat, thinks it is a lion. But when the crow snatches it, the frog tries to please the crow by calling it,"My dear friend! My dear friend!" The ignorant person thinks he is wire, and when the wise man asks him questions, he tries to please the wise one by saying," My master! My master!"</string>
+    <string name="part1_en_32">Is the little frog a lion because it squats like a lion? Is the pig the leopard because it makes the sound of "OK! OK!" like the leopard? Is the cat a tiger because it has the appearance of a tiger? Will the qualifications of wise men be the same?</string>
+    <string name="part1_en_33">Kings are not contented in the matter of wealth. Sages are not contented with good speech. The eye is not satisfied with looking at its beloved. The ocean is not full with the water flowing into it.</string>
+    <string name="part1_en_34">One is fully endowed with looks and youth-fulness, and of good lineage,but if he is deficient in learning he is not worthy, like the scentless Pauk-flower.</string>
+    <string name="part1_en_35">In this world, the son of parents of low birth may become a minister to the king. The son of fool may become a sage.The son of poor man may become rich. Therefore, we should not deal with men contemptuously.</string>
+    <string name="part1_en_36">The pupil who wants to learn many branches of knowledge cannot grasp all that he learns, just as the one who is dumb cannot relate his dream.</string>
+    <string name="part1_en_37">The potter strikes the pot not to break it but to make it shapely, so also the master beats his pupils not to let them fall into misery or hell but to let them make progress in their learning.</string>
+    <string name="part1_en_38">One wraps the moonbeam flower with Pauk leaves; that person\'s moonbeam flower alone does not emit fragrance, but the Pauk leaves also become fragrant. In the same way, those who associate with the sage become wise.</string>
+    <string name="part1_en_39"></string>
+    <string name="part1_en_40"></string>
+    
+    
+    
+    <string name="part1_en_exp_1">Treatise writers of old made obeisance to the Buddha, the Dhamma and the Sangha before they wrote the treatise. This is according to custom. Loka Niti is a compilation of points and facts extracted from various treatises. The author says he is going to write ( or recite) briefly.</string>
+    <string name="part1_en_exp_2">In this world, Loka Niti is the essence, the parents, the teacher or the friend of men. The man who mastered this treatise is full of general knowledge and is noble and educated.</string>
+    <string name="part1_en_exp_3">This stanza shows the series of bad effects of laziness. A lazy person will not get knowledge, then wealth. then friends, then happiness, then merit, and then such a person will not attaion Nibbana. It is important not to be lazy.</string>
+    <string name="part1_en_exp_4">In human life learning is most important . If one has learnign, one can get happiness in this life as well as in the after- life.</string>
+    <string name="part1_en_exp_5">Do not despise gerenal knowledge. You should acquire it. Your mind will be full of knowledge gradually just as an anthill is gull after drops of water falling on it for long.</string>
+    <string name="part1_en_exp_6">Art is theoretical knowledge. Science is practical knowledge . If one has learnt one of these two branches of learning, thar knowledge will be good for earning one\'s living.</string>
+    <string name="part1_en_exp_7">Ruby is a most precious gem.Life sustaining pearl is rare. Sandal-wood always emits sweet scent. All these things are rare. So also, the sage is a rare person.</string>
+    <string name="part1_en_exp_8">The seeker of knowledge should try his best to go to the place where a sage lives.</string>
+    <string name="part1_en_exp_9">Knowledge and wealth should be acquired and accumulated gradually. Mountaintop will be reached if the climber climbs slowly and steadily. Passion should be satisfied slowly. Anger should be curbed. These five acts should be done slowly.</string>
+    <string name="part1_en_exp_10"></string>
+    <string name="part1_en_exp_11">These are the eighteen branches of knowledge as prescribed in ancient times. At present. all these are boiled down to two: art and science.</string>
+    <string name="part1_en_exp_12">The sage speaks out only when required, like the drum which gives off sound when it is beaten. The fool is always talkative.</string>
+    <string name="part1_en_exp_13">Knowledge in the books (or palm-leaves) is not one\'s own if it is not acquired. The wealth in the hands of others is also not one\'s own.</string>
+    <string name="part1_en_exp_14">The water-lily\'s stem is long if the water is deep, short if it is shallow. A saying goes that high water makes the lotus beautiful(with long stem). Whether a man\'s birth is noble or mean can be determined by his behaviour. A man\'s knowledge and ignorance can be judged by the words he utters. The quality of soil of a plot of land can be assessed by looking at the strength or weakness of the growth of grass.</string>
+    <string name="part1_en_exp_15">The person with little knowledge is narrow-minded and thinks much of his knowledge, just as the little frog which has never seen the ocean thinks that the wanter in its hole is very much.</string>
+    <string name="part1_en_exp_16">If a man does not have learning at young age, nor wealth at middle age, nor does he practise of the Dhamma at old age, what will he do when he reaches his lasts days? If only a person gets what he should according to his age, his life will when be worthwhile.</string>
+    <string name="part1_en_exp_17">If you are ignorant, you will become a servant to others. People are respectful to the educated person.</string>
+    <string name="part1_en_exp_18">If the parents do not make their chaildren acquire knowledge, they must be called their chaildren\'s enemies. The uneducated person is not worthy in this world. The educated person will be graceful on formal occasions.</string>
+    <string name="part1_en_exp_19">Who sharpens the mountain thorn puts eye-drop into the deer\'s eyes, infuse sweet scent in the lotus? Nobody .These happen spontaneously.</string>
+    <string name="part1_en_exp_20">Betal-quid has flavour only with lime.The poor man\'s dress is drab. Food without salt is tasteless. The unlettered man\'s verse is meaningless.</string>
+    <string name="part1_en_exp_21">In acquiring knowledge, listing and making mental note are important. If one does that, he will acquire knowledge. By learning through exercise, one can increase one\'s knowledge. One should thus acquire knowledge and understanding the meaning of things one tires to learn. Knowing the meaning will make the learner happy.</string>
+    <string name="part1_en_exp_22">Man has, as the bull has, the acts of eating, making and sleeping. The difference for man from the bull is education. Man without education is the same as the bull.</string>
+    <string name="part1_en_exp_23">Education alone helps and supports man. There is no enemy greater than disease. There is no love equal to the love of oneself. Kamma is one\'s own strength. If one is educated, one\'s  condition of life will be good. kamma is what man has to depend on and what man has to rely on. What good or bad one does in this existence and what he did in the former existences determine the condition of one\'s present life.</string>
+    <string name="part1_en_exp_24">To be compatible means to be graceful. Hintha should not be among crows; lion should not be amid oxen; horse should not be with asses. So also a wise man should be not among fools. If the noble is with the base, the dignity of the noble suffers a loss.</string>
+    <string name="part1_en_exp_25">Even if the fool lives near all his life with the wise man, he does not learn the Law (Dhamma) because he does not know the meaning of the Law, just as the ladle which churns the curry in the pot does not know the tastes of the curry.</string>
+    <string name="part1_en_exp_26">The man of discretion dose not reveal anythin personal, which excites comment by others. If other people come to know of private troubles, they will probably make critical remarks, thus committing sins. Private affairs need not be made known to other people.</string>
+    <string name="part1_en_exp_27">The person is wise who makes remarks suitable to the occasion; chooses suitable friends or mates and curbs his anger at the right time.</string>
+    <string name="part1_en_exp_28">If any one has nothing but wants to do like those who have many things, such a one is like a mad man. If a person without money is a heavy eater, if one who is weak likes fighting, and if one who lacks education wants to say big things, such persons are like mad men.</string>
+    <string name="part1_en_exp_29">Mean persons are in the habit of boasting. They want to be accepted by society.They usually do things they ought not to do. These persons have characteristics of a mean person.</string>
+    <string name="part1_en_exp_30">The one who lacks something wants to show that he has the thing he lacks."The pot that is not full makes great sound from the shaking water," goes the saying.</string>
+    <string name="part1_en_exp_31">Those who have nothing to their credit usually think much of themselves. The little frog sits and thinks it is a lion. When snatched by the crow it is afraid and tries to please the crow. In the same way, the unlearned person thinks he is a learned man and when the real learned man asks questions he calls him " My master" to cover up his ignorance.</string>
+    <string name="part1_en_exp_32">One cannot say that because of similarity, things are the same. Wise men are expert in various arts. They can be called sages though their knowledge is not the same.</string>
+    <string name="part1_en_exp_33">Greed has no limit. The more one gets the more one wants. Contentment  is absent.</string>
+    <string name="part1_en_exp_34">One without education would be unfit although he may be noble birth, good-looking and youthful, just like the worthless Pauk-flower.</string>
+    <string name="part1_en_exp_35">The lineage of parents or their social status or their intellect does not hinder the progress of their sons who may attain a higher status. There are many sons who are superior to their parents.</string>
+    <string name="part1_en_exp_36">The pupil who attends to many branches of learning all together will not be versed in any of them. He will be like a dumb person who cannot tell his dream. He should learn one after another. The person who takes up many kinds of knowledge at the same time will learn nothing properly.</string>
+    <string name="part1_en_exp_37">The potter beats the pot to make it look proportionate, not to break it; so also the teacher beats his pupils to make progress in the learning, not to send them to hell.</string>
+    <string name="part1_en_exp_38">The moonbeam flower is sweet smelling Pauk left has no scent. But if the moonbeam flower is wrapped with Pauk leaves, the wrapper gets the smell of the flower and becomes fragrant. So also, those who seek the company of a sage get knowledge from him.</string>
+    <string name="part1_en_exp_39"></string>
+    <string name="part1_en_exp_40"></string>
+    
+    <!--
+    <string name="part2_mm_1"></string>
+    <string name="part2_mm_2"></string>
+    <string name="part2_mm_3"></string>
+    <string name="part2_mm_4"></string>
+    <string name="part2_mm_5"></string>
+    <string name="part2_mm_6"></string>
+    <string name="part2_mm_7"></string>
+    <string name="part2_mm_8"></string>
+    <string name="part2_mm_9"></string>
+    <string name="part2_mm_10"></string>
+    <string name="part2_mm_11"></string>
+    <string name="part2_mm_12"></string>
+    <string name="part2_mm_13"></string>
+    <string name="part2_mm_14"></string>
+    <string name="part2_mm_15"></string>
+    <string name="part2_mm_16"></string>
+    <string name="part2_mm_17"></string>
+    <string name="part2_mm_18"></string>
+    <string name="part2_mm_19"></string>
+    <string name="part2_mm_20"></string>
+    <string name="part2_mm_21"></string>
+    <string name="part2_mm_22"></string>
+    <string name="part2_mm_23"></string>
+    <string name="part2_mm_24"></string>
+    <string name="part2_mm_25"></string>
+    <string name="part2_mm_26"></string>
+    <string name="part2_mm_27"></string>
+    
+    
+    
+    <string name="part2_mm_exp_1"></string>
+    <string name="part2_mm_exp_2"></string>
+    <string name="part2_mm_exp_3"></string>
+    <string name="part2_mm_exp_4"></string>
+    <string name="part2_mm_exp_5"></string>
+    <string name="part2_mm_exp_6"></string>
+    <string name="part2_mm_exp_7"></string>
+    <string name="part2_mm_exp_8"></string>
+    <string name="part2_mm_exp_9"></string>
+    <string name="part2_mm_exp_10"></string>
+    <string name="part2_mm_exp_11"></string>
+    <string name="part2_mm_exp_12"></string>
+    <string name="part2_mm_exp_13"></string>
+    <string name="part2_mm_exp_14"></string>
+    <string name="part2_mm_exp_15"></string>
+    <string name="part2_mm_exp_16"></string>
+    <string name="part2_mm_exp_17"></string>
+    <string name="part2_mm_exp_18"></string>
+    <string name="part2_mm_exp_19"></string>
+    <string name="part2_mm_exp_20"></string>
+    <string name="part2_mm_exp_21"></string>
+    <string name="part2_mm_exp_22"></string>
+    <string name="part2_mm_exp_23"></string>
+    <string name="part2_mm_exp_24"></string>
+    <string name="part2_mm_exp_25"></string>
+    <string name="part2_mm_exp_26"></string>
+    <string name="part2_mm_exp_27"></string>
+    
+    <string name="part2_en_1"></string>
+    <string name="part2_en_2"></string>
+    <string name="part2_en_3"></string>
+    <string name="part2_en_4"></string>
+    <string name="part2_en_5"></string>
+    <string name="part2_en_6"></string>
+    <string name="part2_en_7"></string>
+    <string name="part2_en_8"></string>
+    <string name="part2_en_9"></string>
+    <string name="part2_en_10"></string>
+    <string name="part2_en_11"></string>
+    <string name="part2_en_12"></string>
+    <string name="part2_en_13"></string>
+    <string name="part2_en_14"></string>
+    <string name="part2_en_15"></string>
+    <string name="part2_en_16"></string>
+    <string name="part2_en_17"></string>
+    <string name="part2_en_18"></string>
+    <string name="part2_en_19"></string>
+    <string name="part2_en_20"></string>
+    <string name="part2_en_21"></string>
+    <string name="part2_en_22"></string>
+    <string name="part2_en_23"></string>
+    <string name="part2_en_24"></string>
+    <string name="part2_en_25"></string>
+    <string name="part2_en_26"></string>
+    <string name="part2_mm_27"></string>
+    -->
+    
+    <string-array name="part2_mm">
+        <item>သူေတာ္ေကာင္းတို႔ႏွင့္သာလွ်င္ ေပါင္းဖက္ရာ၏။ သူေတာ္ေကာင္းတို႔ႏွင့္ ေပါင္းဖက္ျခင္း ကိုျပဳရာ၏။ သူေတာ္ေကာင္းတို႔၏ တရားကိုသိ၍ ျမတ္သည္ျဖစ္၏။ ယုတ္မာသည္ မျဖစ္။</item>
+        <item>သူယုတ္တို႔ႏွင့္ ေပါင္းသင္းျခင္းကို စြန္႔ေလာ့။ ေပါင္းဖက္အပ္ေသာ သူေတာ္ေကာင္းကို ဆည္းကပ္ေလာ့။ ေန႔စဥ္ပတ္လံုး ေကာင္းမႈကို ျပဳေလာ့။ သခၤါရတရားတို႔၏ မၿမဲေသာအျဖစ္ကို အၿမဲေအာက္ေမ့ေလာ့။</item>
+        <item>	ေရသဖန္းသီးမွည့္တုိ႔သည္ နီစြာသာလွ်င္ကတည္း။ အတြင္း၌ကား ပိုးမတိျပည္ကုန္သည္ ျဖစ္သကဲ့သုိ႔ ထို႔အတူ သူယုတ္တု႔ိ၏ ႏွလံုးတို႔သည္ ျဖစ္ကုန္၏။</item>
+        <item>ပိႏၷဲသီးတို႔သည္ကား အပ၌ ဆူးသာထင္ကုန္၏။ အတြင္း၌ကား အၿမိန္အရသာတို႔ႏွင့္ ျပည့္ စံုကုန္သည္ ျဖစ္ကုန္သကဲ့သို႔ ထို႔အတူ သူေတာ္ေကာင္းတို႔သည္လည္း ျဖစ္ကုန္၏။</item>
+        <item>လာက၌ စႏၵကူးပင္သည္ ေျခာက္ေသြ႔ေသာ္လည္း အနံကို မစြန္႔။ ဆင္ေျပာင္သည္ စစ္ေျမ ျပင္သို႔ ေရာက္ေသာ္လည္း လူတို႔၏ မ်က္ေမွာက္၌ တင့္တယ္ျခင္းကိုမစြန္႔။ ႀကံသည္ ယႏၱရားစက္ ၏ အ၀သို႔ေရာက္ေသာ္လည္း ခ်ိဳေသာအရသာကို မစြန္႔။ ပညာရွိသူေတာ္ေကာင္းသည္ ဆင္းရဲျခင္း သို႔ေရာက္ေသာ္လည္း သူေတာ္ေကာင္းတရားကို မစြန္႔သာလွ်င္သတည္း။</item>
+        <item>ျခေသၤ့သည္ မြတ္သိပ္ေသာ္လည္း သစ္ရြက္စသည္တုိ႔ကို မစား။ ျခေသၤ့မည္သည္ကား ႀကံဳလီွေသာ္လည္း ဆင္သားကို မစား။</item>
+        <item>ျမတ္ေသာအမ်ိဳး၌ ျဖစ္ထေသာ အမ်ိဳးအႏြယ္ကိုေစာင့္ထေသာ အမ်ိဳးေကာင္းသားသည္ မိမိ သည္ ဆင္းရဲျခင္းကို ေရာက္ေသာ္လည္း ယုတ္ေသာအမႈကို မျပဳရာ။</item>
+        <item>	ေလာက၌ စႏၵကူးသည္ ခ်မ္းေျမ့စြာ၏။ ထိုစႏၵကူး၏ ခ်မ္းေျမ့သည္ထက္ လသည္သာလွ်င္ ခ်မ္းေျမ့၏။ စႏၵကူးႏွင့္ လတို႔ခ်မ္းေျမ့သည္ထက္ ေကာင္းစြာဆိုအပ္ေသာ သူတိုေကာင္းတို႔၏ စကားသည္ ခ်မ္းေျမ့စြာ၏။</item>
+        <item>	ေရာင္ျခည္တစ္ေထာင္ေဆာင္ေသာ ေနမင္းသည္ အေနာက္မ်က္ႏွာ၌ တက္ရာ၏။ ျမင္းမိုေတာင္မင္းသည္ ညႊတ္ရာ၏။ အကယ္မလြဲ ငရဲမီးသည္ ခ်မ္းေျမ့ရာ၏။ ေတာင္ထိပ္၌လည္း ၾကာသည္ ပြင့္ရာ၏။ သူေတာ္ေကာင္းတို႔၏ စကားသည္ တရံတဆစ္မွ် မေဖာက္ျပန္ရာ။</item>
+        <item>သစ္ပင္၏ အရိပ္သည္လွ်င္ ခ်မ္းသာ၏။ ထိုသစ္ပင္အရိပ္၏ ခ်မ္းသာသည္ထက္ ေဆြမ်ိဳး မိဘ၏အရိပ္သည္ ခ်မ္းသာ၏။ ထိုေဆြမ်ိဳးမိဘအရိပ္ခ်မ္းသာ သည္ထက္ ဆရာသမား၏ အရိပ္ သည္ခ်မ္းသာ၏။ ထိုဆရာသမားတို႔၏ အရိပ္ခ်မ္းသာသည္ထက္ မင္း၏အရိပ္သည္ ခ်မ္းသာ၏။ ထိုမင္း၏ အရိပ္ခ်မ္းသာသည္ထက္ ျမတ္စြာဘုရား၏အရိပ္ဟု ဆိုအပ္ေသာတရား မ်ားသည္ မ်ားစြာေသာအျပားအားျဖင့္ ခ်မ္းသာ၏။</item>
+        <item>ပိတုန္းတို႔သည္ ပန္းကိုအလိုရွိကုန္၏။ သူေတာ္ေကာင္းတုိ႔သည္ ဂုဏ္ေက်းဇူးကို အလိုရွိ ကုန္၏။ ယင္းတုိ႔သည္ အပုပ္ကို အလိုရွိကုန္၏။ သူယုတ္တုိ႔သည္ အမ်က္ကိုအလိုရွိကုန္၏။</item>
+        <item>အမိယုတ္ေသာသူကား မေကာင္းေသာစကား ရွိသည္ျဖစ္၏။ အဘယုတ္ေသာသူကား မေကာင္းေသာ အမူအက်င့္ရွိ၏။ မိဘႏွစ္ပါး စံုယုတ္မူကား၊ မေကာင္းေသာစကား ရွိသည္လည္း ျဖစ္၏။ မေကာင္းေသာ အမူအက်င့္ရွိသည္လည္း ျဖစ္၏။</item>
+        <item>အမိျမတ္ေသာသူအား ေကာင္းေသာစကား ရွိ၏။ အဘျမတ္ေသာသူအား ေကာင္းေသာအမူအက်င့္ရွိ၏။ မိဘႏွစ္ပါး စံုျမတ္မူကား ေကာင္းေသာ စကားလည္းရွိ၏။ ေကာင္းေသာ အမူအက်င့္ရွိ၏။</item>
+        <item>စစ္ေျမျပင္အရပ္၌ ရဲရင္ေသာသူတို႔သည္ အလိုရွိကုန္၏။ ခိုက္ရန္ျဖစ္ေသာအခါတြင္ စကား၌ လိမၼာသူကိုအလိုရွိကုန္၏။ ထမင္း အေဖ်ာ္စားေသာက္ေသာအခါ၌ ခ်စ္ေသာသူကို အလိုရွိကုန္၏။ အနက္သဒၵါခက္ခဲစြာေသာ အေရးအရာ အမူကိစၥရွိေသာ ကာလတို႔၌ ပညာရွိေသာ သူကို အလိုရွိကုန္၏။</item>
+        <item>	ေခြးတစ္ေကာင္သည္ ေခြးတစ္ေကာင္ကို ျမင္၍ ခ်ဳပ္ခ်ယ္လ်က္ ညွဥ္ဆဲအံေသာငွာ သြားကို ျပ၏။ သူယုတ္သည္ သူေတာ္ေကာင္းကို ျမင္လွ်င္ ခ်ဳပ္ခ်ယ္လ်က္ ညွဥ္းဆဲ့ျခင္းအမူကို ျပဳျခင္းငွာ အလိုရွိ၏။</item>
+        <item>လ်င္စြာအမူကိစၥဟူသမွ်ကို မိမိလည္း မျပဳသင့္။ သူတစ္ပါးကိုလည္း မျပဳေစလင့္။ အေဆာ့တလ်င္ ျပဳမူကား ပညာနည္းသူသည္ ေနာက္မွ ပူပန္ရတက္သည္။</item>
+        <item>	ေလာက၌ အမ်က္ကို ေဖ်ာက္ႏိုင္မူကား တစ္ရံတစ္ဆစ္မွ် မစိုးရိမ္ရ။ သူ႔ေက်းဇူးကို ဆိုတက္ေသာသူကို ဘုရားစေသာ သူေတာ္ေကာင္းတို႔သည္ ခ်ီးမြန္းကုန္၏။ ခပ္သိမ္းကုန္ေသာ သူတို႔၏ ၾကမ္းၾကဳတ္ေသာစကားကို သည္းခံေလာ့။ ဤသို႔ေသာ သည္းခံျခင္းကို ျမတ္၏ ဟူ၍ သူေတာ္ေကာင္းတုိ႔သည္ ဆိုကုန္၏။</item>
+        <item>လာက၌ မစင္အတိျပည့္ေသာ က်ဥ္းေျမာင္းေသာအရပ္၌ ေနရျခင္းသည္ ဆင္းရဲ၏။ ထိုထက္ မခ်စ္မႏွစ္သက္လိုေသာ ရန္သူထံ၌ ေနရျခင္းထက္ ဆင္းရဲ၏။ ထိုထက္လည္း သူေက်းဇူးကို မသိတက္ေသာသူႏွင့္ ေနရျခင္းထက္ ဆင္းရဲ၏။</item>
+        <item>ဆံုးမသင္ေသာအရာ၌ ဆံုးမရာ၏။ မျပတ္ဆံုးမရာ၏။ ယုတ္မာေသာ အက်င့္မွာလည္း တားျမစ္ရာ၏။ ထိုစကား သင့္စြ။ ထိုဆံုးမတက္ေသာ သူကို သူေတာ္ေကာင္းတို႔သည္ ခ်စ္ခင္အပ္ သည္ျဖစ္၏။ သူေတာ္မဟုတ္သူေတာ္တို႔သည္ မခ်စ္ခင္အပ္သည္ ျဖစ္၏။</item>
+        <item>ကိုယ့္ထက္ ျမတ္ေသာသူကို ကိုယ့္ကိုႏွိမ္ခ်သျဖင့္ ေအာင္ရာ၏။ ရဲရင့္ေသာသူ သင္းခြဲသျဖင့္ ေအာင္ရာ၏။ ကိုယ့္ေအာက္နိမ့္ေသာသူကို တစိုးတစိ ေပးျခင္းျဖင့္ ေအာင့္ရာ၏။ ကိုယ္ႏွင့္တူေသာ သူကို လံု႔လျပဳျခင္းျဖင့္ ေအာင့္ရာ၏။</item>
+        <item>လာက၌ အဆိပ္ကို အဆိပ္ဟူ၍ မဆိုကုန္။ သံဃာ၏ ဥစၥာကို အဆိပ္ဟူ၍ ဆိုအပ္၏။ အဆိပ္သည္ တစ္ႀကိမ္သာလွ်င္ သတ္တက္၏။ သံဃာ၏ဥစၥာသည္ကား အႀကိမ္ႀကိမ္ အဖန္ဖန္ သတ္တက္၏။</item>
+        <item>လ်င္ျမန္ျခင္းျဖင့္ ျမင္းေကာင္း ေက်းဇူးကို သိကုန္၏။ ေလးလံေသာ၀န္ကို ရြက္ေဆာင္ သျဖင့္ ႏြားေက်းဇူးကို သိကုန္၏။ ႏို႔ညစ္ျခင္းျဖင့္ ႏို႔ထြက္ႏြားမ၏ ေက်းဇူးကိုသိကုန္၏။ ႀကံစည္လွ်ိဳ႕ ၀ွက္ရာ၌ ေျပာဆိုျခင္းျဖင့္ ပညာရွိေက်းဇူးကို သိကုန္၏။</item>
+        <item>သူေတာ္ေကာင္းတို႔၏ ဥစၥာသည္ အနည္းငယ္ေသာ္လည္း တြင္း၀၌ ေရကဲ့သို႔ သူတစ္ပါးတို႔ မွီခိုရာ၏။ သူေတာ္ေကာင္း မဟုတ္ေသာ သူတို႔၏ ဥစၥာသည္မ်ားေသာ္လည္း သမုဒၵရာ၌ ေရကဲသို႔ ေသာက္ခ်ိဳးရာမီမွာမရ။</item>
+        <item>	ေရကို ျမစ္တို႔သည္ မေသာက္ကုန္။ သစ္ပင္တို႔သည္ သစ္သီးကို မစားကုန္။ မိုးသည္ အခ်ိဳ႕ ေသာအရပ္တို႔၌ မရြာကုန္။ သူေတာ္ေကာင္းတု႔ိ၏ ဥစၥာသည္လည္း သူတစ္ပါးတို႔ အက်ိဳးမွာသာတည္း။</item>
+        <item>မေတာင္းတအပ္သည္ကို မေတာင္းတရာ။ မႀကံအပ္သည္ကို မႀကံရ။ တရားသေဘာႏွင့္ ေကာင္းစြာ ယွဥ္သူကိုသာေကာင္းစြာ ႀကံရာ၏။ အခ်ည္းႏွီးေသာ ကာလကို အလိုမရွိရာ။</item>
+        <item>မႀကံဘဲႏွင့္လည္း ျဖစ္တက္၏။ ႀကံေသာ္လည္း ပ်က္တက္၏။ ထိုးစကားသည္ သင့္စြ။ မိန္းမအား လည္းေကာင္း၊ ေယာက္်ားအား လည္းေကာင္း၊ စည္းစိမ္တို႔သည္ ႀကံတိုင္းလည္း မၿပီးကုန္။</item>
+        <item>အၾကင္သူသည္ သူေတာ္မဟုတ္ေသာသူအား ခ်စ္အပ္သည္ျဖစ္၏။ သူေတာ္ေကာင္းကို ခ်စ္ျခင္းကို မျပဳ။ မသူေတာ္တို႔၏ တရားကိုသာလွ်င္ ႏွစ္သက္၏။ ထိုသူ၏ ထိုအမူအက်င့္သည္ ပ်က္ဆီးအပ္သည္၏ အေၾကာင္းတည္း။</item>
+    </string-array>
+    
+     <string-array name="part2_en">
+        <item>Associate with good men; form frienship with them. Knowing the Law from the good men is being noble, not mean.</item>
+        <item>Abandon the association with the wicked, Apporach the good man who is worthy of association. Do good deeds every day. Ponder always upon the law of impermanence.</item>
+        <item>The ripe fig is red on the outside, but full of worms in the inside. In the same way the hearts of the wicked are full of evil thoughts.</item>
+        <item>Jack fruits have thorns on the outside, but inside is sweet, juicy meat, so also the good men are of good heart.</item>
+        <item>In this world, the sandalwood, though dry, does not abandon its scent. The royal elephant, though on the battle-field, does not forsake its gracefulness in the eyes of people. The sugarcane, though under the pressing machine, does not leave out its sweet taste. The virtuous person, though poor, does not abandon the habit of right eousness.</item>
+        <item>The lion, though hungry, does not eat leaves. Though lean , the lion does not eat elephant\'s flesh.</item>
+        <item>The man of noble lineage, preserving the dignity of his birth, though in poverty, does not commit any base act.</item>
+        <item>In this world, sandalwood gives off pleasant smell. The moon is more pleasant than sandalwood. Much more pleasant is the word of the virtuous person.</item>
+        <item>Should the sun rise in the west; Meru,the monarch of mountains, bend; the hell-fire grow cold and pleasant; the lily bloom on mountain-top, yet the word of the virtuous will remain unaltered.</item>
+        <item>The shade of a tree is pleasant; more pleasant is the shade of relatives and parents; more pleasant is the shade of the teacher; more pleasant is the shade of the king; much more pleasant, in many ways, is the Dhamma which can be called the shade of Buddha.</item>
+        <item>Best hanker after the juice of flowers. The virtuous wish for virtue. Flies carve for the putrid. The wicked wish to indulge in anger.</item>
+        <item>The son of the wicked mother speaks foul language. The son of the wicked father behaves badly. The son of parents who are wicked speaks and acts badly.</item>
+        <item>The son of a virtuous mother speaks politely. The son of virtuous father has good conduct. The son of who are virtuous speaks politely and behaves well.</item>
+        <item>At the battle-field brave men are needed. In a dispute, a man who can talk well is required. In a feasts, the loved one should be present. When there is difficulty in comprehension of a text, a man of learning is needed.</item>
+        <item>A dog, if it sees another dog, shows its teeth growling with the intention of doing harm. The wicked,when he sees the virtuous, wants to harm the virtuous.</item>
+        <item>You should not do things hurriedly, nor should you make other do so. The person who does things in a hurry may have to repent later.</item>
+        <item>In this world, the person who can curb his anger does not have to worry even a little. The person who is grateful to other is praised by all virtuous people beginning form Buddha. Tolerate the rude words of vicious persons. Such tolerance is regarded as noble by the virtuous.</item>
+        <item>In this world, living in a narrow place full of faecues in misery. More miserable is staying with a hated enemy. Even more miserable is to be with an ungrateful person.</item>
+        <item>Admonish continuously where admonition is due. Check the wicked action. That is proper advice. The person who does these acts is loved by the virtuous and hated by the wicked.</item>
+        <item>One can win a person of higher status by humility; a brave man by causing dissemsion; a person of lower status by giving small favours; one\'s compeer by working hard.</item>
+        <item>In this world, poison is really not poison. The real poison is wealth belonging to a monk. Ordinary poison kills a person only once. The poison which is the monk\'s wealth, kills him over and over again.</item>
+        <item>The worth of a good horse can be determined by its speed. The usefulness of an ox can be seen from its capacity to carry heavy burdens. The value of a milch cow can be assented by its-milk-giving. A wise man\'s intellect can be gauged from his ability to explain intricate thoughts.</item>
+        <item>The wealth of the virtuous, though merger, can be depended upon by many, like the water from the well. The wealth of the vicious, though much, can benefit none, like the water in the ocean.</item>
+        <item>Rivers do not drink water. Trees do not eat fruit. Rain does not fall in some places. The wealth of the virtuous is for the good of all others.</item>
+        <item>Do not crave for what should not be desired. Do not ponder upon what should not be considered. Think upon what is consistent with the Law. Do not waste your time.</item>
+        <item>Things happen thought not planned. Though planned, things go away. That is the truth. Men or women do no succeed in obtaining wealth every time they try.</item>
+        <item>The person loves the person who is not virtuous and does not love the virtuous person, and is pleased with the teaching of the vicious people. That person\'s action is the cause of his ruin.</item>
+    </string-array>
+    
+     <string-array name="part2_mm_exp">
+        <item>သူေတာ္ေကာင္းသည္ ရိုင္းသားေျဖာင္မတ္ေတာ္မွန္သည္။ အကုသိုလ္ကို ေရွာင္ၾကဥ္ေပသည္။ သူေတာ္ေကာင္းတို႔ႏွင့္ ေပါင္းသင္း၍ သူေတာ္ေကာင္းတရားကို ၾကားနာသိမွတ္ျခင္းသည္ ျမတ္၏။ မယုတ္ေပ။</item>
+        <item>သူေတာ္ေကာင္းကို ေပါင္း၊ သူယုတ္မာကို ေရွာင္၊ ကုသိုလ္ေကာင္းမႈကို ေန႔စဥ္ မျပတ္ျပဳလုပ္၊ မၿမဲေသာ အျဖစ္ကိုေဖာ္ျပေသာ သခၤါရတရားကို အၿမဲဆင္ျခင္သံုးသပ္ေလာ့။</item>
+        <item>သူယုတ္တို႔သည္ အျပင္ပန္းမွ လွသည္၊ အတြင္းစိတ္မွ ဆိုးညစ္သည္။ သူယုတ္ တို႔သည္ သူေတာ္ေကာင္းေယာင္ေဆာင္တက္သည္။ အေျပာေကာင္းသည္ႏွင့္ အမွ် စိတ္ထား ဆိုးယုတ္သည္။</item>
+        <item>သူေတာ္ေကာင္းတို႔သည္ ရိုးသားၾက၏။ သူတို႔သည္ သူယုတ္တို႔ကဲ့သို႔  အေပၚယံ ေကာင္းဟန္ျပျခင္း မျပဳေပ။ စိတ္ရင္း ေကာင္းၾကေပသည္။</item>
+        <item>အခ်ိဳ႕ေသာအရာတို႔၌ ပင္ကိုအရည္အေသြး ရွိသည္။ ထိုအရည္အေသြးတုိ႔သည္ ေကာင္းေသာ အရည္အေသြးမ်ား ျဖစ္လွ်င္ သက္ဆိုင္ရာ အရာ သို႔မဟုတ္ ပုဂၢိဳလ္သည္ ထူးျခား၏။ သူေတာ္ေကာင္း၏ အရည္အေသြးမွာ ပစၥည္းဥစၥာ မျပည့္စံုျငားလည္း မတရားမႈကို ဘယ္ေတာ့မွမလုပ္ဘဲ လမ္းမွန္ကိုသာ ေလွ်ာက္သည္။</item>
+        <item>ျခေသၤ့သည္ ဆာေသာ္လည္း သစ္ရြတ္ကိုမစားေပ။ အစာမစားရ၍ ပိန္ေနာ္ ေသာ္လည္း ဆင္သားကို မစားေပ။</item>
+        <item>မ်ိဳးေကာင္းသားသည္ မိမိ၏ အမ်ိဳးဂုဏ္ကို ေစာင့္ေရွာင့္သည္ အေလ်ာက္ ဆိုးမိုက္ယုတ္ညံ့ ေသာအမႈကို ဘယ္ေသာအခါမွ် မျပဳေပ။</item>
+        <item>စႏၵကူးနံႏွင့္ လေရာင္တို႔သည္ အသီးသီးခ်မ္းေျမ့ဖြယ္ ျဖစ္၏။ သူေတာ္ေကာင္း စကားသည္ ယင္းတို႔ထက္ ပို၍ ခ်မ္းေျမ့ေပသည္။ သူေတာ္ေကာင္း အဆိုအမိန္႔တို႔သည္ ပူေလာင္ ျခင္းတို႔ကို သက္သာ ေျပေပ်ာက္၍ ခ်မ္းသာျခင္းကိုရေစသည္။</item>
+        <item> ျဖစ္ရိုးျဖစ္စဥ္အေပါင္းတုိ႔ ေဖာက္ျပန္ၾကေစကာမူ သူေတာ္ေကာင္း၏စကားသည္ မေဖာက္မျပန္ အၿမဲတည္ေနမည္သာ ျဖစ္၏။</item>
+        <item>ခ်မ္းသာျခင္းရႏိုင္ေသာ အရိပ္အာ၀ါသ အသီးသီးတို႔တြင္ ဗုဒၶျမတ္စြာ၏ တရားဓမၼတည္းဟူေသာ အရိပ္သည္ ခ်မ္းသာျခင္းအရႏိုင္ဆံုး ျဖစ္ေပသည္။ အရိပ္အသီးသီးတို႔ႏွင့္ ပတ္သတ္၍ ဆိုစရာရွိသည္။ ေဆြမ်ိဳးသားခ်င္းမ်ား၊ မိဘဆရာသမား ႏွင့္ မင္းတို႔၏အရိပ္မ်ားသည္ ပုဂၢိဳလ္၏ေစတနာကိုလိုက္၍သာ ခ်မ္းသားျခင္းကိုေပးႏိုင္သည္။ ေစတနာမေကာင္းေသာ ေဆြမ်ိဳးမ်ား၊ ဆရာမပီသေသာ ဆရာသမားမ်ား၊ မင္းဆိုးမင္းညစ္မ်ား၏ အရိပ္တို႔သည္ ခ်မ္းသာမႈကို မေပးၾကေခ်။ မိဘ၏ ေမတၱာႏွင့္ ဗုဒၶျမတ္စြာ၏ မဟာဂရုဏာေတာ္ ျဖင့္ေဟာၾကား အပ္ေသာ တရားတို႔၏ အရိပ္တို႔ကား အရိပ္ခိုသူတုိ႔အား ခ်မ္းသာျခင္းကို ေပးေပသည္။</item>
+        <item> ျမတ္ေသာသူတို႔သည္ ေကာင္းမြန္ျမင့္ျမတ္ေသာ အရာကိုသာ အလိုရွိကုန္၏။ ယုတ္ည့ံသူတို႔သည္ ေဒါသတည္းဟူေသာ ယုတ္ညံ့ေသာ စိတ္ေစတသိတ္၌သာ ေမြ႔ေလ်ာ္၏။</item>
+        <item>"လူမိုက္သာ ရမ္းကား၊ လူလိမၼာသား ယဥ္ပါး" ဆုိေသာစကား ရွိသည္။ သားသမီး တို႔သည္ ဘ၀အစ၌ မိဘတို႔ထံမွ အရာရာတြင္ သင္ယူၾကသည္။ မိဘမိုက္တို႔၏ သားသမီးမ်ားသည္ လိမၼာခဲလွသည္။</item>
+        <item>မိဘရိုးရာကို သားသမီးတို႔ လိုက္ၾကသည္။ ဆိုး၀ါးေသာ မိဘတို႔၏ သားသမီးတုိ႔ သည္ အေျပာအဆို အျပဳအမူယုတ္ၾကသည္။ မိေကာင္းဘခင္သားသမီးတို႔၏ အမူအက်င့္ အေျပာအဆုိဆို႔သည္ ေကာင္းၾကေပသည္။</item>
+        <item>အရာရာတြင္ သက္ဆိုင္ေသာ စြမ္းေဆာင္ႏို္င္ေသာပုဂၢိဳလ္တို႔ကို လိုအပ္၏။ ယင္းသုိ႔ေသာ ပုဂၢိဳလ္တို႔ မရွိလွ်င္ မျဖစ္သင့္ရာတို႔ ျဖစ္ႏိုင္သည္။</item>
+        <item></item>
+        <item>အရာရာကို စဥ္းစားဆင္ျခင္ၿပီးမွ လုပ္သင့္သည္။ မဆင္ျခင္ဘဲ စိတ္လိုက္မာန္ပါ မလုပ္သင့္။ မိမိလည္း မလုပ္သင့္။ သူတစ္ပါးကိုလည္း မခိုင္းသင့္။ သို႔မဟုတ္လွ်င္ ေနာက္တစ္ခါတြင္ ဒုကၡေတြ႔၍ ေနာင္တျဖစ္ေခ်မည္။</item>
+        <item>အမ်က္ေဒါသသည္  ခ်ိဳးႏွိမ္မႏိုင္ေလာက္ေအာင္ ၾကမ္းတမ္း၏။ အမ်က္ကို ထိန္းႏိုင္သူမွာ စိုးရိမ္ေၾကာင္းၾကျခင္း မရွိေပ။ ေက်းဇူးတရားသိသူကို ဘုရားအစရွိေသာ သူေတာ္ေကာင္းမ်ား ခ်ီးမြန္းၾကသည္။ ၾကမ္းတမ္းေသာစကားကို သည္းခံသူကို သူေတာ္ေကာင္းတို႔ ျမတ္သည္ဟု ဆိုၾကသည္။</item>
+        <item> ေက်းဇူးမသိတက္ေသာသူသည္ ရြံမုန္းစရာအေကာင္းဆံံုးျဖစ္သည္။ ေက်းဇူးကန္း သူသည္ ယုတ္မာ၏။ မည္သည့္အကုသိုလ္မ်ိဳးကိုပင္ လုပ္ရန္မခဲခက္ေခ်။ ေက်းဇူးရွင္ ကုိ သတ္ရန္ မေႏွာင့္ေႏွးေခ်။</item>
+        <item>ဆံုးမစရာရွိလွ်င္ အၿမဲပင္ ဆံုးမပါ။ ယုတ္မာေသာ အမူအက်င္တို႔ကို တားျမတ္ပါ။ ယင္းသည္ သင့္ေလ်ာ္ေသာ စကားျဖစ္၏။ ဆံုးမတက္သူကို သူေတာ္ေကာင္းတို႔က ခ်စ္ခင္သည္ႏွင့္ အမွ် သူယုတ္တို႔က မုန္းတီးၾကသည္။</item>
+        <item>မိမိထက္ အဆင့္ျမင့္သူ၊ အဆင့္နိမ့္သူ၊ တန္းတူသူႏွင့္ မိမိထက္ပို၍ ရဲရင့္သူတို႔ကို နည္းအမ်ိဳးမ်ိဳးျဖင့္ ေအာင္ရေပသည္။ နည္းအမ်ိဳးမ်ိဳးသံုး၍ မိမိကအႏိုင္ယူမွသာ မိမိအတြက္ အက်ိဳးရွိမည္။</item>
+        <item>သာမန္အဆိပ္သည္ လူကိုတစ္ႀကိမ္ တစ္ခါသာ ေသေစႏိုင္သည္။ ရဟန္း၏ ပစၥည္းဥစၥာဟူေသာ အဆိပ္သည္ (သံသရာ၌) အႀကိမ္ႀကိမ္ ေသေစ၏။</item>
+        <item>အရာရာမွာျဖစ္ေစ၊ ပုဂၢိဳလ္အသီးသီးမွာ ျဖစ္ေစတန္ဖိုးရွိၾက၏။ ယင္းတန္ဖိုးကို စြမ္းရည္ျဖင့္ ခ်င့္ခ်ိန္၍ သတ္မွတ္ႏိုင္သည္။ တန္ဖိုးျဖတ္ရာ၌ သက္ဆိုင္ရာ၏ ထူးျခားသာ စြမ္းရည္ကို ၾကည့္၍ ျဖတ္သင့္သည္။</item>
+        <item>သူေတာ္ေကာင္းတုိ႔သည္ ေစတနာထက္သန္သည့္အေလ်ာက္ သူတစ္ပါးတို႔အား ေပးကမ္း စြန္႔ႀကဲၾကသည္။ လူအမ်ားက သူတို႔၏ ဒါနအက်ိဳးကို ခံစားၾကရ၏။ သူေတာ္ေကာင္း မဟုတ္သူတို႔သည္ တစ္ကုိယ္ေကာင္းသေဘာရွိေသာေၾကာင့္ သူတို႔မွာ ပစၥည္းဥစၥာေသာ္လည္း တြန္႔တို၏။ ထို႔ေၾကာင့္ သမုဒၵရာမွ ေရကုိမည္မွ် ေသာက္သံုး၍ မရသကဲ့သို႔ မည္သူမွ်အက်ိဳးမခံစားၾကရေခ်။</item>
+        <item> ျမစ္က ေရကိုမေသာက္၊ သစ္ပင္က သစ္သီးကိုမစား၊ မိုးကအခ်ိဳ႕ေသာေနရာမ်ား မွာ မရြာ။ ထို႔နည္းအတူ သူေတာ္ေကာင္းတုိ႔သည္ သူတို႔၏ပစၥည္း ဥစၥာမ်ားကို သူတို႔နည္းမသံုးဘဲ အမ်ားအက်ိဳးအတြက္ လွဴတန္းေပးကမ္းသည္။</item>
+        <item>မရႏိုင္တာကို ေတာင္းတလွ်င္ စိတ္ဆင္းရဲျခင္းသာ အဖတ္တင္မည္။ မႀကံစည္ အပ္တာကို ႀကံစည္လွ်င္ ဦးေႏွာက္ေျခာက္ယံုသာရွိမည္။ တရားဓမၼႏွင့္ ဆက္စပ္ေသာ အေတြးမ်ိဳးကိုသာ ေတြးပါ။ အခ်ိန္မျဖဳန္းပါႏွင့္။ အခ်ိန္သည္အဖိုးတန္သည္။</item>
+        <item>မႀကံစည္ မႀကိဳးစားပါဘဲလ်က္ ျဖစ္ခ်င္ရာ ျဖစ္တက္သည္။ ႀကံစည္ႀကိဳးစားေသာ္ လည္း မျဖစ္ခ်င္လွ်င္ မျဖစ္။ ကိုးရိုးကားရာ ျဖစ္သြားတက္သည္။ ေလာကမွာ ယင္းသည္ ဓမၼတာျဖစ္၏။</item>
+        <item>မသူေတာ္ႏွင့္ ေပါင္းဖက္ၿပီး မသူေတာ္တို႔ စကားကိုသာ ႏွစ္သက္လိုက္နာသည္ ပ်က္စီးမည္သာျဖစ္သည္။</item>
+    </string-array>
+    
+      <string-array name="part2_en_exp">
+        <item>A good and virtuous person is honest and right. He avoids ill deads. Associate with good men and learn from them the Law (Dhamma). Such knowledge is sacred, not debased.</item>
+        <item>Go along with the virtuous; shun the wicked. Do good deads continuously every day, Study always the impermanence of all things.</item>
+        <item>The wicked are apt to pose as the virtuous. They are very tickly. Their word are sweet, but their hearts are evil.</item>
+        <item>The virtuous persons are honest. They are not like the wicked who put up appearances; they have goos hearts.</item>
+        <item>Some things have intrinsic qualities, and if they are good qualities the things or persons who possess them are regarded as distinct. The virtuous person, though lacking wealth, never resorts to ill deeds, and walks alongs the right path.</item>
+        <item>Lion does not eat leaves though starving : It may be lean from starvation, but it does not eat elephant flesh.</item>
+        <item>Man of noble birth does not do any mean deed in order to keep up the dignity of his lineage.</item>
+        <item>The scent of the sandalwood and the light of the moon are resptively pleasant, The speech of the virtuous is much more pleasant. It reduces stressful suffering and render happiness.</item>
+        <item>Natural phenomena may change,but the world of the virtuous will remains unchanged. It will be good for all time.</item>
+        <item>Of the various shades and shelters that of the Dhamma, Buddha\'s word, is the most pleasant. Something has to said of the respective shades. Those of relatives, teachers, and king may give comfort in accordance with the nature of the individual concerned. The shades and shelters that the uncheritable relatives, teachers and king offer cannot possibly by pleasant. Only the love of parents, and the Dhamma which Buddhas taught in His great compassion can make for the shelter-seeker\'s happiness.</item>
+        <item>Noble persons wish for what is virtuous. The wicked and the lowly enjoy anger, the evil state of mind.</item>
+        <item>There is a saying to the effect that the son of a wicked man is rude, whereas the son of a wise man is polite. At the beginning of life, children learn everything from parents, Wicked parent\'s children are seldom wise.</item>
+        <item>Children follow their parents\'s tradition. Those of bad parents have wicked character, and those of virtuous parents are well-behaved.</item>
+        <item>In various activities, persons who can give help and guidance are required to be present. If they are absent, undesirable incidents can occur.</item>
+        <item></item>
+        <item>You should do things after due consideration. You should not do anythings impulsively, nor should you make others do hastily. Or you may suffer later and may have to repent.</item>
+        <item>Anger is so savage that it is difficult to curb. The person who can curb his anger does not have to worry. The one who knows gratitude is called noble by virtuous people.</item>
+        <item>An ungrateful wretch is the most loathsome one. Such a person is wicked and mean. He does not find it difficult to commit any kind of sin. He does not hesitate to murder his benefactor.</item>
+        <item>Admonish where admonition is called for. Deter wicked action. That is what it should be. The person who can give such guidance to others is loved by the good people and hated by the bad.</item>
+        <item>The one superior to him, the one inferior, the one of equal status, and the brave one: all these persons can be overcome by various ways of approach. Thus you will be the winner and get the benefit.</item>
+        <item>Ordinary poison kills many only once.The poison which is a monk\'s possessions kills him many times ( in the course of the cycle of existence).</item>
+        <item>The world of anything or any person can be determined by its capacity or his ability. Evaluation should be made by scanning the special quality concerned.</item>
+        <item>The virtuous are charitable, so they give away what little they have. The non-virtuous persons are selfish, so they are reluctant to give away anything although they have much, just like the water in the ocean which cannot enjoyed by anyone.</item>
+        <item>Just as rivers do not drink their water, trees do not eat their fruit, rain does not fall in all places, so also the virtuous do not enjoy their wealth all by themselves. They give it in charity for the benefit of others.</item>
+        <item>Do not long for things that cannot be obtained. Do not contemplate what cannot be thought up, thus making your brain " run dry". Do not waste your time. Time is precious.</item>
+        <item>Thought not planned and tried, things happen by themselves. Plans made and tried do not produce the desired results. Things are apt to go away. That is natural in this world.</item>
+        <item>The person who associate with the wicked and listens to the words of the vicious, will go to ruin.</item>
+    </string-array>
+     
+     <string-array name="part3_mm">
+         <item>သူယုတ္ကို အလြန္ခ်စ္အပ္သည္ကို မျပဳအပ္။ ဦးေခါင္းျဖင့္ ရြက္ေဆာင္အပ္ေသာ္လည္း မျပည္ေသာေရရွိေသာအိုးကဲ့သို႔ အုပ္အုပ္က်က္က်က္ ကိုျပဳတက္၏။</item>
+         <item>	ေျမြသည္ အမ်က္လြန္၏။ သူယုတ္သည္လည္း အမ်က္လြန္၏။ ေျမြထက္ သူယုတ္သည္ လည္းအမ်က္လြန္၏။ ထိုေျမြကိုကား မႏၱယားေဆး၀ါးတို႔ျဖင့္ ၿငိမ္းေစႏိုင္၏။ သူယုတ္တို႔အား အဘယ္မည္ေသာ ေဆးျဖင့္ ၿငိမ္းေစႏိုင္အံ့နည္း။</item>
+         <item>အၾကင္သူမိုက္သည္ မိမိမိုက္ေသာအျပစ္ကုိ သိ၏။ ထိုသို႔ သိျခင္းေၾကာင့္ ထိုသို႔မိုက္ေသာ သူျဖစ္လ်က္လည္း ပညာရွိမည္ျဖစ္၏။ အၾကင္လူမိုက္သည္ကား မိုက္လ်က္လွ်င္ မိမိကိုယ္ကို ပညာရွိဟု ထင္၏။ ထိုသူမိုက္သည္သာလွ်င္ စင္စင္သူမိုက္ဟူ၍ ဆိုအပ္၏။</item>
+         <item>သူမိုက္သည္ အၾကင္မွ်ေလာက္ မိမိျပဳေသာ မေကာင္းမႈသည္ အက်ိဳးမေပးေသး။ ထုိမွ်ေလာက္ ပ်ားရည္ကဲ့သို႔ ေအာက္ေမ့တက္၏။ အၾကင္အခါ၌ကား မိမိျပဳေသာ မေကာင္းမႈသည္ အက်ိဳးေပး၏။ ထိုအခါ၌ ဆင္းရဲျခင္းသို႔ေရာက္၏။</item>
+         <item>သူမိုက္သည္ ကိုယ့္အားရွိမူ မေကာင္း။ အႏိုင္အထက္ သူ၏ဥစၥာကုိရေအာင္ ယူတက္၏။ ပညာနည္းေသာ ထိုလူမုိက္သည္ ကိုယ့္ခႏၶာပ်က္သည္မွ ေနာက္၌ ငရဲသို႔ေရာက္တက္၏။</item>
+         <item>အိမ္္၌ ဖ်က္္ဆီးတက္သည္ကား ၾကြက္တည္း။ ေတာ္၌ဖ်က္ဆီးတက္သည္ကား ေမ်ာက္တည္း၊ ငွက္္၌ဖ်က္ဆီးတက္သည္ကား က်ီးတည္း။ လူ၌ဖ်က္ဆီး တက္သည္ကား ပုဏၰားတညး္။</item>
+         <item>ၾကားေသာသူအား ညဥ့္သည္ရွည့္၏။ ခရီးပန္းေသာသူအား တစ္ယူဇနာခရီးသည္ ရွည္၏။ သူေတာ္ေကာင္းတရားကုိ မသိကုန္ေသာသူမိုက္အား သံသရာသည္ရွည္၏။</item>
+         <item>ယုတ္ေသာ သေဘာရွိေသာသူသည္ သူတစ္ပါးတို႔၏ ႏွမ္းေစ့ခန္႔မွ်သာရွိေသာ အနည္းငယ္ေသာ အျပစ္ကိုသာလွ်င္ ျမင့္တက္၏။ အုန္းသီးေလာက္ရွိေသာ မိမိအျပစ္ကိုကား မျမင္တက္။</item>
+         <item>ပညာရွိေသာ သူသည္မိမိ၏ အျပစ္ကို သူတို႔ကိုမသိေစရာ။ သူတစ္ပါး၏ အျပစ္ကိုကား သိေအာင္ျပဳရာ၏။ အဘယ္ကဲ့သို႔နည္းဟူမူကား လိပ္တို႔သည္ ေျခလက္ေခါင္းတုိ႔ကို လွ်ိဳ၀ွက္သကဲ့သို႔ မိမိအျပစ္ကို လွ်ိဳ႕၀ွက္ရာ၏။ သူတစ္ပါးတို႔ အျပစ္ကိုလည္း မွတ္ရာ၏။</item>
+         <item>လူမိုက္သည္ ပညာရွိကား ခ်ီးမြန္းျခင္းျဖင့္ ဒဏ္ကိုေပးသည္မည္၏။ ပညာရွိကို ပညာရွိသည္သာလွ်င္ ခ်ီးမြန္းျခင္းသည္ ေကာင္းစြာ ခ်ီးမြန္းျခင္းမည္၏။</item>
+         <item>လိုခ်င္တပ္မက္ျခင္းရွိေသာသူကို တန္စိုးလက္ေဆာင္ေပးျခင္းျဖင့္ ယူရာ၏။ မာနခက္ထန္ ေသာသူကို လက္အုပ္ခ်ီသျဖင့္ ယူရာ၏။ သူမိုက္ကိုကား အလိုသိုလိုက္သျဖင့္ ယူရာ၏။ ပညာရွိကုိ အဟုတ္အမွန္ဆိုသျဖင့္ ယူရာ၏။</item>
+     </string-array>
+     
+     <string-array name="part3_en">
+         <item>Do not be so loving to the wicked person. The pot, carried on one\'s head, not being full of water, is unstable on the head.</item>
+         <item>The snake has an excess of anger. So does the wicked person; even more furious than the snake. The snake can be subdued by charm and drug. How can one subdue the wicked? Which drug could do it?</item>
+         <item>The foolish person who knows his foolishness is said to be a wise person. However, the foolish person who thinks himself as a wise man inspite of his foolishness, must be said to be a real foolish man.</item>
+         <item>The fool thinks that his missed, which has yet to produce the results, is as sweet an honey. When his misdeed gives him due results,only then he will get into trouble.</item>
+         <item>If the fool has physical strength, it is not good. He is likely to rob others of their property. The fool who has little education goes to hell when his body perishes.</item>
+         <item>In the house, rat destroys things. In the forest, monkey is destructive. Among birds, the crow is destructive. Among people, the destructive person is the brahmin.</item>
+         <item>To the wakeful person the night is long. To the tired traveller one league is a long distance. To the fool who does not 	know the doctor of the virtuous, the samsara (cycle of existences) is a long duration.</item>
+         <item>Evil-minded person sees other\'s fault, how ever small as a sesame seed, but does not see his own fault which is as big as a coconut.</item>
+         <item>The wise man should not make his fault known to others while he talkes notice of other\'s faults; just as a tortoise hides its limbs. He should learn a lesson from other\'s faults.</item>
+         <item>When a fool praises a wise man, such praise amounts to punishment for the latter. Only when a wise man praises another, it is a genuine praise.</item>
+         <item>One should win over the greedy person by given him bribes. The arrogant one should be won over by giving him deep respects. The fool should be won over by giving him concessions. The wise man should be won over by telling the truth.</item>
+     </string-array>
+     
+     <string-array name="part3_mm_exp">
+         <item>မျပည့္ေသာအိုး ေဘာင္ဘင္ခက္ဆိုသလို မတည္ၿငိမ္ေသာ လူယုတ္မာကို ေမတၱာမ်ားစြာ မထားသင့္ေပ။ လူယုတ္မာသည္ သမာဓိမရွိေသာေၾကာင့္ မိမိအေပၚတြင္ သစၥာမရွိဘဲ သူ႔အလိုမက်လွ်င္ ရန္ျပဳတက္သည္။</item>
+         <item>သူယုတ္သည္ ေျမြထက္ပို၍ ေဒါသျပင္းထန္၏။ ေျမြကို ေဆး၀ါးမႏာၱန္တို႔ျဖင့္ ႏွိပ္ကြပ္ႏိုင္သည္။ သူယုတ္ကို မည္သည့္ေဆး၀ါးျဖင့္မွ် ႏွိပ္ကြပ္ႏိုင္မည္ မဟုတ္ေခ်။ သူယုတ္သည္ အၿမဲပင္ အႏၱရာယ္ ျပဳႏိုင္သည္။</item>
+         <item> မိုက္သူကား မိုက္မွန္းသိလွ်င္ ပညာရွိဟု ေခၚဆိုႏိုင္သည္။ အေၾကာင္းမွာ သူသည္ ဆက္၍ မမိုက္ေတာ့ဘဲ ျပဳျပင္၍ လူလိမၼာျဖစ္ႏိုင္သည္။ အကယ္၍ လူမိုက္က လူမိုက္ျဖစ္ပါလ်က္ သူ႔ကိုယ္သူ လူလိမၼာဟုထင္ေနလွ်င္ သူ၏အမိုက္ေရာဂါ မေပ်ာက္ဘဲ လူမိုက္စစ္စစ္ျဖစ္ေခ်သည္။</item>
+         <item>သူမိုက္သည္ သူ႔မေကာင္းမႈ အက်ိဳးမခံစားရေသးခင္မွာ ေကာင္းလွၿပီ၊ ပ်ားရည္ သို႔ ခ်ိဳသည္ဟုထင္၏။ မေကာင္းမႈ အက်ိဳးေပးေသာ အခါမွသာ ဒုကၡေရာက္ေလေတာ့သည္။</item>
+         <item>သူမိုက္သည္ သူ႔ခႏၶာကိုယ္ အင္းအားကို သူတစ္ပါးပစၥည္းကို လုယူရန္ အသံုးျပဳ တက္သည္။ သူေသေသာအခါ သူ႔အင္အား ေပ်ာက္ကြယ္သြားၿပီးလွ်င္ ေနာင္ဘ၀တြင္ ငရဲက်ေခ်သည္။</item>
+         <item> ေရွ႕ေခတ္က ပုဏၰားသည္ မ်ားအားျဖင့္ ဘုရင့္အတိုင္ပင္ခံ ျဖစ္သည္။ စိတ္ထားယုတ္ေသာပုဏၰသည္ သူတစ္ပါးပ်က္စီးျခင္းငွာ ဘုရင့္ထံတြင္ ကုန္းတိုက္တက္သည္။ ဇာတ္နိပါတ္မ်ားတြင္ ပုဏၰားသည္ လူဆိုးအခန္းမွာ သရုပ္ေဆာင္ရသည္။</item>
+         <item>အတိုင္းအတာကာလတို႔သည္ ခံယူေသာပုဂိၢဳလ္၏ စိတ္သေဘာထားကိုလိုက္၍ ရွည္သည္တို႔သည္ ျဖစ္၏။ အိပ္မေပ်ာ္သူအဖို႔ ညသည္ ကာလရွည္ၾကာသည္။ ခရီးပန္းသူအဖို႔ ခရီးမကြာေ၀းလွ ေသာ္လည္းကြာေ၀းသည္ဟု ထင္သည္။ မသူေတာ္တို႔ အဖို႔ သံသရာမွ မလြတ္ႏိုင္ သည္အေလ်ာက္ သံသရာရွည္ေလသည္။</item>
+         <item>စိတ္ရင္းမေကာင္းသူသည္ သူတစ္ပါးအျပစ္ မည္မွ်ပင္ေသးေစကာမူ ျမင္တက္၏။ သူ႔အျပစ္ မည္မွ်ပင္ႀကီးပါေသာ္လည္း 	သူ မျမင္တက္ေခ်။ တစ္ကိုယ္ေကာင္းသမားတို႔၏ သဘာ၀ ပင္ျဖစ္၏။ သူတစ္ပါးအျပစ္ကေလးကို အက်ယ္ခ်ဲ့တက္သည္။ သူအျပစ္ကို အတံုခ်ံဳ႕တက္သည္။</item>
+         <item>လိမၼာေသာသူသည္ မိမိ၏အျပစ္အနာတို႔ကို သူတစ္ပါးတုိ႔အား မသိေစဘဲ လွ်ိဳ႕၀ွက္ထားသည္။ သူတစ္ပါးတုိ႔ သိလွ်င္ သူတို႔မွာ အကုသိုလ္ျဖစ္ႏိုင္သည္။ သို႔ေသာ္ သူတစ္ပါးတုိ႔၏ အျပစ္အနာအဆာတုိ႔ကို သိေအာင္လုပ္၍ သခၤန္းစာယူသင့္သည္။ လိပ္သည္ ေျခလက္ေခါင္းတို႔ကို သိုသိုသိပ္သိပ္ထားသကဲ့ပင္။</item>
+         <item>သူမိုက္က ပညာရွိကို ခ်ီးမြမ္းျခင္းမွာ ခ်ီးမြမ္းႏိုင္စြမ္း မရွိသူက ခ်ီးမြန္းျခင္းမွ်သာျဖစ္ သျဖင့္ အျပစ္ဆိုျခင္းတစ္မ်ိဳး ျဖစ္ေခ်သည္။ ပညာရွိကုိ ပညာရွိကခ်ီးမြမ္းမွသာ ထုိက္တန္ေသာ ခ်ီးမြမ္းျခင္း ျဖစ္ေပသည္။</item>
+         <item>လူတို႔၏ စရိုက္သဘာ၀ကို လိုက္၍ က်င့္သံုးတက္လွ်င္ အားလံုးႏွင့္ သင့္ျမတ္ေပမည္။</item>
+     </string-array>
+     
+     <string-array name="part3_en_exp">
+         <item>" The not-full water pot makes a rocking sound", goes a saying. One should not give his love and kindness to a wicked person. The vicious one is not serene and steady; he may betray and do harm if he is not satisfied.</item>
+         <item>The wicked is more harmful than the snake. The snake can be subdued by drug and charm, but no drug can subdue the wicked who can always do harm.</item>
+         <item>A foolish man who knows his foolishness can be called wise because he will mend his ways and become a wise man. On the other hand, a foolish man who inspite of his foolishness thinks himself a wise man will not reform, and so will remains a real fool.</item>
+         <item>The fool thinks his evil deeds are good as honey when the consequences of his deeds have not yet come to him, but when they come he will becomes miserable.</item>
+         <item>The fool uses his physical strength to plunder other\'s property. When he dies his strength disappears and in his after-life he falls into hell.</item>
+         <item>In the days of old, the brahmin was usually a king\'s counsellor. The brahmin with an evil-mind tired  to  set his enemy against the king by telling tales. In jattakas and tales, the brahmin has to take the role of a villain.</item>
+         <item>The distance or the duration is long or shoot in accordance with the attitude of the person concerned. The wakeful one finds the night too long (for he has to spend the night without sleep). To the tired traveller even a short distance seems too long (because he is too weak to walk any longer). The foolish one who has not the attributes of a virtuous person has to roll around the unending samara.</item>
+         <item>The person of evil mind sees other\'s fault however small, and fails to see, or ignores, his own however serious. It is the nature of evil-minded persons. Such persons can enlarge other\'s faults and makes little of their own.</item>
+         <item>The wise man conceals his defects, or other will probably think ill about him, thus getting themselves involved in sin. However, he should try to discover other\'s faults and take note of them in order to learn a lesson about life.</item>
+         <item>A fool\'s praise of a wise man is a sort of punishment, because the fool has no ability to appraise the worth of a wise man. Only if a wise man praises another wise man, is a worthy praise.</item>
+         <item>All people could be properly treated if one acts according to their respective characteristic attitudes and behaviours.</item>
+     </string-array>
+     
+     <string-array name="part4_mm">
+         <item>စီးပြားကို ေဆာင့္သည္ရွိေသာ္ သူတစ္ပါသည္းလည္း အေဆြမည္၏။ စီးပြားကို မေဆာင္မူ အေဆြသည္လည္း သူတစ္ပါးမည္၏။ အနာသည္ ကိုယ္၌ျဖစ္လ်က္ စီးပြားကို မေဆာင္ေလ။ ေဆးကားေတာ၌ ျဖစ္လ်က္ စီးပြားကို ေဆာင့္ေလသလွ်င္ကတည္း။</item>
+         <item >မ်က္ကြယ္္၌ ေက်းဇူကို ေခ်တက္ေသာ၊ မ်က္ေမွာက္္၌ ခ်စ္ဖြယ္ေသာ စကားကိုဆို တက္ေသာ ထိုသို႔သေဘာရွိေသာ အေဆြခင္ပြန္းကို အဆိပ္အိုး၌ ပ်ားကိုၾကဥ္ရာသကဲ့သို႔ ၾကဥ္ရာ၏။</item>
+         <item >ဥစၥာတည္းယုတ္မူကား အေဆြခင္ပြန္းသည္ စြန္႔တက္၏။ သားမယားတို႔သည္ လည္းေကာင္း၊ ညီသားအကိုတုိ႔သည္ လည္းေကာင္း စြန္႔တက္ကုန္၏။ ဥစၥာရွိေသာ သူတို႔ကိုသာ လွ်င္မွီ၀ဲကုန္၏။  ထို႔ေၾကာင့္ ဥစၥာသည္သာလွ်င္ ေလာက၌ ခင္ပြန္းႀကီးတည္း။</item>
+         <item >	ေလာက၌ ကၽြန္သူခစားကို ေစပါးခိုင္းခန္႔မွသာလွ်င္ ေကာင္းမေကာင္းသိရ၏။ ေဆြမ်ိဳးတို႔ကိုလည္း ေဘးေရာက္ေသာအခါ၌ သိရ၏။ အေဆြခင္ပြန္းကုိ ဥစၥာနည္းေသာအခါ သိရာ၏။ မယားကိုလည္း စည္းစိမ္ကုန္မွသာလွ်င္ သိရာ၏။</item>
+         <item >အၾကင္သူသည္ အစီးအပြား၌ ယွဥ္ေစတက္၏။ ထိုသူသည္ အေဆြခင္ပြန္းမည္၏။ အ ၾကင္သူသည္ ေကၽြးေမြးတက္သည္ ျဖစ္၏။ ထိုသူသည္ မိဘအမည္၏။အၾကင္သူသည္ ခ်စ္ကၽြမ္း ၀င္၏။ ထိုသူသည္ ခင္ပြန္းမည္၏။ အၾကင္သူသည္ ႏွလံုးၿငိမ္၏။ ထိုသို႔ ၿငိမ္းေစတက္ေသာ သူသည္ မယားမည္၏။</item>
+         <item>ရန္သူႏွင့္လည္း အကၽြမ္းမ၀င္းရာ။ အေဆြခင္ပြန္း ႏွင့္လည္း အကၽြမ္းမ၀င္ရာ။ အေဆြခင္ပြန္းသည္ အမ်က္ထြက္လတ္ေသာ္ ခပ္သိမ္းေသာ အျပစ္ကိုထင္ရွားျပသ၏။</item>
+         <item >အၾကင္သူသည္ ခင္ပြန္းႏွင့္ တစ္ႀကိမ္ အမ်က္ထြက္ဖူး၏။ ထိုသူသည္ ေ၀ဖန္ေစ့စပ္ျခင္းငွာ အလိုရွိျငားအံ့။ ကိုယ္၀န္သည္ အသထိုရ္ျခင္းကို ဖြားအံ့ေသာျမင္းမကဲ့သို႔ ေသမင္းႏိုင္ငံတြင္ ေဆာင္၏။</item>
+         <item >အၾကင္မွ်ေလာက္ေသာ မိမိ၏ အႀကံကာလသည္ မေရာက္ေသး။ ထိုေရြ႕ေလာက္ ရန္သူကိုလွ်င္ ပခံုးျဖင့္ ရြက္ေဆာင္ရာ၏။ မိမိ၏ အႀကံကာလသည္ ျပည့္စံုျခင္း သို႔ေရာက္ေလၿပီေသာ္ ထိုရန္သူကိုလွ်င္ ေက်ာက္၌ရြက္ေဆာင္ေသာ အိုးကိုခြဲသကဲ့သို႔ ဖ်က္ရာ၏။</item>
+         <item >ၿမီးၾကြင္းသည္ လည္းေကာင္း၊ မီးၾကြင္းသည္ လည္းေကာင္း၊ ထို႔အတူသာလွ်င္ ေရာဂါ ၾကြင္းသည္ လည္းေကာင္း အဖန္တလဲလဲ ပြားတက္ကုန္၏။ ထို႔ေၾကာင့္ အၾကြင္းကို မျပဳရာ။</item>
+         <item >အၾကင္သူ၏ မ်က္ႏွာကား ပဒုမၼၾကာကဲ့သို႔ရႊင္၏။ ဆိုေသာစကားသည္လည္း စႏၵကူးကဲ့သို႔ ခ်မ္းေအး၏။ ႏွလံုး၌ကား ေသေစတက္ေသာ အဆိပ္ကဲ့သို႔ ရွိ၏။ ထိုသို႔ေသာသေဘာရွိေသာသူကို မမွီ၀ဲရာ။</item>
+         <item>ၾကမ္းၾကဳတ္ေသာ အရွင္းကို မမွီ၀ဲရာ။ ထိုထက္၀န္တိုရာ အရွင္ကို မမွီ၀ဲရာ။ ထိုထက္ မခ်ီျမွင့္တက္ ေသာ အရွင့္ကို မမွီ၀ဲရာ။ ထိုထက္ ႏွိပ္စက္တက္ေသာ အရွင္ကို မမွီ၀ဲရာသာလွ်င္တည္း။</item>
+         <item >ဦးခ်ဳိရွိေသာ သတၱ၀ါကို အေတာင္းငါးဆယ္ အရပ္မွၾကဥ္ရာ၏။ ျမင္းကိုကား အေထာင္ငါး ရာမွ ၾကဥ္ရာ၏။ အစြယ္ရွိေသာ ဆင္ကိုကားအေထာင္ တစ္ေထာင္ကသာလွ်င္ ၾကဥ္ရာ၏။ သူမေကာင္းကိုကား အရပ္ကိုစြန္႔သျဖင့္ ၾကဥ္ရာ၏။</item>
+         <item >မေကာင္းေသာအရပ္ကို လည္းေကာင္း၊ မေကာင္းေသာ ခင္ပြန္းကိုလည္းေကာင္း၊ မေကာင္းေသာ အမ်ိဳးကိုလည္းေကာင္း၊ မေကာင္းေသာအေဆြခင္ပြန္းကို လည္းေကာင္း၊ မေကာင္းေသာ မယားကိုလည္းေကာင္း၊ မေကာင္းေသာ ကၽြန္ကိုလည္းေကာင္း ေ၀းစြာေရွာင္ၾကဥ္ ရာ၏။</item>
+         <item >အၾကင္ခင္ပြန္းတုိ႔သည္ အနာႏွိပ္စက္ေသာ ကာလ၌လည္းေကာင္း၊ ငတ္မြတ္ေခါင္းပါး ေသာ ကာလာ၌လည္းေကာင္း၊ စည္းစိမ္းပ်က္စီးေသာ ကာလ၌လည္းေကာင္း၊ ရန္သူမိေသာ ကာ လ၌လည္းေကာင္း၊ မင္းအိမ္တံခါး၌ လည္းေကာင္း၊ သုသာန္တစျပင္၌ လည္းေကာင္း ရပ္တည္ေပ ကုန္၏။ ထိုခင္ပြန္းတုိ႔သည္သာလွ်င္ ခင္ပြန္းေကာင္းမည္၏။</item>
+         <item >တ္ခြန္းခ်ဳိေသာစကားရွိေသာသူသည္ မ်ားေသာအေဆြခင္ပြန္းရွိ၏။  ၾကမ္းၾကဳတ္ေသာ သူသည္ နည္းေသာ အေဆြခင္ပြန္းရွိ၏။ ေနမင္း လမင္းတို႔၏ ဥပမာကိုဤေနရာ၍ သိအပ္၏.။</item>
+     </string-array>
+     
+     <string-array name="part4_en">
+         <item>The person who offers benefit is to be regarded as one\'s friend. If a friend does not offer benefit, he is regarded as a stranger. A disease which occurs in the body does not offer benefit, but the medicinal herb in the forest offers a cure.</item>
+         <item >A person who speaks ill of one behind one\'s back, and talks lovingly in one\'s  presence should be avoided as the bee shuns the pot of poison.</item>
+         <item >If one is deprived of wealth, his friend leaves him, so do his son and wife, so, too, do his brothers. However, they all associate with the one who has wealth. Therefore, only wealth is one’s great friend.</item>
+         <item >In this world, a servant’s true worth can be seen when he is assigned a duty; that of a relative when one is in danger; that of a friend when one’s wealth wanes; and that of one’s wife when is reduced to poverty.</item>
+         <item >The person who helps one to prosper is one’s true friend. The persons who look after one are one’s parents. The person who has affection for one is her husband. The woman, who has a good heart and renders peace to one, is his wife.</item>
+         <item>Do not get too intimate with enemy nor with friend. Sometimes when a friend gets angry, he is apt to show up all the faults one has.</item>
+         <item >The person who is angry with his friend for once want to get reconciled. He will come to grief like the mare that gives birth to a stallion.</item>
+         <item >One should carry even one’s enemy on one’s shoulders before one’s plan has produced results. When the time of success of the plan comes, one should throw the enemy off one’s shoulders just as the person carrying a pot on his head dashes it against a rock.</item>
+         <item >The remaining portion of unpaid debt, the remnant of fire, so also the still-to-be cured part of a disease, is apt to increase. Therefore, all remnants should not be left behind.</item>
+         <item >A certain man’s face is as fresh and cheerful as Padomma lotus, his words are cool and sweet like sandalwood, but in his heart is a deadly poison. One should not associate with such a person.</item>
+         <item>Do not serve a master who is rude. More than that do not serve a master who is uncharitable. More so, do not serve a master who is reluctant to honor where honor is due. All the more, do not serve a master who is cruel.</item>
+         <item >A horned animal should be avoided at a distance of fifty cubits, a horse at one hundred cubits, a tusker, one thousand cubits. The wicked man should be avoided by leaving the area he lives.</item>
+         <item >An unwholesome place, a bad mate, a bad relative, a bad wife and a bad servant: they all should be left at a distance.</item>
+         <item >The friends who look after once when one is suffering from a disease, or who contribute food during the time of famine, or who help one in his failing fortune, or who try to bail our when one is captured by the enemy, or who help to defend one when in custody by king’s order or who attend the funeral of one’s relative, are true friends.</item>
+         <item >The person who speaks sweetly to one and all has many friends. The main of harsh words has few friends. The comparison between the sun and the moon should be considered in the context.</item>
+     </string-array>
+     <string-array name="part4_mm_exp">
+         <item>မိမိအက်ိဳးေဆာင္သူသည္ မိမိ၏အေဆြ ခင္ပြန္းျဖစ္သည္။ အက်ိဳးမေဆာင္သူ သည္ တစ္စိမ္းမွ်သာျဖစ္သည္။ ေရာဂါသည္ မိမိ၏ ကိုယ္ထဲမွ ေပၚေပါက္လာေသာ္လည္းမိမိကို အက်ိဳးမျပဳ။ အႏၱရာယ္သာ ျဖစ္ေစသည္။ ေတာမွရေသာ သစ္ဥသစ္ဖုတုိ႔သည္ ေဆး၀ါးအျဖစ္ အနာကို ကုသေပး၍ အက်ိဳးေပးေပသည္။</item>
+         <item >မိတ္ေဆြတုသည္ ေရွ႕တြင္ တစ္မ်ိဳး ေနာက္ကြယ္တစ္မ်ိဳး ေျပာတက္သည္။ ထိုသူသည္ မိတ္ေဆြမဟုတ္။ အတြင္းရန္သူ ျဖစ္သည္။ ေရွာင္ၾကဥ္အပ္၏။ အဆိပ္အိုးကို ပ်ားကေရွာင္သကဲ့သို႔ပင္။</item>
+         <item > ေရႊရိုးမွ မ်ိဳးေတာ္ခ်င္တယ္ဟူေသာ စကားရွိသည္။ ဥစၥာရွိသူကုိသားမယား ညီအစ္ကို စသည့္ေဆြမ်ိဳးတို႔က ခ်ဥ္းကပ္ၾကသည္။ ဥစၥာမရွိသူကို ေရွာင္ၾကသည္။ ဥစၥာသည္သာ လွ်င္ မိမိ၏ ေဆြမ်ိဳးႀကီးျဖစ္သည္။</item>
+         <item >မေစခံကိုခိုင္းၾကည့္မွ အေၾကာင္းသိႏိုင္သည္။ ေဆြမ်ိဳးအေၾကာင္းကို မိမိအခက္အခဲႀကံဳမွသိမည္။ မိတ္ေဆြအေၾကာင္းကို မိမိမွာ စီးပြားက်မွသိမည္။ မယားအေၾကာင္းကုိ မိမိမြဲသြားမွ သိမည္။ သာမန္အေျခအေနမွာ ေကာင္းေသာ္လည္း အေရးႀကံဳမွ နဂိုသေဘာကို သိႏိုင္ေပသည္။</item>
+         <item >မိတ္ေဆြေကာင္းသည္ မိမိအားစီးပြားတက္ေစရန္ကူညီသည္။ မိမိအား ေကၽြးေမြး ေစာင့္ေရွာင့္သူသည္ မိမိ၏မိဘမ်ားျဖစ္၏။ မိမိအား ခ်စ္ခင္ျမတ္ႏိုးသူသည္  မိမိ၏လင္သားျဖစ္၏။ မိမိအား စိတ္ခ်မ္းသာမႈ ျဖစ္ေသေသာ သေဘာရွိသူသည္ မိမိ၏ မယားျဖစ္ေပသည္။ မိတ္ေဆြေကာင္း မိဘေကာင္း လင္ေကာင္း မယားေကာင္းတုိ႔ အေၾကာင္းကိုဆိုသည္။</item>
+         <item> ေရာလြန္း ရင္းႏွီးျခင္းသည္ မေကာင္းေပ။ ရန္သူႏွင့္ မေရာႏွင့္။ အထူးဆိုစရာ မရွိေပ။ မိတ္ေဆြႏွင့္လည္း မေရာလြန္းႏွင့္ဟု ဆုိရေပမည္။ ေရာလြန္းလွ်င္ တစ္ခါတစ္ရံ မိမိကို စိတ္ဆိုးသည့္အခါ မိမိ၏အျပစ္တို႔ကို ေဖာ္တက္သည္။ ငယ္က်ိဳးငယ္နာ ေျပာတက္သည္။</item>
+         <item >မိတ္ေဆြအျဖစ္ ရင္းႏွီးသည့္အေလ်ာက္ တစ္ေယာက္အေၾကာင္း အေကာင္းအ ဆိုးသိေနၾကသည္။ ထိုသို႔ ေနရာမွ တစ္ခါ၌ရန္ျဖစ္ၾက၏။ ရန္ျဖစ္ေသာအခါ ေဒါသအေလ်ာက္ ငယ္က်ိဳးငယ္နာအားလံုး ေဖာ္ထုတ္ေျပာဆိုမိသျဖင့္ စိတ္နာသြားၾကသည္။ ထို႔ေနာက္တစ္ေယာက္ က ျပန္လည္ေပါင္းသင္းလို၍ ေစ့စပ္ေစသည္။ ေစ့စပ္၍ ျပည္လည္ ေပါင္းသင္းေသာ္လည္း အသည္းနာျခင္း ရွိေနသည္။ ေျပာလိုက္ဆိုလိုက္သည္တို႔ကို ေမ့မပစ္ႏိုင္ျဖစ္ေလရာ ေနာက္တစ္ႀကိမ္ ျပန္၍ ရန္ျဖစ္သည္ဆိုလွ်င္ ယခင္ကထက္ပို၍ ဆိုးေခ်မည္။ တုတ္တျပက္ ဓါးတျပက္ ျဖစ္ကာ ေသဆံုးသည္အထိ အေျခအေန ဆိုးႏိုင္သည္။ ျမင္းမသည္ အသတိုရ္ ဟုေခၚေသာ ျမင္းလားႀကီးကို ေမြးရသျဖင့္ ေမြးၿပီးေနာက္ ေသရသကဲ့သို႔ ျပန္၍ ေပါင္းဖက္ ရာမွ ကြဲရသူတို႔သည္ ေသရတက္သည္။ ဤစာအပိုဒ္ရွိ အဆိုမွာ ထိုသို႔အျဖစ္မ်ိဳးကိုညႊန္းသည္။</item>
+         <item >အႀကံမေအာင္ေသးသည့္ ကာလမွာ ရန္သူပင္ ျဖစ္လင့္ကစားမိမိ၏ ပခံုးေပၚတြင္ တင္၍ သယ္ေဆာင္သြားရေပမည္။ အႀကံေအာင္ေသာအခါ အိုးရြက္လာသူက အိုးကိုပစ္၍ ရိုက္ခြဲ သကဲ့သို႔ ပခံုးေပၚမွရန္သူကို ပစ္ခ်လိုက္ရေပလိမ့္မည္။ အႀကံမေအာင္ခင္ သည္းခံေအာက္က်ိဳ႕ဖို႔ လိုသည္။ သို႔မဟုတ္လွ်င္ မိမိ၏ အႀကံပ်က္သြားႏိုင္သည္။</item>
+         <item > ေၾကြးအေျပမဆပ္ရဘဲ က်န္ေနလွ်င္ေသာ္လည္းေကာင္း၊ မီးၾကြင္းက်န္ခဲ့လွ်င္ ေသာ္လည္းေကာင္း၊ ေရာဂါမကင္းစင္ဘဲ ဆက္လက္ကုသရန္ က်န္ေနလွ်င္ေသာ္လည္းေကာင္း၊ ထိုအၾကြင္းတို႔သည္ ပြားတက္သည္။ ထို႔ေၾကာင့္အၾကြင္းမွန္သမွ်ကို ခ်န္မထားအပ္ေပ။</item>
+         <item >အေပၚယံေကာင္းၿပီး အတြင္းေကာက္ေသာသူကို ေရွာင္ၾကဥ္ရေပမည္။</item>
+         <item>၀န္းထမ္းမ်ားကို သတိေပးေသာ စကားျဖစ္သည္။ မိမိအထက္မွာရွိသည့္ ဆရာသမားတို႔၏ စိတ္ေနစိတ္ထားကုိ ေလ့လာၿပီမွ ၀န္ထမ္းမ်ားအျဖစ္ ေဆာင္ရြက္သင့္သည္ဟု ဆိုလိုသည္။ အထက္လူႀကီး ဆိုး၀ါး ယုတ္မာလွ်င္ လက္ေအာက္ငယ္သားမွာ စိတ္မခ်မ္းမသာ ျဖစ္ရသည္။ ဆိုး၀ါးပံုကို အဆင့္ဆင့္ ေဖာ္ျပထားသည္။ ၾကမ္းၾကဳတ္သည့္သူ၊ ထိုမွတစ္ဆင့္ ေစးနဲသူ၊ ထိုမွတစ္ဆင့္ ခ်ီးျမွင့္သင့္ပါလ်က္ ခ်ီးျမွင့္ရမွာ ၀န္ေလးသူ၊ ေနာက္ဆံုးအဆင့္မွာ ရက္စက္ျခင္းႏွင့္ သက္ဆိုင္သည္။</item>
+         <item >အႏၱရာယ္ရွိေသာ တိရစာၦန္မ်ားကို အေ၀းမွေရွာင္ရာ၏။ သူယုတ္ကို ေရွာင္ရန္မွာ သူေနေသာအရပ္မွ မိမိကထြက္ခြာသြား၍  ေရွာင္ၾကဥ္ရာ၏။</item>
+         <item > ေရွာင္ၾကဥ္အပ္ေသာ ပုဂိဳလ္မ်ားကို စားရင္းလုပ္ျပျခင္း ျဖစ္သည္။ မေကာင္းေသာ ဟူေသာ နာမ၀ိေသသနပုဒ္ျဖင့္ ေဖာ္ျပေသာ္လည္း မည္သုိ႔မေကာင္းေၾကာင္း မေဖာ္ျပေပ။ မိမိတို႔ ဘာသာအဓိပါယ္ေဖာ္ၾကရေပလိမ့္မည္။</item>
+         <item >မင္းအိမ္၌လည္းေကာင္း ဆိုသည္မွာ အစိုးရ၏ ေထာင္ထဲသို႕ေရာက္ေနျခင္းကုိ ညႊန္းသည္ဟု ဆိုလိုသည္။ မင္းအိမ္ဆိုကာမွ်ႏွင့္ ဘုရင္ေနေသာအိမ္ဟု မယူဆရာ။ အမူအခင္းျဖစ္ ေနသည္ကိုညႊန္းသည္။ သုသာန္တစျပင္သို႔ အသုဘပို႔ရန္သြားျခင္း ျဖစ္သည္။  သာေရးနာေရးတို႔ မွာ ကူညီေထာက္ပံျခင္းကိုညႊန္းသည္။</item>
+         <item > ႏႈတ္ခ်ိဳသွ်ိဳတစ္ပါးဟု ဆို၏။ အမ်ားႏွင့္	ဆက္ဆံေသာအခါ စကားကိုခ်ိဳခ်ိဳသာသာ ေျပေျပလည္လည္ ေျပာတက္သူကို အမ်ားက ႏွစ္သက္ခင္မင္ၾကသည္။ ႏႈတ္ၾကမ္းသူကို မိတ္ မဖြဲ႕ခ်င္ၾကေပ။ 	ေနမင္းသည္ပူေလာင္ေသာ အေရာင္ကို ေပးသည္။ လမင္းသည္ ေအးျမၾကည္လင္ ေသာအေရာင္ကိုေပး၏။ လူတို႔သည္ လေရာင္ကို ခံခ်င္ၾကသည္။ ယင္းဥပမာအတုိင္းပင္ျဖစ္၏။</item>
+     </string-array>
+     <string-array name="part4_en_exp">
+         <item>The person who does a good trun to one, becomes one\'s friend. The friend who does not do anything for one\'s benefit remains a stranger. Disease arises in one\'s body and does harm. The medicinal herb obtained from the forest cures the disease, the giving benefit to him.</item>
+         <item >The fake friend speaks well in one\'s presence and speaks ill in his absence. Such a person is not a genuine friends. He is an internal enemy. He should be shunned, just as the bee avoids the poison pot.</item>
+         <item >“People want to claim themselves as one’s relatives of one has gold”, goes a saying. If one is wealthy all relatives approach him, but when he becomes poor, they leave him.</item>
+         <item >A servant’s true worth can be seen only when assigned to a duty. When in difficulty one can see if a relative is dependable. When one’s income is less, the true nature of a friend can be seen. One can know whether or not one’s wife is good when one becomes poor.</item>
+         <item >A good friend helps one to become prosperous. One’s parents are those who look after him. One’s husband gives her affection. One’s wife makes his life peaceful and happy. This is about good friends, good parents, good husband and good wives.</item>
+         <item> Intimacy is not good. One should not get intimate with the enemy. This is out of the question. But we must warn that one should not get too intimate with a friend. That friend when he gets angry will reveal all one’s blemishes.</item>
+         <item >The two friends being intimate know each other’s faults and blemishes. One day they fall out and fight. Being very angry, the two filing words revealing each other’s blemishes. So both fell hurt. When they quarrel again they will probably resort to violence, using sticks and swords, thus causing death, like the mare that has to give birth to a stallion (a large and strong horse), at the cost of her life.</item>
+         <item >Before a plan has proved successful, one should bear the injury from the enemy. When the plan is successful, one can well ignore the enemy’s attack. If one fights before the plan is successful, he can fail.</item>
+         <item >If a portion of debt is left unpaid the amount of debt will grow with time. Some fire left unquenched may develop into a large fire (and burn down the building). If a disease is no completely cured, and something still has to be done, the disease will increase. Therefore, all remnants should not be left behind.</item>
+         <item >The person who is well meaning on the outside and evil in the inside should be avoided.</item>
+         <item>This is meant as a warning to servants. If a master is rude or satiny or unwilling to reward for good service, or worst of all, if he is cruel, no one should serve him.</item>
+         <item >Dangerous animals should be shunned at respective distances. However, in the case of a wicked man, he should be shunned by leaving the place where he is residing.</item>
+         <item >This is a listing of “bad” people. The adjective “bad” is prefixed to the various persons. How are they bad? There is no mention of the manner in which each of them is bad. We must define the term “bad” by ourselves.</item>
+         <item >“The king’s house” is another term for jail. The king’s house doesn’t mean the royal palace. “At the funeral” means attending the funeral. ”Cemetery” indicates going to cemetery to attend the funeral ceremony of one’s relative. In a word, the true friend helps one through thick and thin.</item>
+         <item >“Sweet words are a cause of popularity,” a saying goes. In dealing with many people the person who speaks pleasantly is popular. People are unwilling to make friends with a man of harsh words. People do not want to bask in hot sun’s rays. The light of the moon is cool and people are pleased to be exposed to it. That is the best example in this case.</item>
+     </string-array>
+     
+     
+     <string-array name="part5_mm">
+         <item>ဥၾသတို႔၏ အဆင္းကားအသံလွ်င္တည္း။ မိန္းမတုိ႔၏ အဆင္းကား လင္ကိုျမတ္ႏိုးျခင္း တည္း။ မေကာင္းေသာ ရုပ္သ႑ာန္ရွိေသာသူ၏ အဆင္းကား အတက္တည္း၊ ရေသ့တို႔၏  အဆင္းကား သည္းခံျခင္းတည္း။</item>
+         <item>မိန္းမတို႔၏ ဥစၥာကား အဆင္းတည္း။ ေယာက္်ားတို႔၏ ဥစၥာသည္ အတက္လွ်င္တည္း။ ဥစၥာ ကားသီလွ်င္တည္း။  မင္းတို႔၏ ဥစၥာသည္ကား ရဲမက္ဗိုလ္ပါတည္း။</item>
+         <item>ရေသ့ ရဟန္းတို႔သည္ကားႀကံဳမွသာလွ်င္ တင့္တယ္ကုန္၏။ ေျခေလးခုရွိေသာ သတၱ၀ါတို႔ သည္ကား ဆူကုန္မွသာလွ်င္ တင့္တယ္ကုန္၏။ ေယာက္်ားတို႔သည္ ကားအတက္ပညာရွိမွ်သာ လွ်င္ တင့္တယ္ကုန္၏။</item>
+         <item>တက္လွစြာေသာ ေစာင္းသမားသည္ ငါးရက္မွ် ေစာင္းႏွင့္ကင္းမူပ်က္၏။ တက္လွစြာေသာ ေလးသမားသည္ ခုႏွက္ရက္မွ် ေလးႏွင့္ ကင္းမူပ်က္၏။ ေတာ္လွစြာေသာ မယားျဖစ္လွ်င္မူလည္း လင္ႏွင့္တစ္လကင္းမူ ပ်က္၏။ တပည့္တို႔ကား လခြဲကင္းမူ ပ်က္၏။</item>
+         <item>ကၽြဲကားညႊန္ရွိမွ သာလွွ်င္ေမြ႔ေလ်ာ္၏။ ဟသၤာငွက္သည္ ေရကန္ရွိမွသာလွ်ွင္ေမြ႔ေလ်ာ္၏။ မိန္းမကား ေယာက္်ားရွိမွသာ ေမြ႕ေလ်ာ္၏။ ရဟန္းကား တရားရွိမွသာလွ်င္ ေမြ႔ေလ်ာ္၏။</item>
+         <item>ထမင္းကိုကား အစာေက်မွ ခ်ီးမြမ္းရာ၏။ မယားကိုလည္း အရြယ္လြန္မွ ခ်ီးမြမ္းရာ၏။ ရဲမက္ ကိုကား စစ္ေအာင္၍ျပန္မွ ခ်ီးမြမ္းရာ၏။ ေကာက္ကို အိမ္သို႔ ေရာက္မွ ခ်ီးမြမ္းရာ၏။</item>
+         <item>	ႏွစ္လင္ သံုးလင္ကြာၿပီးေသာ မိန္းမသည္လည္းေကာင္း၊ ႏွစ္ေက်ာင္း သံုးေက်ာင္းေျပာင္းၿပီး ေသာ ရဟန္းသည္လည္းေကာင္း၊ ေက်ာ့ကြင္းမွ ႏွစ္ႀကိမ္သံုးႀကိမ္လြတ္ၿပီးေသာ ငွက္သည္လည္း ေကာင္း ျပဳအပ္ေသာ မာယာမ်ားသည္သာလွ်င္တည္း။</item>
+         <item>သူယုတ္ကို ပုတ္ခတ္သျဖင့္ ယဥ္ေစရာ၏။ မေကာင္းေသာ ခင္ပြန္းကို စကားဆိုၿမဲ မဆိုသ ျဖင့္ယွဥ္ေစရာ၏။ မေကာင္းေသာ မိန္းမတို႔ကို စည္းစိမ္ကို မအပ္ႏွင္းသျဖင့္ယဥ္ေစရာ၏။ အစာ၌ တပ္မက္ေသာ သူကိုအစာကိုယုတ္ေစသျဖင့္ ယဥ္ေစရာ၏။</item>
+         <item>လမွကင္းေသာ ညသည္ မတင့္တယ္။ လိႈင္းတံပိုးမွကင္းသာ သမုဒၵရာသည္လည္း မတင့္တယ္။ ဟသၤာမွကင္းေသာ ေရကန္သည္လည္း မတင့္တယ္။ လင္မွကင္းေသာ အမ်ိဳးသမီး သည္လည္း မတင့္တယ္။</item>
+         <item>လင္သည္သာလွ်င္ စည္းစိမ္ဥစၥာကို ျဖစ္ေစအပ္၏။ မိန္းမမူကား လံုေစသည္ သာလွ်င္တည္း။ ထိုစကားသည္ သင့္စြ။ ေယာက္်ားသည္သာလွ်င္ ပဓာနတည္း။ မိန္းမ မူကား အပ္၌ ခ်ည္ႏွင့္သာ တူပါသတည္း။</item>
+         <item>ခပ္သိမ္းေသာ ျမစ္တို႔သည္ ျမစ္ေကာက္သာရွိကုန္၏။ ခပ္သိမ္းေသာ ေတာတို႔သည္ ထင္းျဖင့္သာ ၿပီးကုန္၏။ ခပ္သိမ္းေသာ မိန္းမတို႔သည္ ဆိတ္ၿငိမ္ေသာ အရပ္ကို	ရသည္ရွိေသာ္ မေကာင္းမႈကို ျပဳၿမဲတည္း။</item>
+         <item>အၾကင္မိန္းမသည္ ျငင္းခံုတက္ေသာ အေလ့ရွိ၏။ ျငဴစူေစာင္းေျမာင္း၍ ေျပာေလ့ရွိ၏။ ျမင္တိုင္းကိုလည္း တပ္၏။ မ်ားစြာသည္လည္း ခ်က္၍စားတက္၏။ လင္၏အဦးစားတက္ေသာ အေလ့ရွိ၏။ သူ႔အိမ္သို႔ သြားတက္ေနတက္ေသာ အေလ့ရွိ၏။ ထိုမိန္းမသည္ သားတစ္ရာပင္ ျမင္ ျငားေသာ္လည္း ေယာက္်ားသည္ စြန္႔အပ္၏။</item>
+         <item>အၾကင္မိန္းမသည္ စားေသာအခါ၌လည္းေကာင္း၊ အ၀တ္တန္ဆာ ျပဳျပင္ဆင္ယင္ေသာ အခါ၌ လည္းေကာင္းအမိကဲ့သုိ႔ ႏွစ္သက္ဖြယ္ျပဳျပင္တက္၏။ လွ်ိဳ႔၀ွက္အပ္ကုန္ေသာ မက်စ္မလ်စ္ ေသာအရာတို႔၌ ႏွမကဲ့သုိ႔ လြန္စြာရွက္တက္၏။ အမႈလုပ္ေသာအခါတို႔၌လည္းေကာင္း၊ လင္း၏အပါး၌ သြားလာေသာအခါ၌လည္းေကာင္း၊ ကၽြန္မကဲ့သို႔ ရိုေသစြာျပဳတက္၏။ ေဘးရွိေသာ အခါတို႔၌ တိုင္ပင္ဖက္ျဖစ္ရာ၏။ အိပ္ေသာအခါတို႔၌လည္း ေမြ႔ေလ်ာ္ေစတက္၏။ အေရာင္အဆင္း တို႔ကိုျပဳျပင္ျခင္းတို႔၌ တင့္တယ္စြာ၏။ အမ်က္ထြက္ေသာ အခါတို႔၌ သည္းခံတက္၏။ ထိုမိန္းမကို ျမတ္၏ဟူ၍ ပညာရွိတို႔သည္ ဆိုကုန္၏။ ထိုမိန္းမသည္ ေသသည္၏ အျခားမဲ၌လည္း နတ္ျပည္၌ ျဖစ္ရာ၏။</item>
+         <item>အၾကင္မိန္းမငယ္သည္ ေရႊသားအသားရွိ၏။ သမင္မ်က္စိသကဲ့သို႔ ညိဳေသာမ်က္စိလည္း ရွိ၏။ ခါးစည္းတင့္က်ယ္၊ ငယ္ေသာ၀မ္းလည္းရွိ၏။ ဆင္ႏွာေမာင္းသကဲ့သို႔ အရင္းမွအဖ်ားတိုင္ ေအာင္သြယ္ေသာေပါင္ရွိ၏။ ေျဖ၍ ေနာက္သို႔လန္ေသာရွည္ေသာ အဖ်ားေကာတက္ေသာဆံ လည္းရွိ၏။ ႀကီးငယ္မထင္ ညီညႊတ္ေသာသြားအစဥ္းလည္း ရွိ၏။ နက္ေသာ ခ်က္လည္းရွိ၏။ ေကာင္းေသာအေလ့အထလည္း ရွိ၏။ ထိုသို႔ေသာ မိန္းမငယ္ကို ယုတ္ေသာအမ်ိဳးတို႔၌ ျဖစ္ေသာ္လည္း ထိုမိန္းမပ်ိဳကို ဆက္ဆံထိမ္းျမားရာ၏။</item>
+         <item>ကာလတို႔တြင္ တန္ေဆာင္မုန္းလသရဒဥတု သည္ျမတ္၏။ မယားတို႔တြင္ အဆင္းလွေသာ မိန္းမတို႔သည္ျမတ္၏။ သားတို႔တြင္ သားႀကီးသည္ျမတ္၏ ။ အရပ္မ်က္ႏွာတို႔တြင္ ေျမာက္အရပ္ သည္ျမတ္၏။</item>
+         <item>အၾကင္မိန္းမသည္ ျဖစ္တိုင္းျဖစ္တိုင္း တဖန္တလဲလဲ ေယာက္်ား၏အျဖစ္ကိုအလိုရွိျငားအံ့၊ ထိုမိန္းမသည္ သိၾကားမင္း၏မယားသည္ သိၾကားမင္းကိုအရိုအေသလုပ္ေကၽြးသကဲ့သို႔ လင္ကို ရိုေသလုပ္ေကၽြးရာ၏။</item>
+         <item>အၾကင္ေယာက္်ားသည္ ျဖစ္တိုင္းျဖစ္တိုင္း အဖန္တလဲလဲ ေယာက္်ား၏အျဖစ္ကို အလိုရွိ ျငားအံ့၊ ထိုေယာက္်ားသည္ သူတစ္ပါး၏မယားကို ေျခေဆးၿပီးေသာ ေယာက္်ားသည္ညႊန္ကို ေရွာင္ၾကဥ္သကဲ့သို႔ ေရွာင္ၾကဥ္ရာ၏။</item>
+         <item>အရြယ္လြန္ၿပီးေသာေယာက္်ားသည္ တည္သီးမွ်ငယ္ေသာ သားျမတ္ရွိေသာ မိန္းမပ်ိဳကို .ယူေဆာင္ သိမ္းဆည္၏။ မိမိအလိုရွိရာ မပါသည္ျဖစ္၍ 	ေစာင္းေျမာင္းျငဴစူတက္၏။ လင္အို တစ္ေယာက္၌ သာ ေမြ႔ေလ်ာ္လတၱံဟု မယံုၾကည္။ ထို႔ေၾကာင့္ ထိုငယ္ေသာ မယားကိုသိမ္းဆည္း ျခင္းသည္ ပ်က္ဆီးအံ့သည္၏ အေၾကာင္းတည္း။</item>
+     </string-array>
+     
+     <string-array name="part5_en">
+         <item>The beauty of cuckoos is their voice. The beauty of women is devotedness to their husbands. The beauty of ugly person is education. The beauty of hermits is forbearance.</item>
+         <item>The wealthy women is beauty. The wealth of men is education. The wealth of monks is the percepts (sila). The wealth of kings is the army.</item>
+         <item>It is proper for hermits and monks to be lean. It is proper for four-legged creatures to be plump. It is proper for men to be educated. It is proper for women to be with their husbands.</item>
+         <item>An accomplished harpist becomes weak in his musical skill if separated from his harp for five days. An expert archer becomes faulty if he is away from his bow and arrow from seven days. A virtuous wife is liable to folly if she is separated from her husband for a month. Pupils would falter in their lessons if they are away from their teacher for half a month.</item>
+         <item>Buffalo-takes delight in mire. Hintha (brahminy duck) takes delight in the pond. Woman takes delight in her man. The monk takes delight in the Dhamma.</item>
+         <item>Food is to be praised after is digested. The wife should be praised after she has passed her prime. The soldier should be honored after his successful return from the battlefield. The crop should be said to be successful when it arrives at the storehouse.</item>
+         <item>The woman who has changed two or three husbands; the monk has changed two or three monasteries; the bird which has escaped from two or three traps; these have played practical tricks.</item>
+         <item>The wicked man should be tamed by beating. The bad friend should be tamed by refusing to speak with him. The bad wife should be tamed by refusing to bestow wealth. The gourmand should be tamed by giving him less food.</item>
+         <item>The night without the moon lacks glory. The ocean without huge waves, too, is not grand. The pond without hintha birds lacks beauty. The young woman without husband is not quite becoming.</item>
+         <item>The husband is the earner of wealth. The wife is the keeper of the wealth thus earned. That is the appropriate remark. Man is the prime mover. The wife is just a thread in the needle.</item>
+         <item>All rivers flow in a crooked way. All forests are full of firewood. All women getting to a secluded place will always do evil.</item>
+         <item>Woman is in the habit of making dispute, of slighting others, wants to have everything she sees. She cooks many kinds of food and eats too much. She has also the habit of taking meal a head of her husband. She often visits other people’s houses and stays there long. Such woman should be left by her husband even though she has given birth to one hundred sons.</item>
+         <item>At meal and when dressed, a woman should behave like a mother. In matters of concealment and undress, she should be as  shy as a sister. In performance of domestic  duties and approaching her husband, she should move about like a maidservant. In time of danger, she should give pleasure. She should look prim and proper in her dress. When the husband is in anger, she should have forbearance. Such a woman, say the sages, is noble. After death has claimed her body, she should go to the celestial kingdom.</item>
+         <item>A certain young lady is golden complexioned, her eyes brown like a fawn’s eyes, her stomach with waist narrow and wide haunches, and thighs which tapers toward the feet, like an elephant’s trunk, long hair  with ends upturned, even rows of teeth, deep navel and good conduct. Such maiden, through of low birth, should be taken to wife.</item>
+         <item>Of all seasons, the season covered by the month of Tazaungmon (of Myanmar Calendar) is the best. Among the sons, the eldest is the best. Of all directions, north is the best.</item>
+         <item>It a woman is every existence of beginning a woman desires to become man, she should serve her husband as respectfully as the wife of the king of celestial kingdom serves her husband.</item>
+         <item>If a man desires to become a man in his existences, he should avoid committing adultery as he would avoid mud in order not to soil his clean feet.</item>
+         <item>A man past his prime marries a young woman whose breasts are as tiny as fig. If the young wife does not satisfy his desire, the old man is jealous and talks slightingly of her. He does not believe that she will be satisfied with an old man. Therefore, the old man’s talking a very young woman will lead him to ruin.</item>
+     </string-array>
+     <string-array name="part5_mm_exp">
+         <item>မိန္းမတို႔၏ အဆင္းကားလင္ကိုျမတ္ႏိုးျခင္းတည္းဟု ဆိုရာ၌  မိန္းမတို႔ ဆိုသည္မွာ မယားတို႔ပင္ျဖစ္၏။ မယား၀တၱရားေက်ပြန္ေသာ မိန္းမသည္ က်က္သေရရွိ၏ ျမတ္၏။</item>
+         <item>ဥစၥာသည္ အင္အားပင္ျဖစ္သည္။ အားကိုရာ ပစၥည္းပင္တည္း။ မင္း၏တန္ခိုးသည္ လက္နက္ကိုင္တပ္မ်ား	ေပၚတြင္မူတည္သည္။</item>
+         <item>သင့္တင္ေလ်ာက္ပတ္ျခင္းသည္ အေရးပါေသာ အရည္အေသြးတစ္ခုပင္ျဖစ္၏။ မသင့္ေလ်ာ္ျခင္းသည္ မတင့္တယ္။ ရဟန္းသည္ အရာရာ၌ ေရာင္ရဲျခင္းရွိမွ တင့္တယ္သည္။ ၿခိဳးၿခံ ျခင္းေၾကာင့္ ႀကံဳလွီးေသာ ကိုယ္ကာယရွိသည္။ ေျခေလးေခ်ာင္း သတၱ၀ါတို႔ကား ၀မွၾကည့္ေကာင္း သည္။ ေယာက္်ားတို႔အဖုိ႔ ပညာရွိမွ တင့္တယ္သည္.။ မိန္းမတို႔မွာ လင္သားရွိမွ တင့္တယ္သည္။ အိမ္ေထာင္ရွိမွ လူရိုေသမည္။</item>
+         <item>ကင္းကြာမႈသည္ နဂိုအေျခအေနကို ပ်က္ျပားေစတက္သည္။ ေစာင္းသမားႏွင့္ ေလးသမားတို႔သည္ သူတို႔၏ ေစာင္းႏွင့္ေလးတို႔ကို ရက္ၾကာၾကာ မကိုင္ဘဲေနလွ်င္ လက္ပ်က္တက္ သည္။ မယားေကာင္းသည္ လင္ႏွင့္တစ္လမွ် ကြဲကြာလွ်င္ ေဖာက္ျပန္တက္သည္။ တပည့္တို႔သည္ ဆရာႏွင့္ ေ၀းေနၾကလွ်င္ သင္ၾကားထားသမွ် အခ်ိဳ႕ကိုေမ့ကုန္တက္ၾကသည္။ .ယင္းအဆိုတို႔သည္ ျဖစ္တက္ျခင္းကိုသာ ျပသည္။ ျခြင္းခ်က္မ်ား ရွိေပသည္။</item>
+         <item> ႏွစ္သက္မႈရွိမွ ေမြ႔ေလ်ာ္သည္။ ေပ်ာ္သည္ဟု ဆိုသည္။ စိတ္၀င္စားမႈရွိမွ ႏွစ္သက္ သည္။ နီတိဆရာက ဆိုလိုသည္မွာ သဘာ၀အားျဖင့္ ေမြ႔ေလ်ာ္ျခင္းပင္ ျဖစ္၏။</item>
+         <item>မည္သည့္ကိစၥမဆို မၿပီးေျမာက္ေသးခင္ ေအာင္ျမင္ၿပီဟု မဆိုသာေပ။ မေမွ်ာ္လင့္ ေသာ မထင္မိေသာ အေၾကာင္းတစ္ခု ေပၚလာႏိုင္သည္။ ထိုအေၾကာင္းေၾကာင့္ အေျခအေနေျပာင္း လဲသြားႏိုင္သည္။ ၿပီးေျမာက္မွသာ ေအာင္ျမင္သည္ဟု သက္မွတ္ရေပသည္။ နီတိဆရာသည္ မိန္း မမ်ားကို ဖိ၍ဆိုတက္သည္။ ယင္းသည္ ေယာက္်ားတို႔၏ ပင္ကိုသေဘာထားဟု ဆိုႏိုင္သည္။ သို႔ေသာ္ ျခြင္းခ်က္သည္ ရွိစၿမဲပင္။</item>
+         <item>သံုးေက်ာင္းေျပာင္းေသာ ရွင္၊ သံုးလင္ေျပာင္းေသာ မယားဆိုေသာ စကားရွိသည္။ မာယာၾကြယ္သည္ ဟုယူဆၾကသည္။ သို႔ေသာဤေနရာမွာလည္း ျခြင္းခ်က္မ်ား ရွိသည္။ မာယာမ်ားေသာေၾကာင့္ မဟုတ္ဘဲ မညီညႊတ္ေသာ အေၾကာင္းမ်ားလည္း ရွိႏိုင္သည္။</item>
+         <item>ယဥ္ေစရာ၏ ဆိုေသာစကားမွာ မုိုက္ရိုင္းေနသည္ကို ယဥ္ေက်းလာေအာင္ ဆံုးမျခင္းကို ဆိုလိုသည္။ ယုတ္မာသူကို ရိုက္ႏွက္ဆံုးမၿပီး ယုတ္မာျခင္းမေပ်ာက္ေစသင့္သည္ ဆိုရာ၍ သူယုတ္သည္ ေကာက္က်စ္၏။ သူကိုအၾကမ္းဖက္လွ်င္ သင့္ေလွ်ာ္မလားဟုစဥ္းစားၿပီးမွ ရိုက္ႏွက္ဆံုးမရမည္သာ ျဖစ္သည္။ မိတ္ေဆြကဆိုးလွ်င္ သူ႔ကုိစကားမေျပာဘဲဲ ေနလိုက္ျခင္းျဖင့္ ဆံုးမရာ၏ ဆိုရာမွာလည္း မိမိကစကားမေျပာဘဲေနလွ်င္ သူကလည္းမာနျဖင့္ မေျပာလိုျဖစ္ႏိုင္ သည္။ သူ႔အမွားရွိလွ်င္ ေထာက္ျပသင့္သည္။ မယားဆိုးကို ဥစၥာမအပ္ျခင္းသည္ သင့္၏ဟု ထင္ပါသည္။ အစားႀကီး သူကိုေလွ်ာ့ေကၽြးသင့္၏။</item>
+         <item>ၾကည့္ရႈရာ၌ မျပည့္စံုသည့္ အခ်က္တို႔ေၾကာင့္ တင့္တယ္ျခင္းမရွိေခ်။ လိုက္ဖက္ေသာ ပစၥည္းမပါလွ်င္ သင့္ေလ်ာ္ေသာပံုစံကို မရွိေခ်။</item>
+         <item>လင္သားက ပစၥည္းဥစၥာရေအာင္ အလုပ္လုပ္ရသည္။ မယားကရသမွ်  ဥစၥာတို႔ကို သိမ္းဆည္းရသည္။ ထိုစကားသည္ မွန္ပါ၏။ သို႔ေသာ္ ေခတ္ကာလ အေလ်ာက္အေျခအေန ေျပာင္းလဲျခင္းမ်ား ရွိေနသည္။ လင္ေရာမယားပါ ေငြေၾကးရွာရေသာေခတ္သို႔ ေရာက္ေလၿပီ။ သိုေသာ္လည္း ေယာက္်ားက ဦးေဆာင္ရမည္ကားမွန္ေပသည္။ မိန္မကရလာသမွ်ကို မိသားစု အတြက္ သင့္သလိုသံုးၿပီးလွ်င္ က်န္ရွိသမွ်ကို သိမ္းဆည္းရေပမည္။</item>
+         <item> ျမစ္တုိ႔သည္ ေကာက္ေကြ႔စီး၏။ ေတာတို႔၌ ထင္းမ်ားျပည့္လ်က္ရွိ၏။ မိန္းမတို႔သည္ ဆိတ္ကြယ္ရာအရပ္၌ ေဖာက္ျပားၿမဲျဖစ္သည္။ မိန္းမသားမွာ အားႏြဲ႔သူျဖစ္သျဖင့္ ေယာက္်ားတို႔ ေစာ္ကားမႈကို ခံရသည္သာျဖစ္သည္။ ေယာက္်ားကစ၍ေဖာက္ျပားသည္သာမ်ား၏။ မိန္းမက ျမွဴဆြယ္သည္းလည္း ရွိ၏။ ႏွစ္ေယာက္မွာ အျပစ္ရွိသည္။</item>
+         <item>မေကာင္းေသာမိန္းမအေၾကာင္းကုိ ေဖာ္ျပျခင္း ျဖစ္သည္။ ထိုမိန္မမ်ိဳးကို ေယာက္်ားက ေပါင္းသင္၍ မည္မွ်ပင္ၾကာေစကာမူ စြန္႔သင့္သည္ဟုဆို၏။ မယားဆိုးကို ဆက္၍ေပါင္းေနလွ်င္ ေယာက္်ားမွာနစ္နာသည္ မွန္၏။ တစ္ျပန္တစ္လွည့္ဆိုရပါမူ  လင္းဆိုးကိုေပါင္းရေသာ မိန္မကလည္း လင္ကိုမစြန္႔သင့္ပါသေလာ။ မိန္းမက စြန္႔ရန္ခက္လွသည္။ ေယာက္်ားကမိန္းမကို ပိုင္သည္။ မိန္းမက ေယာက္်ားကို မပိုင္ေခ်။ ယခုအခါ ေခတ္ေျပာင္းေလၿပီ။ မေကာင္းလွ်င္ မေကာင္းသူကို ေကာင္းသူက စြန္႔ပစ္သင့္သည္ဟုဆိုလွ်င္ ပို၍ သင့္သည္။</item>
+         <item>မိန္းမေကာင္း မိန္းမျမတ္တို႔၏ က်င့္ထံုးျဖစ္သည္။ လင္ကိုရိုေသျခင္း၊ အိမ္မႈတာ၀န္ ကိုေက်ပြန္ျခင္း ႏွင့္ သစၥာရွိျခင္းတို႔သည္ အေရးပါဆံုးျဖစ္သည္ဟု ထင္ပါသည္။</item>
+         <item>မိန္းမပ်ိဳ၏ ကိုယ္ကာယအလွႏွင့္ ေကာင္းေသာအမူအက်င့္တို႔ကို ေဖာ္ျပသည္။ ထိုမိန္းမပ်ိဳကို ယုတ္ညံ့ေသာ အမ်ိဳးမွပင္ျဖစ္ေစ၊  ထိန္းျမားရန္ မေႏွာင္ေႏွးသင့္။ ေျခာက္ျပစ္ကင္း သည္ ရွာလွေခ်သည္။ အေပၚယံအလွထက္ စိတ္အလွကပိုအေရးႀကီးပါသည္။ စိတ္အလွတြင္ အမူအရာရည္မြန္ျခင္းႏွင့္ အက်င့္ေကာင္းျခင္းတုိ႔ ပါ၀င္သည္။</item>
+         <item>တန္ေဆာင္မုန္းလသည္ မိုးေလကင္းစင္၍ သာယာသည္။ ေကာင္းကင္ျပင္တြင္ နကၡတ္စံုသည္။ ေပ်ာ္ပြဲရႊင္မ်ား က်င္းပၾကသည္။ ထိုသို႔ေသာ သာယာေသာကာလသည္ အေကာင္းဆံုးျဖစ္သည္။ မိန္းမအေပါင္းတို႔တြင္ လွပေသာ မိန္းမတို႔သည္ အေကာင္းဆံုးျဖစ္ေသာ ေၾကာင့္	ထိမ္းျမားသင့္သည္။ သားတို႔တြင္အႀကီးဆံုးသားသည္ အရင္ဆံုး အားကိုးရတက္သည္။ ထို႔ေၾကာင့္ အေကာင္းဆံုးျဖစ္သည္ ဆိုႏိုင္သည္။ အရပ္ရွစ္မ်က္ႏွာတြင္ ေျမာက္အရပ္ ဗုဒၶၶၶျမတ္စြာ ေျမာက္အရပ္ကို ေခါင္းျပဳ၍ ပရိနိဗၺာန္စံေတာ္မူေသာေၾကာင့္ ျမတ္၏ဟု ယူဆၾကသည္။</item>
+         <item>မိန္းမဘ၀သည္ ေယာက်္ားဘ၀ထက္ ေလ်ာ့နိမ့္၏ဟု ယူဆၾကသည္အေလ်ာက္ မိန္းမတစ္ေယာက္က ေယာက္်ားဘ၀ ရလိုပါေၾကာင္း မိန္မဘ၀ရတိုင္း ဆုေတာင္လွ်င္ ထိုမိန္းမက မိမိလင္ကို အထူးရိုေသစြာ လုပ္ေကၽြးသမႈျပဳရပမည္။</item>
+         <item>လင္ရွိမယားကို ၾကာခိုျခင္းေၾကာင္း ထိုေယာက္်ားသည္ ငရဲက်ၿပီးေနာက္ လူျပန္ျဖစ္လွ်င္ မိန္းမဘ၀သို႔ ေရာက္တက္သည္။ ထို႔ေၾကာင့္ ေယာက္်ားဘ၀ကို ဆက္လက္ရရွိ လိုလွ်င္ ထိုအကုသိုလ္ကံကို ေရွာင္ရေပမည္။</item>
+         <item>အရြယ္ခ်င္းမမွ်သူတို႔ ေပါင္းဖက္ျခင္း၌ အႏၱရာယ္ရွိတက္သည္။ ဇရာအိုႏွင့္ ကညာပ်ိဳတို႔ေပါင္းဖက္လွ်င္ အဖိုးအိုက သူ႔ဇနီးကို မယံုႏိုင္ေခ်။ ယင္းသို႔ ေပါင္းဖက္ျခင္းသည္ ထို႔သူ အုိ႔အဖို႔ ပ်က္စီးရာအေၾကာင္းျဖစ္သည္။</item>
+     </string-array>
+     <string-array name="part5_en_exp">
+         <item>“The beauty of women “is devotion to their husbands. Here “women” stand for “wives”. A dutiful wife is graceful and noble.</item>
+         <item>Wealth is one’s possession, which can be depended upon. The power of a monarch lies in his armed forces.</item>
+         <item>Being proper is an important quality. Improper means unbecoming. A monk should be contented and frugal, so he will be of a thin body, and this is proper for ascetics. Four-legged animals must be plump so that they will e liked by people. A man must be educated to be fit for a good position in life. A woman must be married, or she will not get due respects from people.</item>
+         <item>Separation usually makes for a decline from normal situation. Harpist and archer would weaken in their skill if they lacked in their practice for sometime. A virtuous wife would possibly weaken her virtue if separated from her husband for a month. Pupils away from their teacher for a half month might forger some of the lessons. However, there are exceptions.</item>
+         <item>Delight sterns from being pleased. In other words, if one is delighted one becomes happy. Interest precedes pleasure. The author of Niti means to say that such pleasures occur naturally.</item>
+         <item>No matter can be said to be successful until it is achieved. It is premature to say that an act is successful until the end is reached. The Niti master is usually critical about women. It is the general attitude of men. However, there are always exceptions.</item>
+         <item>“The monk who changes three monasteries, the woman who changes three husbands”, so it is said, are regarded as full of wiles. Here, too, there are exceptions. The monk who is well intentioned has to change his residence because the inmates are lax about the Law. The woman who is earnest about marriage finds the husband bad. So she is obliged to change her rather unstable mate in wedlock.</item>
+         <item>To tame means to let the person concerned mend his ways and become cordial. To tame a wicked person by beating raises the question of whether it is possible to tame him by beating. The wicked one is usually crafty. We should first consider whether or not it is good to beat him.  Taming a bad friend by refusing to talk with may not be good, for the bad friend will probably refuse to talk because his pride is hurt. It might be better to point out his mistake, thus giving him a chance to correct himself. It is good to deprive the bad wife of the wealth. It is also good to reduce the diet if an over eater.</item>
+         <item> In observing things, the suitable property should be present to make them look good. If such property were missing, they would not be in their proper form.</item>
+         <item>The husband has to earn money. The wife has to preserve it. That is correct. But times have changed. We have come to the age when the husband, as well as the wife, is obliged to go to work to earn money. However, the fact remains that man is the leader in the family and woman has to keep in store the money left after spending for the family.</item>
+         <item>Rivers meander forests are full of firewood. That is correct. As for the statement that woman commits sin in a secluded place needs qualification. Women are weak. A woman has to suffer man’s attack. It is actually man who starts the evil deed. Of course, woman also entices. The fault lies with both.</item>
+         <item>This is a statement about a bad wife. If the husband continues keeping her in wedlock, however long their married life may be the husband is the loser. That is true. On the contrary, if the husband turns bad, should not the wife desert him? It is difficult for her to do that. It is the man who owns his wife, not the wife her husband. Times have changed now. It would be better to say that the good should abandon the bad.</item>
+         <item>This is the code of conduct for a woman who should be deemed good and noble. Respect for the husband, dutiful as a housewife and loyalty are perhaps most important.</item>
+         <item>The stanza describe the physical comeliness and good conduct of a young lady. One should not hesitate to marry such a lady. Perfection is rare. Intrinsic beauty is more important than superficial beauty. Intrinsic beauty includes charming acts and a good character.</item>
+         <item>The Myanmar month of Tazaungmon is the time of no rain and is cool, for it is the beginning of cold season. So it is the best time for festivities. So it is the best time for the year. Beautiful woman is the best to marry. The eldest son is usually the most dependable, so he is regarded as the best son. North is considered sacred because Buddha lay with his head to that direction when He passed into NIbbana.</item>
+         <item>Womanhood is considered inferior to manhood. Therefore, if a woman desires to become a man in her next existence and accordingly prays for it, she should serve her husband very respectfully.</item>
+         <item>Committing adultery sends the sinner down to hell, and if he recovers the existence of a human being, he will become a woman. Therefore, he must avoid that sin.</item>
+         <item>Marriage of  persons of unequal age has dangers. An old man will not have faith in his young wife. Such a unicorn constitutes a cause for the old man’s ruin.</item>
+     </string-array>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >မူလစာမ်က္နွာ|Home</item>
+        <item >ပညာရွိ|The Sage</item>
+        <item >သူေတာ္ေကာင္း|The Good Man</item>
+        <item >လူမိုက္|The Bad Man</item>
+        <item >မိတ္ေဆြ|FriendShip</item>
+        <item >အမ်ိုးသမီး|Woman</item>
+        <item >ရွင္ဘုရင္|King</item>
+        <item>အေထြေထြ|Miscellaneous</item>
+        <item>အေျကာင္း|About</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/list_wise2</item>
+        <item>@drawable/list_goodman4</item>
+        <item>@drawable/list_bad2</item>
+        <item>@drawable/list_friend</item>
+        <item>@drawable/list_woman2</item>
+        <item>@drawable/list_king</item>
+        <item>@drawable/list_miscellanious</item>
+        <item>@drawable/about</item>
+    </array>
+    
+    
+    <string-array name="part6_mm">
+        <item>မင္းကား တစ္ယာမ္သာအိမ္ရာ၏။ ပညာရွိကား ႏွစ္ယာမ္သာလွ်င္ အိပ္ရာ၏။ အိပ္ရာ ေထာင္ေသာလူ အေပါင္းကား သံုးယာမ္သာ အိမ္ရာ၏။ ဖုန္းေတာင္း ယာစကားကား ေလးယာမ္ လံုးသာလွ်င္ အိပ္ရာ၏။</item>
+        <item>အၾကင္အရပ္၌ ဥစၥာရွိေသာသူသည္လည္းေကာင္း၊ အၾကားမျမင္သူအား ပညာရွိသည္ လည္းေကာင္း၊ မင္းသည္လည္းေကာင္း၊ ျမစ္သည္လည္းေကာင္း၊ ထိုၿမဳိ႕ ေဆးသမားသည္လည္း ေကာင္း၊ ဤငါးပါးတို႔သည္ မရွိကုန္။ ထိုအရပ္၌ တစ္ေန႔တစ္ရက္မွ် မေနရာ။</item>
+        <item>အၾကင္အရပ္၌ ျမတ္ႏိုးျခင္းလည္းမရွိ၊ ခ်စ္ျခင္းလည္းမရွိ၊ အေဆြခင္ပြန္းလည္း မရွိ။ တစ္စံု တစ္ေယာက္မွ် အတက္ပညာ သင္စိမ့္ေသာသူသည္ မရွိ၊ ထိုအရပ္၌ တစ္ေန႔တစ္ရက္မွ် မေနရာ။</item>
+        <item>	ေလာက၌ သားမရွိေသာ အိမ္သည္ ဆိတ္ၿငိမ္၏။ မင္းမရွိေသာ တိုင္းျပည္သည္ ဆိတ္ၿငိမ္ ၏။ အတက္မရွိေသာသူ၏ ခံတြင္းဆိတ္ၿငိမ္၏။ ဆင္းရဲျခင္းကား အလံုးစံု ဆိတ္ၿငိမ္၏။</item>
+        <item>	ေလာက၌ ဥစၥာကို အလိုရွိျငားအံ့။ ကုန္သြယ္ရာ၏။ အတက္ကို အလိုရွိမူကား အၾကားအျမင္ ရွိေသာ ပုဂိၢဳလ္ကို ဆည္းကပ္ရာ၏။ သားကိုအလိုရွိမူကား၊ မိန္မငယ္ကိုေနရာ၏။ မင္းမတ္ျဖစ္ျခင္းကို အလိ္ုရွိမူကားမင္း၏ အလိုသို႔လုိက္ရာ၏။</item>
+        <item>ရဟန္းသည္ မေရာင့္ရဲမူ ပ်က္၏။ ေျမႀကီးနင္း ျပည့္ရွင္းမင္းသည္လည္း ေရာင့္ရဲတက္မူ လည္းပ်က္၏။ ျပည့္တန္ဆာမသည္ ရွက္တက္မူ ပ်က္၏။ အမ်ိဳးေကာင္းသမီးသည္ မရွက္တက္မူ ပ်က္၏။</item>
+        <item>ငွက္တို႔၏အားကား ေကာင္းကင္တည္း။ ငါးတုိ႔၏အားကား ေရတည္း။ အားနည္းသူတို႔၏ အားကားမင္းတည္း။ သူငယ္တုိ႔၏အားကား ငိုျခင္းတည္း။</item>
+        <item>သည္းခံျခင္းသည္လည္းေကာင္း၊ ႏိုးၾကားျခင္းသည္လည္းေကာင္း၊ ထၾကြလံုးခရွိျခင္းသည္ လည္းေကာင္း၊	 ေ၀ဖန္ေပးကမ္းျခင္းသည္လည္းေကာင္း၊ သနားျခင္းလည္းေကာင္း၊ ေျမာ္ျမင္ျခင္း လည္းေကာင္း ဤေျခာက္ပါးတို႔ကား မင္းစေသာ လူႀကီးမိဘတို႔၏ အလိုရွိအပ္ကုန္ေသာ ဂုဏ္ေက်းဇူးတို႔တည္း။</item>
+        <item> ေလာက၌ မင္းတို႔သည္ တစ္ႀကိမ္သာ ဆိုကုန္၏။ ရဟန္းတို႔သည္ တစ္ႀကိမ္သာဆိုကုန္၏။ ဘုရားအစရွိေသာ သူေတာ္ေကာင္းတို႔သည္ တစ္ႀကိမ္သာဆိုကုန္၏။ ဤသို႔ေသာ သေဘာတရား သည္ ေရွ႔သူေတာ္ေကာင္းတို႔ အက်င့္တည္း။</item>
+        <item>	ေလာက၌ ပ်င္းေသာ အိမ္ရာေထာင္ေသာ သူသည္မေကာင္း၊ ကိုယ္ႏႈတ္ႏွလံုး မေစာင့္ ေသာရဟန္းသည္ မေကာင္း၊ မဆင္မျခင္ျပဳေလ့ရွိေသာ မင္းသည္မေကာင္း၊ ပညာရွိသည္ အမ်က္ထြက္၏။ ထိုပညာရွိသည္လည္း မေကာင္း။</item>
+        <item>အၾကင္အရပ္၌ အႀကီးအကဲတို႔သည္ မ်ားကုန္၏။ ခပ္သိမ္းေသာ သူတိုသည္ပညာရွိသာ ျပဳလိုကုန္၏။ ခပ္သိမ္းေသာ သူတို႔သည္ အႀကီးအျမတ္အျဖစ္ကို အလိုရွိကုန္၏။ ထိုသူတုိ႔၏ အမႈသည္ ပ်က္တက္၏။</item>
+        <item>မင္းသည္ကား အခြန္အတုတ္၏ ထြက္မထြက္ကိုလည္းေကာင္း၊ မ်ိဳးရိကၡာကုန္မကုန္ကုိ လည္းေကာင္း၊ 	ကိုယ္တိုင္သိေအာင္ျပဳရာ၏။ အမႈထမ္းသည္ မထမ္းကိုသည္ကိုလည္း သိေအာင္ျပဳ ရာ၏။ ႏွိမ္ျခင္းငွာ ထိုက္ေသာသူကိုလည္းႏွိမ္ရာ၏။ ေျမွာက္ျခင္းငွာ ထိုက္ေသာသူကိုလည္း ေျမွာက္ ရာ၏။</item>
+        <item>	ေလာက၌ ေနမင္းကို ေက်ာျဖင္ကပ္ရာ၏။ မီးကို၀မ္းျဖင့္သာလွ်င္ ကပ္ရာ၏။  အရွင္သခင္ကို နည္းမ်ိဳးစံုျဖင့္ ကပ္ရာ၏။ တမလြန္ဘ၀ကိုကား	မမိုက္သျဖင့္ ကပ္ရာ၏။</item>
+        <item>	ေလာက၌ မီးကုိလည္းေကာင္း၊ ေရကိုလည္းေကာင္း၊ မိန္းမကိုလည္းေကာင္း၊ လူမိုက္ကို လည္းေကာင္း၊ ေျမြကိုလည္းေကာင္း၊ မင္းမ်ိဳးတို႔ကို လည္းေကာင္း၊ ေရွာင္ရွားသျဖင့္ သြားအပ္၏။ လက္တေလာ အသက္ကိုခ်တက္ကုန္၏။</item>
+        <item>	ေလာက၌မေကာင္းေသာမယားႏွင့္ ေပါင္းဖက္သူသည္လည္းေကာင္း၊ ၾကမ္းတမ္းလွစြာ ေသာ စိတ္ရွိေသာကၽြန္ကိုေစေသာ သူသည္လည္းေကာင္း၊ ေျမြရွိေသာအိမ္၌ ေနေသာသူသည္ လည္းေကာင္း၊ ေသအံသည္သာလွ်င္ အမွန္တည္း။ ယံုမွားမရွိေပ။</item>
+        <item>	ေလာက၌ မိုက္မဲလွစြာေသာ တပည့္ကို အတက္ပညာ သင္ၾကားသျဖင့္ လည္းေကာင္း၊ မိန္းမယုတ္ျဖင့္ ေပါင္းဖက္သျဖင့္ လည္းေကာင္း၊ မသူေတာ္ႏွင့္ ေပါင္းဖက္သျဖင့္လည္းေကာင္း ပညာရိွေသာသူပင္ ျဖစ္ေသာ္ လည္း နစ္တက္ေခ်သာလွ်င္လည္း။</item>
+        <item>	ေလာက၌ ယုတ္မာေသာမႈကုိ သားတည္းျပဳေလမႈကား အမိျပဳသည္မည္၏။ ထုိ႔အတူ တပည္႔ တည္း မေကာင္းမႈျပဳမႈကား ဆရာျပဳသည္ မည္၏။ တုိင္းသူျပည္သား တည္းျပဴမူကား မင္းျပဳသည္ မည္၏။ မင္းတည္း မေကာင္းမႈျပဳမႈကား ပုေရာဟိတ္မေကာင္းမႈျပဳသည္ မည္၏။</item>
+        <item>မင္းမည္သည္ကား အမ်က္မာန္ေခါင္ ႀကီးလွေသာသူကုိ အမ်က္နည္းသျဖင္႔ ေအာင္ရာ၏။ မေတာ္မွန္လွေသာသူကုိ မိမိက သူေတာ္ေကာင္းလုပ္သျဖင္႔ ေအာင္ရာ၏။ ၀န္တုိေသာသူကုိလည္း ေပးကမ္းျခင္းျဖင္႔ ေအာင္ရာ၏။ စကားမမွန္ေသာသူကုိလည္း  စကားအမွန္ဆုိျခင္းျဖင္႔  ေအာင္ရာ၏။</item>
+        <item> ေလာက၌  ေပးကမ္းျခင္းသည္ မယဥ္ေက်းေသာသူကုိ  ယဥ္ေက်းေစတတ္၏။  ေပးကမ္းျခင္းသည္ ခပ္သိမ္းေသာအက်ုိးကုိ ၿပီးေစတတ္၏။ ေပးကမ္းျခင္းသည္  ခပ္သိမ္းေသာအက်ဴိးကုိ  ၿပီးစတတ္၏။ ေပးကမ္းျခင္းေၾကာင္႔လည္းေကာင္း၊     ခ်စ္ဖြယ္ေသာစကား ေၾကာင္႔လည္းေကာင္း   မိမိကလည္း  သူ႔အေပၚ  မုိေမာက္ႏုိင္သည္။  မိမိသုိ႔လည္း ရုိညႊတ္ကုန္၏။</item>
+        <item> ေလာက၌ ေပးကမ္းျခင္းသည္ ခ်စ္ေစတတ္ေသာ ေဆးတည္း။  ၀န္တုိျခင္းကား မုန္းေစတတ္ေသာ ေဆးတည္း။ ေပးကမ္းျခင္းကား အေျခြအရံမ်ားေသာ  ေဆးတည္း။ ၀န္တုိျခင္းကား အထီးက်န္ေသာ  ေဆးတည္း။</item>
+        <item> ေလာက၌    မ်ားစြာကုန္ေသာ ဂုဏ္ေက်းဇူးမွ  ကင္းကုန္သူတုိ႔အား ညီညႊတ္သည္ရွိေသာ္ ေအာင္အပ္ေသာ ရန္ကုိ ေအာင္ႏုိင္၏။  ျမက္ျဖင္႔လြန္ကုိ က်စ္အပ္၏။ ထုိလြန္ျဖင္႔ ဆင္ေျပာင္ကုိလည္း ဖြဲ႔ႏုိင္သလွ်င္ကတည္း။</item>
+        <item>ဗုိလ္ပါရဲမက္သဟဲ အေဖာ္ ျပည္႔စုံညီညႊတ္လ်က္လည္း ရန္ကုိ မေအာင္စြမ္းႏုိင္ေသာမင္းကား တန္ခုိးျဖင္႔ဘယ္ျပဳအံ႔နည္း။ ေလးေထာင္႔ရွိေသာအရပ္၌  ညွိအပ္ ေသာမီးသည္  အလုိလုိသာလွ်င္ ၿငိမ္းေခ်သလွ်င္ကတည္း။</item>
+        <item>ကာမစည္းစိမ္ကုိ  မင္းႏွင္႔အတူ  တရံတစ္ဆစ္မွ် မခံစားရာ ။  အသြင္လည္းေကာင္း၊ အရသာ စားျခင္းကုိ လည္းေကာင္း၊  ပန္းပန္ျခင္း၊ နံသာထုံျခင္းကုိလည္းေကာင္း၊  ပုဆုိးအ၀တ္ကုိလည္းေကာင္း၊  တန္ဆာဆင္ျခင္းကု္လည္း အလုံးစုံကုိိ မင္းႏွင္႔အတူ မျပဳရာ။</item>
+        <item>မင္းကား ငါ၏ခင္ပြန္းသည္ မျဖစ္။ မင္းကားဂုဏ္ရည္တူေသာ အေပါင္းအေဖာ္သည္ မျဖစ္၊ ဤမင္းကားင္၏ ငါ၏အရွင္တည္း၊ ဤသုိ႔စိတ္၌  အၿပီးေကာင္းစြာ ထားရာ၏။</item>
+        <item>မင္းခေယာက်ာ္းသည္ မင္းအား အလြန္ေ၀းေသာအရပ္၌  မခစားရာ။ အလြန္နီးသည္၌  မခစားရာ။  ေလညာ၌ မခစားရာ။  အလြန္နိမ္႔ေသာ  အရပ္၌လည္း မခစားရာ။ ဤသုိ႔ ေျခာက္ပါးေသာ အျပစ္တုိ႔ကုိ ၾကည္႔ရာ၏။ မီးကဲ႔သုိ႔ေစာင္႔စည္းလ်က္ တည္ရာ၏။</item>
+        <item>	ျမတ္စြာဘုရားႏွင့္ တူေသာေက်းဇူးရွိေသာ သူျဖစ္လင့္ကစားမင္းတည္းဟူေသာ မွီရာမရ မတင့္တယ္။ ပတၱျမားသည္ အဖိုးအတိုင္းအသိ ထိုက္ေသာ္လည္း ေရႊကိုမွီမွသာလွ်င္ တင့္တယ္၏။</item>
+    </string-array>
+    
+    <string-array name="part6_mm_exp">
+        <item>ညကာလကို အခ်ိန္ကာလ သံုးပါးပိုင္းျခားသည္ဟု သိၾကသည္။ ဗုဒၶစာေပေတြမွာ ညဥ့္သံုးယံ ဟုဆိုသည္ဆိုသည္။ နီတိဆရာက ညဥ့္ေလးယံဟု ဆိုသည္။ ညဥ့္သံုးယံ အပိုင္းအျခား မွာ ေျခာက္နာရီမွ ဆယ္နာရီထိ ပထမယံ။ ဆယ္နာရီမွ ႏွစ္နာရီထိ ဒုတိယယံ၊ ႏွစ္နာရီမွ မိုးလင္း ေျခာက္နာရီအထိ တတိယယံျဖစ္သည္။ နီတိဆရာအလိုအားျဖင့္ ပထမယံေျခာက္နာရီမွ ကိုးနာရီ၊ ဒုတိယယံ ကိုးနာရီမွ ဆယ့္ႏွစ္နာရီ၊ တတိယယံ ဆယ့္ႏွစ္နာရီမွ သံုးနာရီ၊ စတုတၳယံ သံုးနာရီ မွ နံနက္ေျခာက္နာရီဟူ၍ပင္။ ဘုရင့္မွာ အိပ္ခ်ိန္အနည္းဆံုးျဖစ္သည့္အေၾကာင္းမွာ သူမွာ တိုင္းျပည္ အုပ္ခ်ဳပ္သူ ျဖစ္သျဖင့္ တာ၀န္၀တၳရား မ်ားလွေခ်သည္။ အလုပ္မ်ားမ်ားလုပ္ရ၍ အိပ္နည္းသည္ဟု ဆုိၾက သည္။ အခ်ိဳ႕က ယူဆၾကသည္မွာ ဘုရင့္မွာ အႏၱရာယ္ႀကီးစြာရွိသည္။ အိပ္ေနခိုက္ လုပ္ႀကံခံရမွာ စိုးရသည္။ ထို႔ေၾကာင့္ တစ္ညမွာ သုံးနာရီ ေလးနာရီေလာက္ သူမ်ားေတြ မအိပ္ေသးခ်ိန္မွာ အိပ္ရသည္။ ထို႔ေနာက္ႏိုးႏိုးၾကားၾကာေနမွ လုပ္ႀကံရန္လာသူတို႔ကို ခုခံကာကြယ္ႏိုင္မည္ဟူ၍ပင္။ ပညာရွိမွာ ညတစ္၀က္	အခ်ိန္ေပး၍ အိပ္ႏိုင္သည္။ က်န္အခ်ိန္တြင္ တရားအား ထုတ္မွဳျပဳ၍ ျပႆနာ ပုစာၦတို႔ကိုေျဖရွင္းႏိုင္ရန္ ႀကံစည္ေတြးေခၚ ေနသင့္ဟု ဆိုလိုသည္။ အိမ္ ေထာင္သည္က ညဥ့္သံုးယံအိပ္ႏိုင္သည္။ နံနက္မွာ ေစာေစာထ၍ အိမ္မႈေရးရာ ကိစၥမ်ားကို ေဆာင္ ရြက္ရေပမည္။ နံနက္ေစာေစာအိပ္ရာမွထၿပီလွ်င္ ဘုရားရွိခိုးျခင္း၊ တရားထိုင္ျခင္း၊ ေန႔ကာလာမွာ လုပ္ရမည္ အလုပ္အတြက္ ျပင္ဆင္ျခင္း၊ လုပ္ရေပမည္။ သူေတာင္းစားအဖို႔ တစ္ညလံုး အိပ္ႏိုင္ သည္။ သူ႔မွာ မည္သည့္အလုပ္တာ၀န္မွ် မရွိေခ်။</item>
+        <item> ေဖာ္ျပထားေသာ ငါးမ်ိဳးမရွိလွ်င္ လူမူေရး၊ ပညာေရး၊ စီးပါြးေရး၊ က်မ္းမာေရးတို႔ ခ်ိဳ႕တဲ့မည္ျဖစ္သျဖင့္ ထိုငါးပါးမရွိသာအရပ္တြင္ တစ္ေန႔တစ္ရက္မွ် မေနအပ္ဟု ဆိုလိုသည္။</item>
+        <item>မေနအပ္သည္အရပ္၌ လကၡဏာ မ်ားကို ဆက္လက္ေဖာ္ျပျခင္း ျဖစ္သည္။</item>
+        <item>ဆိတ္ၿငိမ္ျခင္းဆိုသည္မွာ ဆိတ္သုဥ္းျခင္းကိုညႊန္းသည္။ ဘုရင္မရွိေသာ တိုင္းျပည္ကို ဆိတ္ၿငိမ္ျခင္းဟု ဆိုျခင္းသည္ အထင္မွားစရာျဖစ္၏။ နီတိဆရာ၏ ဆိုလိုခ်က္မွာ ေကာင္းေသာလကၡဏာမ်ား ဆိတ္သုဥ္းသည္ဟူ၏။</item>
+        <item>ဘုရင္အမတ္ျဖစ္ျခင္လွ်င္ မင္းလိုလိုက္ရမည္ဆိုေသာစကားသည္ ေရွးစကား ျဖစ္ေသာ္လည္း ယခုထက္တိုင္ မွန္ေနေသးသည္။ ေနာင္လည္းထိုအတိုင္းပင္ ျဖစ္မည္ဟု ယံုၾကည္ ရသည္။</item>
+        <item>လာဘ္လာဘကိုမက္ေသာ ရဟန္းသည္ သိကၡာပ်က္တက္သည္။ ေရာင့္ရဲျခင္း ရွိေသာမင္းသည္ တိုင္းျပည္တိုးတက္ေရး၌ အားသြန္ခြန္စိုက္မရွိသျဖင့္ တိုင္းသူျပည္းသားတို႔ အက်ိဳးေက်းဇူးမရဘဲ ရွိမည္။ ေရာင့္ရဲျခင္း၊ သည္းခံျခင္းမ်ားလြန္းလွ်င္ ၾသဇာအာဏာနည္းၿပီးလွ်င္ ပ်က္စီးတက္သည္။</item>
+        <item>အားသည္ အားကိုစရာကို ဆိုလိုသည္။ ငွက္သည္ ေကာင္းကင္ကို အားကိုသည္။ လြတ္လပ္စြာ ပ်ံႏုိင္သည္။ ရန္သူေတြ႔လွ်င္ ပ်ံတက္သြားႏိုင္သည္။ ငါးတုိ႔သည္ ေရကိုအားကိုးၾက သည္။ ေရနည္းလွ်င္း ငါးအဖို႔အားနည္းသြားရသည္။ အားနည္းသူတို႔ အားကိုးစရာမွာ မင္းျဖစ္သည္။ မင္းျပဌာန္းထားေသာ ဥပေဒမ်ားက အကာအကြယ္ေပးၾကသည္။ ကေလးငယ္တို႔သည္ ငိုလွ်င္ ႏို႔စို႔ရသည္။</item>
+        <item>မင္းႏွင့္လူႀကီးမ်ားသည္ အျပစ္မ်ားကို တက္ႏိုင္သေလာက္ သည္းခံခြင့္လႊတ္အပ္ ၏။ လုပ္ကိုင္ေဆာင္ရြက္မႈမ်ားတြင္ သတိၿမဲ၍ လံုလထုတ္ရန္လိုအပ္၏။ ေပးကမ္းစြန္႔ႀကဲမႈလည္း ျပဳ၏။ သနားစာနာျခင္း ရွိအပ္ေပသည္။ ကိစၥအ၀၀တို႔၌ ႀကိဳတင္ေျမာ္ျမင္မႈရွိမွသာ လုပ္ေဆာင္မႈ တို႔ ေအာင္ျမင္ၿပီးစီးေပလိမ့္မည္။ ယင္းေျခာက္ပါးတို႔သည္ မင္းႏွင့္တကြ သူႀကီးသူမတို႔ (ေခါင္းေဆာင္ တို႔)၏ လိုအပ္ေသာဂုဏ္ေက်းဇူးမ်ား ျဖစ္သည္။</item>
+        <item>မင္း၊ ရဟန္း၊ ပုဏၰားမ်ား ဘုရားအစ ရွိေသာသူေတာ္ေကာင္းမ်ားသည္ ေျပာစရာ ရွိလွ်င္ တစ္ခါမွ်သာေျပာသည္။ ေျပာစကားကို ဘယ္ေတာ့မွ်  မျပင္ေတာ့။ သူတုိ႔သည္ အေၾကာင္း မဲ့ မဆိုၾကေပ။ ဆိုလွ်င္လည္း ခိုင္ၿမဲသည္တည္။</item>
+        <item>ပ်င္းေသာ အိမ္ေထာင္သည္သည္စီးပြားမျဖစ္ေသာေၾကာင့္ မေကာင္းေခ်။ သိကၡာ မေစာင့္ဘဲ ေျပာဆိုျပဳလုပ္ေသာရဟန္းသည္ မေကာင္းေခ်။ မဆင္မျခင္ဘဲ လုပ္ခ်င္ရာလုပ္ေသာ မင္းသည္လည္းမေကာင္းေခ်။ ထင္ရာေလွ်ာက္လုပ္ေသာ မင္းသည္ အႏၱရာယ္ျဖစ္၏။ မင္းသည္ တိုင္းျပည္အုပ္ခ်ဳပ္ေရးရာ၌  မူးမတ္တို႔၊ ပညာရွိတို႔ႏွင့္ တိုင္ပင္ၿပီးမွ ေဆာင္ရြက္သင့္ေပသည္။ သို႔မဟုတ္လွ်င္	တိုင္းျပည္ႏွင့္ လူမ်ိဳးတို႔ ဆိုးက်ိဳးအေထြေထြ ရၾကေခ်သည္။</item>
+        <item>အႀကီးအကဲေတြ မ်ားေသာေနရာ၊ အားလံုးကသိသည္၊ တက္သည္ဆုိၿပီး ပညာရွိ လုပ္ခ်င္ေနသည့္ေနရာ၊ ထိုေနရာတြင္ ထိုသူတို႔အားလံုး၏ ျပဳမူတို႔သည္ ပ်က္စီးသည္သာ ျဖစ္ေခ် မည္။ (ပရမ္းပတာ ျဖစ္ကုန္ၾကေခ်သည္)။</item>
+        <item>ဘုရင္သည္ ႏိုင္ငံ၏ အခြန္ဘ႑ာႏွင့္ အသံုးစရိတ္တို႔ကို ကိုယ္တိုင္ စစ္ေဆးရေပ မည္။  အမႈထမ္းမ်ား တာ၀န္ေက်ပြန္မႈကိုလည္း စီစစ္ရေပမည္။ အျပစ္ေပးထိုက္သူကို အျပစ္ေပး၍ ခ်ီးျမွင့္ထိုက္သူကို ခ်ီးျမွင့္ရေပမည္။ သို႔မွသာလွ်င္ ႏိုင္ငံေတာ္ဖြံ႔ၿဖိဳးတိုးတက္ေပမည္။</item>
+        <item> ေနကို ေက်ာေပးရမည္။ မီးလံွဴရာတြင္ မ်က္ႏွာခ်င္းဆိုင္ရမည္။ အရွင္သခင္ကို နည္းအမ်ိဳးမ်ိဳးျဖင့္ ကပ္ရမည္။ ေနာင္တမလြန္ဘ၀ကို မမိုက္ဘဲ တရားက်င့္ႀကံအားထုတ္ျခင္းျဖင့္ ရင္ဆိုင္ရေပမည္။</item>
+        <item> မီးကို ေရွာင္သင့္သည္။ မီးကိုမေရွာင္လွ်င္ ေလာင္တက္သည္။ ေရကိုေရွာင္သင့္၊ မေရွာင္လွ်င္ ေရနစ္တက္သည္။ မိန္းမယုတ္ကိုေရွာင္ သင့္သည္။ မေရွာင္လွ်င္ ဒုကၡေရာက္ႏိုင္ သည္ ။ လူမိုက္ကိုေရွာင္မွ သာလွ်င္ သူ၏ မိုက္မဲမႈ၏ ဆိုးက်ိဳးမွ လြတ္ကင္းမည္။ ေျမြကိုသတိထား ၍ေရွာင္ရမည္။ မင္းမ်ိဳးတို႔သည္ မင္းအားကိုးႏွင့္ စိတ္မလိုလွ်င္ ဒုကၡေပးတက္သည္။ ေရွာင္ႏိုင္သမွ် လြတ္ကင္းေအာင္ ေနသင့္သည္။ ယင္းတုိ႔သည္ မိမိအား ေသေစသည္အထိအႏၱရာယ္ျပဳႏိုင္သည္။</item>
+        <item>မေကာင္းေသာမယားဟူသည္ သစၥာေဖာက္ေသာမိန္းမ ျဖစ္သည္။ လင္သားကို အမ်ိဳးမ်ိဳးႏွိပ္စက္မည္။ ထိုသို႔ေသာ မိန္းမႏွင့္ ေပါင္းဖက္ေနသူသည္ ဒုကၡေရာက္လိမ့္မည္။ မိုက္ကန္းေသာ အေစခံကို ခုိင္းေစေသာသူသည္ အေစခံက အတိုက္အခံျပဳျခင္း ခံရမည္သာျဖစ္၏။ အက်ိဳးပ်က္ေစႏိုင္သည္။ ထိုအေစခံမ်ိဳးကို ဆက္လက္ထားလွ်င္ ဒုကၡေရာက္လိမ့္မည္။ ေျမြရွိေသာ အိမ္မွာေနလွ်င္ ေျမြကိုက္ခံရမည္။</item>
+        <item>ေပါင္းသင္းမႈသည္ လူ႔ဘ၀တါင္ အလြန္အေရးပါသည္။ အေပါင္းအသင္းမေကာင္း လွ်င္ မိမိက မည္မွ်ပင္ေကာင္းေစဦး၊ အႏၱရာယ္ ျဖစ္တက္သည္။ အဆင္ျခင္ရွိေသာ ပညာရွိပင္လွ်င္ ပ်က္စီးတက္သည္။</item>
+        <item> သားသမီးမေကာင္း မိဘေခါင္း၊ တပည္႔မေကာင္း ဆရာ႔ေခါင္း၊ ျပည္သူမေကာင္း ရာဇာေခါင္းဟူေသာ  စကားမ်ဴိးကဲ႔သုိ႔ပင္။ ငယ္သူ၏ အျပစ္ကုိ ႀကီးသူ ( အႀကီးအကဲ) က တာ၀န္ခံရသည္။</item>
+        <item> ေဒါသအလြန္ႀကီးသူကုိ  ေဒါသမရွိဘဲဆက္ဆံလွ်င္ ေအာင္ျမင္သည္။ မင္းတုိ႔သည္ေဒါသႀကီးလွ်င္   မေတာ္တဆ အမွားလုပ္မိမည္။ ယင္းသုိ႔ လုပ္မီလွ်င္ ဒုကၡမ်ားတတ္သည္။ ႏုိင္ငံျခား ဆက္ဆံမႈမွာလည္း  ေဒါသဆႀကီး ျပဴမူလုိက္လွ်င္ ႏွစ္ျပည္ေထာင္ စစ္မက္ျဖစ္ႏုိင္သည္။ မင္းေကာင္းမင္းျမတ္တုိ႔သည္  သည္းခံျခင္းတရားကုိ အၿမဲထားရွိရမည္။  မေတာ္မွန္မေျဖာင္႔မတ္သူကုိ မိမိက သူေတာ္ေကာင္းတရားအတုိင္း  ေတာ္မွန္ေျဖာင္႔မတ္စြာ  ဆက္ဆံလွ်င္  ေအာင္ျမင္မည္။  ႏွေျမာကပ္ၿငိသူကုိ  ရက္ေရာျခင္းျဖင္႔   ေအာင္ျမင္ႏုိင္သည္။  အခ်ဴပ္ဆုိေသာ္  မေကာင္းမႈတုိ႔ကုိ  ေကာင္းမႈတုိ႔ကုိ   ေကာင္းမႈျဖင္႔   ေအာင္ႏုိင္ရာ၏။</item>
+        <item> ေပးကမ္းစြန္႔ႀကဲျခင္း၌ တန္ခုိးႀကီးစြာရွိ၏။ ယင္းသည္ ရုိင္းပ်သူအား ယဥ္ေက်းေစသည္။  ခပ္သိမ္းေသာကိစၥတုိ႔ကုိ  ၿပီးေစႏုိင္သည္။ ေပးကမ္းစြန္႔ႀကဲမႈႏွင္ပ ခ်ဳိေသာစကားတုိ႔ျဖင္႔ အားလုံးေသာ သူတုိ႔ကုိ ေအာင္ႏုိင္သည္။ သူတုိ႔၏ ရုိေသေလးစား မႈတုိ႔ကုိလည္း ရႏုိင္သည္။</item>
+        <item> ေပးကမ္းစြန္႔ႀကဲျခင္းသည္  ပီယေဆးျဖစ္၏။ ႏွေျမာကပ္ၿငိျခင္းသည္ အမုန္းေဆး ျဖစ္၏။ ေပးကမ္းစြန္႔ႀကဲလွ်င္  အေျခြအရံေပါသည္။ ႏွေျမာကပ္ၿငိလွ်င္ အေျခြအရံမဲ႔ၿပီး တစ္ ကုိယ္တည္း ေနရေခ်မည္။ ေျခြမွရံသည္ဟု ဆုိ၏။</item>
+        <item>ညီညႊတ္ျခင္းသည္ အင္အားဟူေသာ ဆုိရုိးစကားကုိ ေဖာ္ျပျခင္းျဖစ္သည္။  တစ္ဦးခ်င္းအားျဖင္႔ ဂုဏ္သတၱိမရွိေသာ  သူမ်ားစြာကုိ  စုစည္းလွ်င္ ခဲခက္ေသာကိစၥမ်ားကုိပင္ ပူးေပါင္းေဆာင္ရြက္ျခင္းျဖင္႔  ျပဳလုပ္ထားေသာႀကဳိးသည္  ဆင္ေျပာင္ႀကီးကုိ  ထိန္းခ်ဴပ္ႏုိင္ ေလာက္ေအာင္ ခုိင္သည္။</item>
+        <item>ညီညႊတ္ေသာ အင္အားစု ရရွိပါလွ်က္ႏွင္႔ ရန္သူကုိ မေအာင္ႏုိင္ေသာ မင္းသည္ ေခါင္းေဆာင္မႈ ညံ႔၏။ ေလထန္ေသာ အရပ္၌  မီးညွိ၍  မရႏုိင္သကဲ႔သုိ႔  ေခါင္ေဆာင္မႈညံလွ်င္ ေအာင္ျမင္မႈ မရႏုိင္။  ေနာက္လုိက္တုိ႔သည္  အစုအေ၀းအျဖစ္ အေရးပါသည္ႏွင္႔ အမွ် ေခါင္းေဆာင္သူ၏  စြမ္းရည္လည္း အေရးပါလွ၏။ ပုိ၍ပင္ ပါေပသည္။</item>
+        <item>ဘုရင္ကုိတုၿပီး အေနအထုိင္ အျပဳအမႈတုိ႔ကုိ မျပဳသင္႔ ။  ျပဳလွ်င္ မင္းကသူ႕ကုိ  ၿပဳိင္ရေကာင္းလားသေဘာျဖင္႔ အမ်က္ထြက္ကာ  အျပစ္ဒဏ္ေပးလိမ္႔မည္။ ဤ၀ါဒသည္ ေရွးခတ္ႏွင္႔ဆုိင္သည္။  ယခုေခတ္သည္ ဘုရင္ေခတ္ မဟုတ္ေတာ႔ေပ။ ရွိေနေသာ ဘုရင္သည္လည္းအမည္ခံတုိ႔သာ ျဖစ္၏။  သုိ႔ေသာ္ဤစကား၏ ရသသည္ ယခုတုိင္ ရွိေနေသးသည္ ။ မတူလွ်င္ မတုႏွင္႔၊။ တုလွ်င္ဒုကၡ ေရာက္ႏုိင္သည္ဟူေသာ ၾသ၀ါဒ ျဖစ္သည္။ မတူဘဲႏွင္႔တုလွ်င္  တုသူမွာသာ နစ္နာဖြယ္သာရွိသည္။  မတူသည္မွာ တူလာမည္မဟုတ္။  မိမိ၏ဘ၀က ခင္းေပးထားေသာလမ္းကုိေလွ်ာက္လွ်င္  မိမိအဖုိ႔ သတ္မွတ္ထားေသာပန္းတုိင္သုိ႔ ေရာက္ေပလိမ္႔မည္။</item>
+        <item>ဘုရင္ကုိ မိတ္ေဆြဟု မမွတ္သင္႔၊  ဂုဏ္ရည္တူအေပါင္းအေဖာ္ဟူ၍လည္း  မမွတ္သင္႔။  ယင္းသုိ႔မွတ္ထင္ၿပီး အေရာ၀င္လွ်င္ ဘုရင္က သူကုိအရုိအေသတန္သည္ဟု ထင္လိမ္႕မည္။  သူ႕ကု္အရွင္သခင္ဟူ၍သာ အၿမဲမွတ္သင္႔သည္။</item>
+        <item>မင္းကိုခစားရာ၌ အထူးသတိထားရမည္။ သင့္ေတာ္ေသာေနရာမွ ခစားရမည္။ သုိ႔မဟုတ္လွ်င္ အျပစ္ျဖစ္ႏိုင္သည္။ မင္းခေယာက္်ား ကမ္းနားသစ္ပင္ဆိုေသာ စကားရွိသည္။ အခါ မလင့္ မင္းျပစ္မင္းဒဏ္ ခံရတက္သည္။</item>
+        <item>ဘုရင္၏ ဘုန္းတန္းခိုးသည္ ႀကီးလွ၏။ တစ္ေယာက္ေသာသူ၌ ျမတ္စြာဘုရားကဲ့ သို႔ ဂုဏ္ေက်းဇူး ရွိေနေစကာမူ ဘုရင့္ေက်းကၽြန္ ျဖစ္သည့္အေလ်ာက္ ဘုရင့္၏အရိပ္ေအာက္တြင္ မရွိလွ်င္ မတင့္တယ္။ ပတၱျမားသည္ အဖိုးမည္မွ် တန္ေစကာမူလည္း ေရႊမကြပ္လွ်င္ မတင့္တယ္။ ဤအဆိုသည္ ဘုရင့္ကို အႀကီးအက်ယ္ ေျမွာက္စားထားေသာ အဆိုျဖစ္သည္။ နီတိဆရာက သူ႔စာကို ဘုရင့္ကို ဦးစြာဆက္ရမည္ျဖစ္သျဖင့္ မင္းအႀကိဳက္ဆိုလိုက္ျခင္း ျဖစ္သည္ထင္ရသည္။</item>
+    </string-array>
+    
+    <string-array name="part6_en">
+        <item>A king should sleep only one watch of the night, a sage two watches, a family man three, and a beggar all the four.</item>
+        <item>Do not live in a place where there is no rich man, no sage, no king, no river, and no physician. If these five are absent, one should not reside there even for a day.</item>
+        <item>One should not live in a place where there is no element of respect or love, no relative or no teacher. One should not reside there even for a day.</item>
+        <item>In this world, the house in which there are no children is dreary. The country without a king is desolate. The man of no learning has his lips sealed tight. Destitution makes for absence of all things.</item>
+        <item>In this world, if one wants to make money, he should do trading. If one wants to acquire learning, he should attend to a man of learning. If one wants to have a child, he should marry a maiden. If one wants to become a king’s minister, he should serve him to his satisfaction.</item>
+        <item>If a monk is not contented, he will go to ruin. If a king is contented, he will go to ruin. If a prostitute is shy, she will fail in her trade. If a maiden of good family is unashamed, she will become cheap and her life will be ruined.</item>
+        <item>The source of strength for birds is the sky. The source of strength for fishes is the water. The source of strength for the weak is the king. The source of strength for infants is crying.</item>
+        <item>Forbearance, vigilance, industry, charity, kindness and foresight, these six are the attributes of the king, elders and parents.</item>
+        <item>In this world, kings speak but once, so do monks and Brahmins, so do the virtuous headed by Buddha. This is the practice of ancient virtuous persons.</item>
+        <item>In this world the family man who is lazy is not good. The monk who does not control his speech and acts is not good. The king who does impulsively is not good. The sage who is angry is not good.</item>
+        <item>In a certain place where there are many chiefs and leaders, where many persons want to acts as sages, where many persons want to be chiefs and nobles, all their endeavors will end in failure.</item>
+        <item>A king should personally inspect the revenue as well as expenditure. He should personally inspect the work of government servants. He should punish those who deserve punishment and honor those who deserve to be honored.</item>
+        <item>One should approach the sun with his back towards it, the fire with his stomach, the master by all means, and the next life by not falling into folly.</item>
+        <item>In this world one should shun fire, water, woman, fool, snake and the royal family. They may harm and kill him instantly.</item>
+        <item>The person who couples with a bad wife, or who employs a rude servant, or who lives in a house where there is a snake, will surely die is no doubt about it.</item>
+        <item>In this world, teaching a foolish pupil, living with a wicked woman, associating with an unvirtuous person, these are the factors that could cause harm, including death, even to a wise man.</item>
+        <item>In this world, if the son committed wicked acts, it means the mother did it. So also, if the pupil committed a sin, it means the teacher did it. If the people of a country have done something wrong, it means the king did it. If the king committed a sin, it means the king’s counselor did it.</item>
+        <item>The king should win over the person who is in great anger by showing no anger. The dishonest persons should be won over by honesty. The stingy person should be won over by generosity. The liar must be quelled by telling the truth.</item>
+        <item>Charity makes the untamed one tame. It achieves all objectives. Charity and sweet words place one above others, and they will bow to him in deep respect.</item>
+        <item>In this world, charity is live potion. Miserliness is poison of hate. Charity attracts many attendants. Niggardliness leaves the miser alone.</item>
+        <item>In this world if many persons who have no worth of their own are united, they can conquer what is to be conquered. A rope can be used to tie up a huge elephant.</item>
+        <item>How will the king who cannot conquer the enemy although his troops are united? A fire lit in a windy place will die by itself.</item>
+        <item>One should not enjoy sensual pleasures, or assume the appearance, or take the delicious food, or use flowers or toiler, or wear dress or adorn one self in the same manner as the king.</item>
+        <item>The king is not my friend, nor is he my companion with equal status. He is my lord. Keep this in mind forever.</item>
+        <item>A servant of the king should not wait upon the king at a great distance, or too near, or directly in front, or the direction of the wind, or in a place too high or too low. He should avoid these six faults, in the way as one who keeps away from the fire.</item>
+        <item>Even a person having the qualities of Buddha is not in a position of advantage if not under the patronage of the king. The ruby, though priceless, is not becoming if it is not set in gold.</item>
+    </string-array>
+    
+    <string-array name="part6_en_exp">
+        <item>The duration of a night is divided into three, or four, period. In Buddhist literature three periods are mentioned. First period, 6p.m to 10p.m, second, 10 t0 2a.m to 6a.m.According to the duration of the night is in four periods, each lasting three hours beginning with 6p.m.
+	The king is required to sleep only three or four hours of early night. That is probably because as the ruler of a country has many duties to perform, so during the first period. Another view is that the king has to be wakeful after a three or four hours sleep so that he would be on the alert to defend himself from would be assassins.
+	 The sage should sleep half the night and work out problems and questions in the second half. The family man may enjoy sleep for the first three period of the night. The beggar has nothing to do, so he can sleep the whole night.</item>
+        <item>This is meant to say if these five are absent, social, educational, economic, health would be defective. So one should not live in such a place even for a day.</item>
+        <item>This is a continuation of the description of the place in which one should not reside.</item>
+        <item>“Silence” in this context means destitution. The country without a king is not quiet. There is a misunderstanding in this matter.The Noti master means to say that “Silence” is absence of good things.</item>
+        <item>The statement that if one wants to be appointed minister by the king, he should fulfill the king’s wishes is an old saying but we believe that it remains true even to this day and will remain so in future.</item>
+        <item>The monk who hankers after property, fails to observe the Law prescribed for the monks. The king who lives in contentment and does not work hard, and people will not get the benefit of prosperity. If a king is over-contented, he will lack influence and power, and so he will be ruined.</item>
+        <item>“Strength” in this context is source of strength or something to depend upon. Birds have the sky in which to fly freely or fly up when they meet with enemies. Fishes depend on water. The fish in low water is helpless. The weak look up to the king who prescribes laws for their protection. Infants get milk when they cry.</item>
+        <item>The king and elders should have patience and should pardon the faults as far as possible. They should be alert and work hard on all affairs. When there is an occasion for distribution of favors, they should be liberal. For solving problems they should have foresight so that their endeavor gains success. These are the six attributes of the king and elders (or leaders).</item>
+        <item>Kings, monks and Brahmins speak only once in any case. So do the Buddha and the virtuous. They never alter their words. They do not speak for no reason. They seldom make remarks or pass judgment, but when they do make a statement, their word is firm.</item>
+        <item>The lazy householder, being lazy, will not be able to bring prosperity to his family. The monk who should observe the rules of the Holy Order but acts without restraint is not good. The king who acts impulsively is not good. The king in ruling the country should take necessary action only after consultation with ministers, generals and wise men. Otherwise, the country and the people will suffer from his misdeeds.</item>
+        <item>In a certain place there are many chiefs and leaders, where many want to pose as wise men, many aspire to become leaders, all their attempts will fail.</item>
+        <item>The king should personally examine the state revenue and expenditure. He should review the work of state officials and punish those who fail in their duty and who are corrupt, and promote those whose work is commendable. Then only will the kingdom prosper.</item>
+        <item>take the sun’s rays on one’s back. Sit at fire-side with one’s front to the fire. Approach the master in many ways. In order to gain a better position in the next existence by doing good according to Dhamma, and not resorting to folly.</item>
+        <item>Avoid fire, or one may be burnt. Avoid water, or one may be drowned. Avoid bad women, or one would get into trouble. The fool should be shunned, or one might suffer from the effect of his folly. Snake should be avoided, for snakebite is fatal. Members of the royal family are likely to give trouble if they are displeased. One should avoid them as far as possible. They all may harm or even kill one who does not shun them.</item>
+        <item>A bad wife is an unfaithful woman. She will give her husband trouble in many ways and he will suffer from staying with her. The rude and foolish servant will oppose his master and may cause ruin if the master continues to employ him. If one lives in a house where there is a snake, he will die from snakebite.</item>
+        <item>Association with persons is an important factor in human life. However good one may be, association with bad persons could cause injury. Even a wise man who usually thinks be fore taking action is likely to go to ruin.</item>
+        <item>The folly of children fails in the parent’s head; the teacher is responsible for his pupil’s wrong acts, the king is held responsible for the wrongs committed by the people of his country. The chief or leader is responsible for the follower’s acts.</item>
+        <item>If a person is very angry one can get the better of him by showing no anger. If one is in great anger one may do wrong by chance. In the relations between two countries, if a king is in great anger, there could be war. Good kings should have patience and forbearance. One should teat dishonest over by liberal acts. The liar can be won over by speaking the truth.</item>
+        <item>Charity has great power. It can make the rude person civil. It can achieve all things. Charity together with cordiality will make one highly respected.</item>
+        <item>Charity is love potion. Stinginess is a hate poison. IF one gives something (money or things), many will be willing to serve him. A miser has no attendant, and so he has to remain a lonely person.</item>
+        <item>This is the description of the saying, “Union is strength.” Individually worthless persons can be united and with their united effort they can achieve many difficulties. A rope made of grass can curb a large elephant; the rope is so strong.</item>
+        <item>The king who cannot win the war although he has a united army. A fire cannot be successfully lit in a windy place. So also, poor leadership will not achieve anything. A united body of followers is clearly important, but able leadership is equally, or even more, important.</item>
+        <item>One should imitate the ways of the king. He may be offended, and the imitator will get punishment. This advice is for ancient times. At present, the age of kings ha passed and the few monarchs are kings just in name. But the essence of that advice remains. Do not imitate if one is not equal to the other, or one would get into trouble. That is what the advice means. The imitator will never be the same as the imitated. If one walks along the path paved by one’s destiny, he will eventually reach the destination prescribed for him by his kamma.</item>
+        <item>The king is not one’s friend or one’s equal. He is one’s lord. If one mistakes the king as friend or equal, the king will think that one is taking advantage. One should always regard him as one’s lord.</item>
+        <item> In waiting upon the king, the king’s servant should very careful. Or he could in fault. There is a saying to the effect that a king’s servant is like a tree on the edge of the bank of a river. It means that he could get punishment at any time, just as the tree could be uprooted and falls into the river.</item>
+        <item>The king’s power is great. Even if one has the attributes of Buddha (even if he is so exalted), he is just a subject of the king. Unless he under the patronage of the king, he is not at an advantage. We think that the NIti master, who was obliged to submit his treatise to the king for approval and patronage, tries to please the king.</item>
+    </string-array>
+    
+    
+    <string-array name="part7_en">
+        <item>How can there be sila (percept) in monk who cohabits with a woman? How can the man who is greater eater of meat have pity? How can a heavy drinker speak the truth? How can a lascivious person have the sense of shame? How can a sluggard have learning? How can a person of greater anger have wealth?</item>
+        <item>The drunkard, the one who is in the habit of going out at untimely period, the one who goes to theater often, the regular gambler, the one who has bad friends, the lazy one. These persons are liable to ruin.</item>
+        <item>In daytime one should not talk about others without looking around, at night one should not speak without being asked. One should be as careful as the hunter who is afraid of harm, looks front and back while going about in the forest.</item>
+        <item>Though alive, these five persons are dead declares the Niti master, Byasa, The poor man, the ailing man, the foolish man , the man with many debts, and the man who serves the king.</item>
+        <item>The wise man on seeing the danger that is coming avoids it from afar, but when he sees danger arriving, he faces it without fear.</item>
+        <item>In this world, the person who sleeps too much, the one who is forgetful, the one who lives in complacence, the one who is ailing, the lazy one, the passionate person, the person who delights in new actions: these seven do not resort to books.</item>
+        <item>Oh, riches! Go to the poor man. The rich man has wealth in full. Oh, Rain-God! Pour on the dry land. The ocean is fill with water.  This prayer is of no avail. No such thing comes up as prayed for Kamma is reigns supreme.</item>
+        <item>When one has done what is to be done, the one who requested him to do it does not look act upon him. So, one should leave something still to be done.</item>
+        <item>In this world, cotton is light, lighter is the wonton; lighter still is the one who does not accept the admonition of teachers and parents; even lighter is the person who disregards the admonition of Buddha.</item>
+        <item>In this world, the umbrella made of stone is heavy. Still heavier, or of more weight, is the word of the gods. Weightier still is the admonition of teachers and parents. The word of Buddha is of greatest weight.</item>
+        <item>In this world, the right-hand is the slave of the body. The little finger of the right hand is the slave of the ear, the nose and the eyes. The left-hand is the slave of the feet.</item>
+        <item>The middle part of a betel leaf is guarded by Kuvera god, at the base guards of the ogre, and the evil god guards the tip. So the base and the tip of the betel leaf should be cut off before chewing the leaf, and that act is auspicious.</item>
+        <item>Barhama looks after the slate. The god (Vishnu) watches the wrapper of the slate. The learners adore that Brahma and that Vishnu god. These celestial always look upon the worshippers with love and kindness.</item>
+        <item>Cattle feed human beings and provide them with wealth. For that reason cattle should be adored and respected by people.</item>
+        <item>Those who eat cattle-flesh are like those eating their mother’s flesh. When cattle die, they should be thrown to vultures or into the water.</item>
+        <item>If one starts learning a lesson on a Thursday, the purpose of learning will be achieved. If one starts on a Sunday or a Friday, the study will be successful only by a half. If the starting day is either a Wednesday or a Monday, the studying will not succeed. If one starts the study on a Saturday or a Tuesday, the student will probably die.</item>
+        <item>Learning lessons on the eight waxing and waning of the moon is like killing the teacher. If on the fourteen waxing and waning, it is like killing the pupil, if on the tenth waxing and waning it is like killing the study itself, and if on the fullmoon day, it is like killing the parents.</item>
+        <item>In this world, the student learning an art should not eat cocoanut on the seventh waxing and waning day of the moon. Nor should he eat pumpkin on the ninth day, nor on the twelfth day pinnam, nor curry on the third day. If he happens to have eaten them, his knowledge will disappear.</item>
+        <item>In this world, for the good of the clan an individual should be sacrificed. For the good of the village, the clean should be sacrificed. For the good of the region, the village should be sacrificed. For the good of oneself the entire world should be sacrificed.</item>
+        <item>In this world, the lion, the virtuous man, the elephant; these leave the place not suitable for them to remain. The cow, the wicked person, the deer; these creatures remain where they are until they die.</item>
+        <item>One should not live in a place where there is no respect, no love, no friend, nor a teacher.</item>
+        <item>The wise person has the mind directed to wards the new place, like the foot moving forward with hope. At the same time, he has the mind still on the old place, like the other foot standing on the old place. One should not leave the old place without enquiring about the new place.</item>
+        <item>In this world, when doing business of selling and buying, or acquiring knowledge, or serving as a messenger, or copulating, one should suspend the sense of shame and fear.</item>
+        <item>The women’s appetite is two times stronger than men; their intelligence is four times higher than men; their industry six times greater and their sensuality eight times greater than men.</item>
+        <item>In this world, sugar cane gradually increase it sweet taste from one joint to another. The good and noble friend is found to be more reliable as friendship develops, like the sugar cane. One the contrary, the evil-minded friend proves less and less reliable like the sugar cane, which at first sweet but gradually lacks sweetness.</item>
+        <item>The cultivator, the trader, the minister, the virtuous monk: when all these four increase in number and spread out in a country, that country will become developed and prosperous.</item>
+        <item>To the person who does not recite, the text is lost. To the man who lacks industry, his house is weak and in ruin. To the beautiful one, laziness is a blemish. To the monk who is lax in discipline, negligence of the Law of the Holy Order is blemish.</item>
+        <item>In this world, the property of those who act industry is likely to become eventually the possession of those more industrious: The evil ones say that the effect of past deeds is of primary importance.</item>
+        <item>The wise men do not say so. They work hard to do all things they have to do. If that purpose is not achieved, it is only that the desired result does not ensue. Where, then, is the fault?</item>
+        <item>Men and women of low birth, lacking in wisdom, of no comely personality and without quality: such people are obviously defective, but this is the age of decadence, the age in which money matters most.</item>
+    </string-array>
+    
+    <string-array name="part7_en_exp">
+        <item>Persons with bad habits are liable to ruin. The monk who cohabits with a woman falls from the state of being a monk, according to Parazikan rules of conduct. The great meat-eater does not have pity. The drunkard is a habitual liar. The passionate person has no sense of shame. He does not hesitate to commit a sin. The lazy one will not learn anything. The irritable person is not fit for any work, so he will not have wealth.</item>
+        <item>People with an excess of bad habits are going to ruin. The drunkard, person who goes out at untimely hours, regular theatregoer, and gambler, person falling into bad company, sluggard: they are all going to ruin. All can see how they are ruined.</item>
+        <item>One should not speak carelessly. In daytime he should look around before speaking. At night time he should not speak without being asked. The hunter fears danger that could come from any direction. So when goes about in the forest he looks around.</item>
+        <item>Though alive, these five persons are to be taken as dead. They are man in poverty, man in sickness, man in folly, man I deep debt and man in the service of the king. They are as bad as dead because they are not able to enjoy the pleasures of human life, so says Niti master Byasa.</item>
+        <item>This stanza means that the coming danger should be avoid from afar and that the arriving danger should be avoid from afar and that arriving danger should be faced without fear.</item>
+        <item>This stanza says the seven persons mentioned are not given to the study of books.</item>
+        <item>All the things are arranged by Kamma. The rich is rich. The poor is in the destitution. The ocean is full with water. May the rain fall on dry land! Such prayer is in vain. Kamma is the chief factor. We cannot amend as we wish, so we must accept cheerfully what Kamma offers us.</item>
+        <item>A person does a good turn, but the receiver of the benefit does not turn back to look upon him. When one’s wishes are fulfilled, one usually fails to look up to him. (he fails to thank him). So do not do things completely for a person, leave something to be done. Then only that person’s attention will linger upon the benefactor.</item>
+        <item>Cotton is light. The wonton person is lighter. The one who disobeys his teachers and parents is still lighter. The one who disobeys his teachers and parents is still lighter. The one who neglects the teaching of Buddha is the lightest. Here, in this context, the meaning of “light” varies. In the first instance it refers to small weight. In the remaining instances, it means “of no worth”, “useless”.</item>
+        <item>This is the contrast of the preceding stanza. The stone umbrella is heavy. The word of the gods, that of teachers and parents and finally the word of Buddha are respectively weightier.</item>
+        <item>Right-hand is the body’s slave. Most of movements and doings are made with the right-hand. As for the left-hand, it is used to deal with the feet. Usually, the upper part of the body is served by the right-hand while the left-hand is used for the lower part.</item>
+        <item>The stanza is meat for betel-chewing people, (especially the Indians). The Myanmar of old usually followed this advice. They cut off the base and the tip of the betel leaf before they started chewing it.</item>
+        <item>The stanza relates the custom as prescribed ancient Indian treatises.</item>
+        <item>According to a doctrine held by the Hindus of India, cattle provide (human beings) with nourishment and promote prosperity. Therefore, people must love and adore cattle.</item>
+        <item>This is a continuation of the preceding statement on cattle. Hindus must not take cattle-flesh. If cattle die, they should be given to vultures to eat, or thrown into a stream or a river.</item>
+        <item>This stanza is also in accordance with Hindus treatises. The belief that the starting should be a Thursday was taken up by ancient Myanmars. In fact, there is no need to choose a particular date for starting a study. If the pupil tries hard, and the teacher teaches him well, he will become conversant with the subject he studies.</item>
+        <item>Just the view of ancient Hindus. We have to note it only as general knowledge.</item>
+        <item>No explanation seems necessary. These are the views of old time Hindus.</item>
+        <item>In saying that the few must be sacrifices for the good of many, it means that one must not look for one’s own good in working for the benefit of many people. The last sentence of this stanza refers to the good of oneself in the spiritual sense, not material. In the endeavor for setting oneself free from the cycle of existences (samsara), one must renounce the entire world. That is grand renunciation.</item>
+        <item>One should not stay on in a place, which does not suit one’s purpose. One should move to a more suitable place. The lion, the virtuous man and the elephant leave the place not suited to them, unlike the crow, the wicked man and the deer who remain where they are to the last.</item>
+        <item>In a place there is no one to give respect, or love, or there is no friend or teacher. One should not live in such place.</item>
+        <item>If it is advisable to change from the old to the new it should be done. But not every change is good. There is saying, “Leaving the dead bison for the living one.” It means one should not do anything without being sure. The saying, “if one does not move to a new village, one will not be rich and respectable person, “ is checkmated by another saying which goes.” The tiger fated to die moves to another jungle”</item>
+        <item>In doing business of selling and buying one should not hesitate to haggle. One should not feel diffident; or think it is not fair. In acquiring knowledge one should not feel shy and hesitate to question about what one does not know, or fear to make mistakes. As a messenger, one should speak out without fear. In having sex, one should be set-aside for a while one’s sense of shame and fear.</item>
+        <item>The woman are twice better in appetite means they are good choosers of delicacies. Not like men who eat anything available. As they are adept at cooking, they are good at taking good food. Women are industrious six times more than men because household work occupies them in the house all day. The statement that women are four times stronger in intelligence means that they are more quick-witted than men. They have more wiles than men.</item>
+        <item>The noble person and the wicked one are the reverse at every turn. The noble friend becomes more dependable as the friendship develops in intimacy, and the evil-minded friend proves less and less reliable. The taste of a sugar cane is used here as an example.</item>
+        <item>The cultivator produces food, the trader works in business, the minister administers the country, and the virtuous monk spreads the Buddha’s Dhamma. The increase in number and the presence of these four all over a country will spell development and prosperity in that country</item>
+        <item>One’s negligence of duty will spell for him. If a learner does not study, he will not learn his lessons. A lazy man’s house is full of filth and is going to ruin. Laziness is a blemish of the beautiful. Laxity in discipline is a blemish of a monk.</item>
+        <item>The person who does not work hard loses his wealth and his property eventually gets into the hands of those who work hard. Lazy men blame their kamma (the effect of their past deeds), they do not see their own fault.</item>
+        <item> The wise men do not put the blame of kamma. They word hard at what they have to do. If the result does not turn out as expected, they take the consequences as they are. The worker or the kamma has no fault.</item>
+        <item>They are of low birth, with no education, not having comely appearance. These defects are obvious. But this is the age of decadence, when money matters most.</item>
+    </string-array>
+    
+    <string-array name="part7_mm">
+        <item>မိန္းမႏွင့္ ရင္းႏွီးေသာ ရဟန္း၌  အဘယ္မွာ သီလရွိအံနည္း။ အသားစားၾကဴးေသာသူ၌ အဘယ္မွာ သနားရွိအံနည္။ ေသေသာက္ၾကဴးသည္သူ၌ အဘယ္မွာ စကားမွန္အံနည္း။ အလိုရမၼက္ႀကီးေသာသူ၌ အဘယ္မွာ အရွက္ရွိအံနည္း။ အပ်င္းႀကီးေသာသူ၌ အဘယ္မွာ အတက္ရွိအံနည္း။ အမ်က္ႀကီးေသာသူ၌ အဘယ္မွာ ဥစၥာရွိအံနည္း။</item>
+        <item>	ေသေသာက္ၾကဴးေသာသူသည္လည္းေကာင္း၊ အခါမဟုတ္သည္၌ သြားေလ့ရွိေသာ သူသည္လည္းေကာင္း၊  သဘင္အသြားမ်ားေသာ သူသည္လည္းေကာင္း၊ ေၾကြအန္အစရွိေသာ ေလာင္းကစားၾကဴး ေသာသူသည္လည္းေကာင္း၊ မေကာင္းေသာ အေဆြခင္ပြန္းရွိေသာ သူသည္လည္းေကာင္း၊ ပ်င္းရိဖင့္ႏႊဲ႔ေသာ သူသည္လည္းေကာင္း၊ ဤသူတို႔ကား စည္းစိမ္တို႔သည္ ပ်က္ဆီးအံ့ေသာ အေၾကာင္းတည္း။</item>
+        <item>	ေန႔အခါ၌ မရႈဦးဘဲ မဆိုအပ္၊ ညဥ့္အခါ၌ မေမးဦးဘဲ မဆိုအပ္၊ ေဘးမွေၾကာက္ေသာ ေတာမုဆိုးသည္ ေတာ၌ေရွ႕ေနာက္ရႈလ်က္ သြားသကဲ့သို႔ က်င့္အပ္၏။</item>
+        <item>	အသက္ရွင္လ်က္လည္း ေသသူဟူ၍  ငါးေယာက္ေသာသူတို႔ကို ဗ်ာသဆရာသည္ ၾကားအပ္ ကုန္၏။ ဆင္းရဲေသာသူ၊ အနာႏွိပ္စက္ေသာသူ၊ မိုက္မဲေသာသူ၊ ၿမီးမ်ားေသာသူ၊ မင္း၀ယ္ ကိုယ္ၾကပ္ခစားေသာသူ၊ ဤသူတို႔တည္း။</item>
+        <item>ပညာရွိတို႔သေဘာကား မေရာက္ေသးေသာေဘးကို ျမင္သည္ရွိေသာ္ အေ၀းကလွ်င္ ၾကဥ္ရာ၏။ ေရာက္ၿပီး ေရာက္ဆဲေသာ ေဘးကုိျမင္မူကား ေၾကာက္ရြံတက္ေသာ သေဘာမရွိသည္ ျဖစ္၏။</item>
+        <item>	ေလာက၌ အအိပ္ၾကဴးေသာသူသည္ လည္းေကာင္း၊ ေမ့ေလ်ာ့ေသာသူသည္ လည္းေကာင္း၊ ခ်မ္းသာစြာ ေနတက္ေသာသူသည္ လည္းေကာင္း၊ အနာရွိေသာသူ လည္းေကာင္း၊ ပ်င္းေသာသူ လည္းေကာင္း၊ အလိုႀကီးေသာသူလည္းေကာင္း၊ အမူသစ္၌ ေမြ႔ေလ်ာ္ေသာသူ လည္းေကာင္းဤခုႏွစ္ေယာက္ေသာ သူတို႔သည္ က်မ္း၀န္မွ ကင္းကုန္၏။</item>
+        <item>အိုလာဘ္၊ သူဆင္းရဲသို႔သြားပါေလ။ လာဘ္မ်ားေသာသူသည္ လာဘ္ျဖင့္ျပည့္၏။ အိုပဇ ၨဳန္ နတ္၊ ၾကည္း၌ရြာေလကုန္။ သမုဒၵရာသည္ ေရျဖင့္ျပည္၏။ ဤသဘာ၀တရားသည္ မရွိ။ ကံသာလွ်င္ ပဓာနတည္း။</item>
+        <item>	ေလာက၌ ျပဳဖြယ္ကိစၥသည္ ျပဳၿပီးသည္ရွိေသာ္ ျပဳတက္သူကို တစ္စံုတစ္ေယာက္ေသာသူ သည္ တစ္ဖန္မရႈၾကည့္တက္။ ထို႔ေၾကာင့္ ခပ္သိမ္းကုန္ေသာ အမႈတို႔ကို အၾကြင္းအားျဖင့္ ျပဳရာ၏။</item>
+        <item>	ေလာက၌လဲသည္ ေပါ့၏။ ထိုထက္ လွ်ပ္ေပၚေသာသူသည္ ေပါ့၏။ ထိုထက္ဆရာမိဘတို႔ ၏အဆံုး အမကိုမခံေသာသူသည္ ေပါ့၏။ ထို႔ထက္ ျမတ္ဗုဒၶၶ၏ သာသနာေတာ္၌ ေမ့ေလ်ာ့ေသာ သူသည္ေပါ့၏။</item>
+        <item> ေလာက၌ ေက်ာက္ထီးသည္ ေလး၏။ ထိုထက္နတ္တို႔၏ ေျပာၾကားျခင္းသည္ ေလး၏။ ထို႔ထက္ ဆရာမိဘတို႔၏ အဆံုးအမသည္ ေလး၏။ ထို႔ထက္ ဗုဒၶၶျမတ္စြာ၏စကားသည္ ေလး၏။</item>
+        <item>	ေလာက၌  လက္ယာလက္ကားကိုယ္၏ ကၽြန္မည္၏။ ဤလက္ယာလက္၌ လက္သန္းကား နား၊ ႏွာေခါင္းတို႔၏ လည္းေကာင္း၊ မ်က္စိတို႔၏လည္းေကာင္းကၽြန္မည္၏။ လက္၀ဲလက္သည္ ေျခတို႔၏ ကၽြန္မည္၏။</item>
+        <item>ကြမ္း၏ အလယ္ျဖစ္ေသာ  အရြယ္္၌ ကုေ၀ရနတ္သည္ ခပ္သိမ္းေစာင့္၏။ အရင္၌ ဘီးလူးသည္ ေစာင့္၏။  အဖ်ား၌လည္း ေဒ၀မိစာၦနတ္ယုတ္သည္ ေစာင့္၏။ ထို႔ေၾကာင့္ ထိုအရင္း အဖ်ားတို႔ကို ျဖတ္၍ စားျငားအံ့၊ က်က္သေရသည္သာလွ်င္ ပြား၏။</item>
+        <item>	ျဗဟၼာသည္သာလွ်င္ သင္ပုဏ္းကို ေစာင့္၏။ နတ္သည္လည္းကမၸေလႊကိုေစာင့္၏။  ထို႔ေၾကာင့္သာလွ်င္ အတက္သင္ေသာ သူတို႔သည္ ထိုျဗဟၼာ၊ ထိုဗိႆဏိုးတို႔ကို  ပူေဇာ္ေစကုန္သည္။ အခါခပ္သိမ္း ထိုပူေဇာ္သူတို႔ကို ျမတ္ႏိုးတက္ကုန္၏။</item>
+        <item>	ႏြားတို႔သည္ ခပ္သိမ္းေသာသူတို႔အားအၾကင္ေၾကာင့္ ေကၽြးေမြးတက္ကုန္၏။ စည္းစိမ္ကို ေပးတက္ကုန္၏။ ထို႔ေၾကာင့္သာလွ်င္ အမိအဖသကဲ့သို႔ ႏြားတို႔ကို ျမတ္ႏိုးရာ၏။ အရိုအေသလည္း ျပဳရာ၏။</item>
+        <item>အၾကင္သူတို႔သည္လည္း ႏြား၏အသားကို စားကုန္၏။ ထိုသူတို႔သည္ အမိ၏အသားကို စာသည္မည္ရာ၏.။ ထိုႏြားတို႔သည္ ေသကုန္ရွိေသာ လင္းတတို႔အားေပးရာ၏။ ေရအယာဥ္၌ ေသာ္လည္းေမ်ာရာ၏။</item>
+        <item>ၾကာသပေတးေန႔၌ အတက္ပညာစ၍ သင္မူကားၿပီးစီး၏။ တနဂၤေႏြေန႔၊ ေသာၾကာေန႔၌ သင္မူကားလ်စ္လ်ဴရႈ၏။ ဗုဒၶဟူးေန႔၊ တနလၤေန႔၌ သင္မူကားအတက္မတက္ရာ။ စေနေန႔၊ အဂၤါေန႔ ၌ သင္မူကားေသရာ၏။</item>
+        <item>လဆန္းရွစ္ရက္၊ လဆုတ္ရွစ္ရက္ေန၌ အတက္ပညာသင္မူကား၊  ဆရာကို သတ္သည္ မည္၏။ လဆန္းဆယ့္ေလးရက္၊ လဆုတ္ဆယ့္ေလးရက္တို႔၌  အတက္သင္မူကား၊ တပည့္ကို သတ္သည္မည္၏။ လဆန္းဆယ္ရက္၊ လဆုတ္ဆယ္ရက္ေန႔၌  အတက္ပညာသင္မူကားအတက္ ကိုသတ္သည္မည္၏။ လျပည့္ေန႔၌ အတက္ပညာကိုသင္မူကား အမိအဖကိုသတ္သည္ မည္၏။</item>
+        <item>	ေလာက၌အတက္ပညာသင္ေသာ သူသည္ လဆန္းခုႏွစ္ရက္၊ လဆုတ္ခုႏွစ္ရက္၌ အုန္း သီးမစားရာ။ ကိုးရက္ေျမာက္၌ အိမ္ဘူးကို ထို႔အတူ မစားရာ။ ဆယ္ရက္ေျမာက္၌ ကင္းပိန္႔ကို မစားရာ။ သံုးရက္ေျမာက္၌ ဟင္းမ်ိဳးကို မစားရာ။ စားမိျငားအံ့၊ အတက္သည္ေပ်ာက္၏</item>
+        <item>	ေလာက၌ အမ်ိဳး၏ အက်ိဳးငွာတစ္ေယာက္ေသာ သူကိုစြန္႔ရာ၏။ ရြာ၏အက်ိဳးငွာ အမ်ိဳးကို စြန္႔ရာ၏.။ ဇနပုဒ္၏အက်ိဳးငွာ ရြာကိုစြန္႔ရာ၏.။	မိမိ၏အက်ိဳးငွာ ေျမအားလံုးကိုစြန္႔ရာ၏။</item>
+        <item>	ေလာက၌ ျခေသၤ့သည္လည္းေကာင္း၊ သူေတာ္ေကာင္းသည္လည္းေကာင္း၊ ဆင္သည္ လည္းေကာင္း၊	ဤသူတို႔သည္ အက်ိဳးမရွိေသာ အရပ္ကိုစြန္႔၍ သြားကုန္၏။ က်ီးသည္လည္း ေကာင္း၊ ယုတ္မာေသာ ေယာက္်ားသည္လည္းေကာင္း၊ သမင္သည္လည္းေကာင္း၊ဤသတၱ၀ါတို႔ သည္ ထိုမိမိတို႔က်င္လည္ရာ အရပ္၌သာလွ်င္ ပ်က္စီးျခင္းသို႔ေရာက္ကုန္၏။</item>
+        <item>အၾကင္အရပ္၌ ျမတ္ႏိုးျခင္းမရွိ။ ခ်စ္ျခင္းလည္းမရွိ။ အေဆြခင္ပြန္းလည္းမရွိ။ တစ္စံုတစ္ေယာက္ေသာ အတက္ပညာသင့္စိမ့္သူလည္း မရွိ။ ထိုအရပ္၌ေနျခင္းကို မျပဳရာ။</item>
+        <item>ပညာရွိေသာ္ကား လွမ္းေသာ ေျခတစ္ဖက္ႏွင့္ တူေသာအရပ္သစ္ကို ေျမာ္တင္းေသာစိတ္ ျဖင့္သြား၏။ ရပ္ေသာေျခတစ္ဖက္ႏွင့္တူေသာ အရပ္ေဟာင္းကိုမခြာေသာစိတ္ျဖင့္ ရပ္၏။ အရပ္ သစ္ မစူးစမ္းဘဲေနရာေဟာင္းကို မစြန္႔ရာ။</item>
+        <item>	ေလာက၌ ေရာင္း၀ယ္ေသာအခါ၌လည္းေကာင္း၊ အတက္သင္ေသာအခါ၌ လည္းေကာင္း၊ တစ္ဖန္အေစအပါးခံေသာအခါ၌ လည္းေကာင္း၊ ေမထုတ္မွီ၀ဲေသာအခါတို႔၌ လည္းေကာင္း၊ အရွက္အေၾကာက္ကို စြန္႔သည္ ျဖစ္ရာ၏။</item>
+        <item>မိန္းမတို႔၏ အစားစားျခင္းကား ေယာက္်ားတို႔ထက္ ႏွစ္ဆလြန္သည္ ျဖစ္၏။ ပညာသည္ လည္းေလးဆလြန္၏။ လံုးလက ေျခာက္ဆလြန္သည္လည္းျဖစ္၏။ ကာမဂုဏ္တက္မက္ျခင္းကာ ရွစ္ဆလြန္၏။</item>
+        <item>	ေလာက၌ ႀကံသည္ အဖ်ားမွအစဥ္သျဖင့္ အဆစ္တိုင္းအဆစ္တိုင္း လြန္ေသာထူးေသာ အရသာသည္ျဖစ္၏။ ခင္ပြန္းေကာင္းျဖစ္ေသာ သူေတာ္သူျမတ္သည္လည္း ထိုႀကံ၏အဖ်ားမွ အရင္းတုိင္ေအာင္လြန္၍လြန္၍ ခ်ိဳသည္ႏွင့္တူ၏။ ယုတ္မာေသာအေဆြခင္ပြန္သည္ကား အရင္းအစ၌သာ ခ်ိဳ၍ အဖ်ားတိုင္ ေအာင္မခ်ိဳေသာ ႀကံ၏သေဘာႏွင့္တူ၏။</item>
+        <item>လယ္လုပ္ေသာသူသည္ လည္းေကာင္း၊ ကုန္သည္သည္လည္းေကာင္း၊ အမတ္သည္ လည္းေကာင္း၊ အၾကားအျမင္ သီတင္းသီလႏွင့္ ျပည့္စံုေသာ ရဟန္သည္လည္းေကာင္း ထိုေလးပါး တို႔သည္ျပန္ေျပာစြာ ျဖစ္ကုန္လတ္ေသာ္ တိုင္းႏိုင္ငံသည္ ျပန္႔ေျပာသည္ျဖစ္ရာ၏။</item>
+        <item>မသရဇၨ်ာယ္ေသာသူမ်ားအား ပညာသည္ ပ်က္၏။ ထၾကြလံုးလ ၀ီရိယ မရွိသူ၏အိမ္ သည္ ညစ္ႏြမ္းပ်က္ဆီး၏။ အဆင္းလွေသာသူအား ပ်င္းရိျခင္းသည္ အညစ္အေၾကးတည္း၊ ဣေျႏၵကို မေစာင္ေရွာင့္ေသာရဟန္းအား ေမ့ေလ်ာ့ျခင္းသည္ အညစ္အေၾကးတည္း။</item>
+        <item>	ေလာက၌ အခ်ိဳ႕ေသာလံုးလရွိသည္လူတို႔၏ ဥစၥာကားႀကီးေသာ လံုးလရွိကုန္ေသာသူတို႔၏ သာလွ်င္ ဥစၥာအျဖစ္သို႔ေရာက္တက္၏။ ယုတ္မာေသာလူတို႔သည္ ေရွးကံသာ ပဓာနဟု ဆိုကုန္သည္သာလွ်င္တည္း။</item>
+        <item>ပညာရွိတို႔က ဤသုိ႔မဆိုကုန္။ ခပ္သိမ္းေသာအမႈကိစၥတို႔ကို လံုးလျပဳသည္သာလွ်င္တည္း။ အကယ္၍ ထိုအမူသည္မၿပီးခဲ့အံ့။ ရည္တိုင္းအက်ိဳးမျဖစ္ရံုသာလွ်င္တည္း။ အဘယ္မွာ အျပစ္ရွိအံ့ နည္း။</item>
+        <item>အၾကင္ေယာက္်ား၊ မိန္းမသည္ နိမ့္ေသာအမ်ိဳး၌လည္းျဖစ္၏။ ႏႈတ္ပညာ၊ လက္ပညာလည္း မရွိ။ အရုပ္အရည္ လည္းမတင့္တယ္။ အစြမ္းအားလည္းမရွိ။ ထိုသို႔ အျပစ္တင္ေသာ္လည္းဤကာ လကား ကာာဆုတည္း၊ ဥစၥာသာလွ်င္ အထူးျပဳေသာကာလတည္း။</item>
+    </string-array>
+    <string-array name="part7_mm_exp">
+        <item>အက်င့္ဆိုးသူတို႔ ပ်က္စီးရျခင္း အေၾကာင္းကိုေဖာ္ျပသည္။ မိန္းမႏွင့္ ေပါင္းသင္း ေနေသာရဟန္းသည္ ပါရာဇိကက်၍ အဘယ္မွာ သီလရွိမည္နည္း။  အသားစားၾကဴသူသည္ သနားၾကင္နာျခင္း ကင္း၏။ အရက္သမားသည္ စကားမမွန္ျဖစ္တက္သည္။ အလိုရမၼက္ႀကီးသူမွာ ရွက္ရေကာင္းမွန္း မသိေခ်။ အကုသိုလ္ျပဳရမွာ မရွက္ေခ်။ ပ်င္းသူ စာမတက္ေခ်။ ေဒါသႀကီးသူသည္ မည္သည့္အလုပ္အကိုင္ႏွင့္မွ်  မသင့္ေသာေၾကာင့္ ဥစၥာပစၥည္းရွိႏိုင္မည္ မဟုတ္ေခ်။</item>
+        <item>အမူအက်င့္ဆိုးမွာ အလြန္အကၽြံရွိသူတုိ႔သည္ ပ်က္စီးတက္သည္။ အရက္သမား၊ ညဥ့္နက္သန္းေခါင္ လမ္းထြက္သူမ်ား၊ ပြဲႀကိဳက္သူမ်ား၊ ကစားသမာမ်ား၊ အေပါင္းမွားသူမ်ား၊ လူပ်င္းမ်ားသည္ ပ်က္စီးၾကမည္သာ ျဖစ္၏။ သူတို႔ ပ်က္စီးၾကပံုကို အမ်ားျမင္ေတြ႔ႏိုင္သည္။</item>
+        <item>စကားကို အမွတ္မထင္ မေျပာရာ။ ေန႔တြင္မဆိုခင္ ဟိုဟိုသည္သည္ ဦးစြာၾကည့္ သင့္သည္။ ည၌သူတစ္ပါးက မေမးဘဲႏွင့္ မဆိုသင့္ေပ။ ေတာထဲသို႔လွည့္သြားေသာ မုဆိုးသည္ ေဘးအႏၱရာယ္ ေၾကာက္ေသာေၾကာင့္ ပတ္၀န္းက်င္ကို ၾကည့္၍သြားသကဲ့သို႔ က်င့္ရာ၏။</item>
+        <item>ဤငါးဦးတို႔သည္ အသက္ရွင္ေသာ္လည္း ေသသကဲ့သို႔ ဆင္းရဲၾက၏။ ေငြေၾကးမဲ သူနာမက်န္းသူ၊ မိုက္မဲသူ၊ ေၾကြးမ်ားသူ၊ ဘုရင့္ကိုခစားရသူ၊ ဤငါးဦးသည္ ရွင္လ်က္ေသသူမ်ားပင္ တည္း၊ ထိုသူတို႔သည္ အျခားသူမ်ားသကဲ့သို႔ လြတ္လပ္ျခင္းမရွိဒုကၡအသီးသီး ေရာက္ၾကရသည္။ အသက္ရွင္လ်က္ လူ႔စည္းစိမ္ကို မခံစားၾကရသျဖင့္ ေသသူသကဲ့သို႔ပင္ျဖစ္၏ဟု နီတိဆရာ ဗ်ာသက ဆိုသည္။</item>
+        <item>လာမည္ေဘးကို အေ၀းမွ ေရွာင္ရာ၏။ ေရာက္ေလၿပီး	ျဖစ္ေသာေဘးကို မေၾကာက္မရြံ ရင္ဆိုင္ရာ၏ဟူ၍ ဆိုလိုသည္။</item>
+        <item> ေဖာ္ျပပါ ပုဂိၢဳလ္ခုႏွစ္ေယာက္သည္ စာေပက်မ္းဂန္ကို	 ဖတ္ရႈေလ့လာျခင္း မျပဳ ၾကဟုဆိုလိုသည္။</item>
+        <item>ဆင္းရဲေသာသူကို လာဘ္လာဘေပး၍မရ။ မိုးေခါင္ေရရွားအရပ္၌လည္း မိုးရြာ ေစျခင္းငွာ မစြမ္းသာ။ ဤဆုေတာင္းသည္ အခ်ည္းအႏွီးတည္း။ ကံသာလွ်င္ ပဓာနတည္း။</item>
+        <item>တစ္ပါးေသာသူအား အက်ိဳးေဆာင္ေပးသျဖင့္ အက်ိဳးရသူသည္ အက်ိဳးရၿပီးေနာက္ အက်ိဳးျပဳသူကို ျပည္လွည့္မၾကည့္တက္ေခ်။ ထို႔ေၾကာင့္တစ္ခုခု လုပ္ေဆာင္ေပး လွ်င္ ၿပီးျပည့္စံုသည္အထိလုပ္မေပးဘဲ အနည္းငယ္ခ်န္ထားသင့္သည္။ သို႔မွသာထိုသူက မိမိကိုဆက္၍ ဂရုထားေပလိမ့္မည္။</item>
+        <item>လဲသည္ေပါ့၏။ လွ်ပ္ေပၚသူသည္ ပို၍ ေပါ့၏။  ထိုထက္ပို၍ေပါ့သူသည္ ဆရာမိဘ တို႔၏အဆံုးအမကို မခံသူျဖစ္သည္။ အေပါ့ဆံုးမွာ ဗုဒၶၶ၏အဆံုးအမကို လ်စ္လ်ဴရူသူျဖစ္ေခ်သည္။ ဤေနရာ၌ ေပါ့သည္ဟူရာ၌ အေလးခ်ိန္နည္းျခင္းကို လဲ၌သာ ဆို၏။ အျခားႏိႈင္းယွဥ္ခ်က္ အဆင့္ဆင့္ တို႔တြင္ ေပါ့သည္ဟူသည္မွာ ေပါ့တန္သည္။ အသံုးမက် တန္ဖိုးမရွိဟူ၍ ဆိုလိုသည္။</item>
+        <item> ေရွ႕အပိုဒ္ကို ေျပာင္းျပန္ယွဥ္ျပခ်က္ ျဖစ္သည္။ ေက်ာက္ထီးသည္ အေလးခ်ိန္ ေလး၏။ နတ္စကား၊ ဆရာမိဘစကားႏွင့္ ဗုဒၶၶစကားတုိ႔သည္ ပို၍ပို၍ အဓိပၸါယ္ ေလးနက္ေပသည္။</item>
+        <item>လက္ယာလက္သည္ ကိုယ္၏ကၽြန္ျဖစ္သည္။ လႈပ္ရွားမႈမ်ား၌  လက္ယာလက္ကို အသံုးမ်ားသည္။ မ်က္စိ၊ နား၊ ႏွေခါင္းတို႔အတြက္ လက္ယာလက္သန္းကို အသံုးမ်ားသည္။ လက္၀ဲ လက္မွာမူ ေျခေထာက္အတြက္ အသံုးျပဳရသည္။ မ်ားေသာအားျဖင့္ ကိုယ္အထက္ပိုင္းအတြက္ လက္ယာလက္ကို သံုးမည္။ ေအာက္ပိုင္းအတြက္ လက္၀ဲလက္ကို အသံုးမ်ားသည္။</item>
+        <item>ဤအပိုဒ္သည္ ကြမ္းစားေလ့ရွိေသာသူ (အိႏၵိယလူမ်ိဳးမ်ား) အတြက္ ျဖစ္သည္။ ေရွးျမန္မာတို႔လည္း ကြမ္းစားမည္ဆိုလွ်င္ အရင္းႏွင့္အဖ်ား ကိုက္ျဖတ္ၿပီးမွ ကြမ္းရြက္ကို၀ါး ၾကသည္။</item>
+        <item>ဤစာပိုဒ္သည္လည္း အိႏၵိယေရွးေဟာင္းက်မ္းမ်ား	အလိုကို ေဖာ္ျပသည္။ ပညာသင္သူတို႔က ျဗဟၼာႀကီးႏွင့္ ဗိႆဏိုးနတ္တို႔ကို ပူေဇာ္လွ်င္ ပညာတိုးတက္သည္ဟု ယူဆခဲ့ ၾကသည္။</item>
+        <item>ဟိႏၵဴလူမ်ိဳးတို႔၏ ၀ါဒအရႏြားတို႔သည္ လူတို႔အား အာဟာရတိုက္ေကၽြး၏။ စည္းစိမ္ဥစၥာတိုးပြားေစ၏။ ထိုအေၾကာင္းေၾကာင့္ ႏြားတို႔ကို လူတို႔က ခ်စ္ခင္ျမတ္ႏိုးရေပသည္။</item>
+        <item> ေရွ႔မွာပါေသာ ႏြားအေၾကာင္းအဆက္ျဖစ္သည္။ ဟိႏၵဴတို႔သည္ ႏြားသားမစားၾကရ ေပ။ ႏြားကို မိဘသဖြယ္ ေလးစားၾကသည္။ ႏြားေသလွ်င္လင္းတစားရန္ ပစ္ထားျခင္းေသာ္လည္း ေကာင္း၊ ေရ၌ ေမွ်ာျခင္းေသာ္လည္းေကာင္း ျပဳရာ၏။</item>
+        <item>ဤစားပိုဒ္သည္လည္း ဟိႏၵဴက်မ္းမ်ားအလိုျဖစ္သည္။  ပညာစသင္လွ်င္ ၾကာသပေတးေန႔ကစလွ်င္ ပညာတက္ေျမာက္မည္ဟူေသာ အယူကို ေရွးေခတ္ျမန္မာတို႔လည္း ယူၾက၏။ စင္စစ္မွာပညာစသင္ရက္ ေရြးစရာ မလိုေပ။ သင္သူက ႀကိဳးစား၊ ဆရာကလည္း ေကာင္းစြာသင္ၾကားေပးလွ်င္ ပညာတက္မည္သာတည္း။</item>
+        <item> ေရွးဟိႏၵဴတို႔၏ အယူျဖစ္သည္။ ဗဟုသုတအျဖစ္ မွတ္ထားၾကရမည္သာ ျဖစ္သည္။</item>
+        <item>အထူးရွင္းစရာလိုမည္ မဟုတ္ေပ။ ဟိႏၵဴတို႔၏ အယူမွ်သာျဖစ္သည္။</item>
+        <item>အမ်ားအက်ိဳးအတြ႕က္ အနည္းကိုစြန္႔ရမည္ ဆိုသည္မွာ အမ်ားအက်ိဳးရွိရန္ ေဆာင္ရြက္ရာတြင္ တစ္ဦးတစ္ေယာက္ကိုမငဲ့ဘဲ ေဆာင္ရြက္သင့္သည္ဟု ဆိုလိုသည္။ ေနာက္ဆံုး ၀ါက်မွာ မိမိအက်ိဳးအတြက္ ကမာၻေလာကႀကီးတစ္ခုလံုးကို စြန္႔ရသည္ ဆိုသည္မွာ တစ္ကိုယ္ေကာင္း ျပဳက်င့္ေစရန္ဆိုျခင္း မဟုတ္။ ေရွ႔၀ါက်ေတြမွာ အဆင့္ဆင့္အနစ္နာခံရမည္ ဟု မရည္ရြယ္ေပ။ မိမိအက်ိဳးအတြက္ဟူသည္မွာ ဤေနရာတြင္မိမိသံသရာမွ လြတ္ရာလြတ္ေၾကာင္း အတြက္အစြန္႔ႀကီး စြန္႔ရလိမ့္မည္ဟုဆိုလိုသည္။</item>
+        <item> မိမိအက်ိဳးမရွိေသာ ေနရာေဒသတြင္ 	ဆက္လက္မေနသင့္။ သင့္ေတာ္ေသာ ေနရာေဒသသို႔ ေျပာင္းေရြ႔သင့္သည္။ ျခေသၤ့၊ သူေတာ္ေကာင္းႏွင့္ ဆင္တို႔သည္ မေနၾကေပ။ က်ီး၊သူယုတ္ႏွင့္ သမင္တို႔သည္ သူတို႔ရွိရာ ေနရာေဒမွာပင္ ေသသည့္တိုင္ေအာင္ ေနၾကသည္။ အက်ိဳးမေပးေသာေနရာျဖစ္ျငားလည္း  ေျပာင္းေရြရန္ မသိၾကေခ်။</item>
+        <item> ျမတ္ႏုိးမႈမရွိ၊ အခ်စ္မရွိ၊ အေဆြခင္ပြန္းမရွိ၊ ဆရာသမားမရွိ။ ယင္းတို႔မရွိေသာေန ရာ၌ေနလွ်င္ အက်ိဳးပ်က္စီးမည္။ မေနသင့္ေပ။</item>
+        <item>အေဟာင္းမွ အသစ္ကိုေျပာင္းသင့္လွ်င္ ေျပာင္းရမည္။ သို႔ေသာ္ေျပာင္းတိုင္း လည္းမေကာင္းဟူ၍ ဆိုလိုသည္။ စိုင္ေသကိုပစ္ၿပီး။ စိုင္ရွင္ကို မလိုက္သင့္ဟု ဆိုၾကသည္။ မေသခ်ာဘဲ	 မလုပ္သင့္ဟု ဆိုလိုျခင္းျဖစ္သည္။ တစ္ရြာမေျပာင္းသူေကာင္းမျဖစ္ ဟူေသာစကားကို ေသခ်င္တဲ့က်ား ေတာေျပာင္းဟူေသာ စကားက ျပန္၍ ခ်ဳပ္ေပးသည္။</item>
+        <item>အေရာင္းအ၀ယ္ လုပ္ရာမွာ အားနာသည္။ အလုပ္သင့္ဟူေသာ သေဘာထားမ်ိဳး မရွိရ။ ပညာသင္ရာမွာလည္း မသိလွ်င္ ေမးရမွာမရွက္ႏွင့္။ မွားမွာမေၾကာက္ႏွင့္၊ သံတမန္အျဖစ္ သြားရာတြင္ေျပာစရာ စကားကိုမေၾကာက္မရြံ ေျပာရေပမည္။ ေမထုတ္မွီ၀ဲရာတြင္ အရွက္အေၾကာက္ စိတ္ကိုခဏဖယ္ထားရေပမည္။</item>
+        <item>အစားအေသာက္မွာ မိန္းမက ေယာက္်ားတို႔ထက္ ႏွစ္ဆပိုသည္ဆိုသည္မွာ အစားအေသာက္ေရြးစားတက္သည္။ ေယာက္်ားလိုေတြ႔ရာႀကံဳရာ စားျခင္းမ်ိဳးမဟုတ္ေပ၊ အစား အေသာက္ခ်က္ျပဳတ္တက္သျဖင့္ အစားေကာင္းေရြတက္ဟု ဆိုလုိသည္။ လံုးလေျခာက္ဆပိုသည္ ဆိုသည္မွာအိမ္မႈကိစၥတို႔သည္ ေထြျပားလွသည္။ ေသးငယ္သည္ ကိစၥကေလးမ်ားကိုပင္ လုပ္ရတာ အခ်ိန္ကုန္သည္။ ထို႔ေၾကာင့္မိန္းမတို႔ကေယာက်္ားထက္ ေျခာက္ဆပို၍ ႀကိဳးပမ္းအားထုတ္ရ သည္ဟု ဆိုလိုျခင္းျဖစ္သည္။ ဥာဏ္သြားရာမွာ ေယာက္်ားတို႔ထက္ ေလးဆပိုသည္ ဆိုရာ၌ ေယာက္်ားထို႔ထက္ ရုတ္တရက္ ဥာဏ္ရည္သာသည္ကိုဆိုလိုသည္။ ပရိယာယ္မာယာမ်ာျခင္းသည္ ဥာဏ္မ်ားျခင္းပင္ျဖစ္သည္။</item>
+        <item>သူျမတ္ႏွင့္သူယုတ္တုိ႔သည္ အရာရာတြင္ေျပာင္းျပန္ျဖစ္သည္။ ျမင့္ျမတ္ေသာ သူေတာ္ေကာင္းမိတ္ေဆြသည္ တစ္စတစ္စပို၍ ရင္းႏွီးသည္ႏွင့္အမွ်ယံုၾကည္အားကိုးမႈ ပို၍ရႏိုင္ သည္။ ႀကံ၏အဖ်ားမွ အရင္းတိုင္ေအာင္ အခ်ိဳပိုလာသလိုႏွင့္ အရင္းမွ အဖ်ား အခ်ိဳေလ်ာ့၍လာ သည့္အျဖစ္တို႔ကို ပမာျပသည္။</item>
+        <item>လယ္သမားသည္ စားေရးရိကၡာတို႔ကိုထုတ္လုပ္၏။ ကုန္သည္သည္ စီးပြားေရးကို ေဆာင္ရြက္၏။	 အမတ္သည္ ႏိုင္ငံအုပ္ခ်ဳပ္ေရးတြင္ ေဆာင္ရြက္၏။ သီလႏွင့္ ျပည့္စံုေသာ ရဟန္း သည္သာသနာ ထြန္းကားေစသည္။ ထိုေလးပါးေသာပုဂၢိဳလ္တို႔ တိုးပြားလွ်င္ ႏုိင္ငံတိုးတက္ ဖြံၿဖိဳး ေပလိမ့္မည္။</item>
+        <item>မိမိႏွင့္သက္ဆိုင္ေသာ တာ၀န္ပ်က္ကြက္လွ်င္ ပ်က္စီးဆံုးရံႈးျခင္း ျဖစ္သည္။ စာမက်က္သူသည္စာမတက္ေခ်။ ပ်င္းရိသူ၏အိမ္သည္ ပ်က္စီေနသည္။ ရုပ္လွသူမွာ ပ်င္းရိျခင္းသည္ အညစ္အေထးျဖစ္၏။ အက်င့္သီလအားေလ်ာ့ေသာ ရဟန္းအဖို႔၀ိနည္းေတာ္ကို မရိုေသျခင္းသည္ အညစ္အေထးျဖစ္သည္။</item>
+        <item>လံုးလမရွိေသာသူ၏ ပစၥည္းဥစၥာသည္ သူတို႔၏ ပ်က္ကြက္မႈေၾကာင့္ သူတို႔ထံ၌ အား၍မျဖစ္ဘဲတျဖည္းျဖည္း ေလ်ာ့ပါးသြားကာ လံုးလရွိသည္အေလ်ာက္စီးပြားတိုးတက္သူထံ ေရာက္သြားၾကသည္။ ၀ီရိယနည္းသူတို႔က သူတို႔၏အျပစ္ကိုမျမင္ဘဲ ကံကိုအျပစ္ဖို႔ၾကသည္။</item>
+        <item>ပညာရွိသူတို႔ကားကံကိုပံုမခ်ၾကေပ။ လုပ္စရာအလုပ္ကို အားႀကိဳးမာန္တက္ လုပ္ၾက၏။ အကယ္၍	ကိစၥတစ္ခုမၿပီးေျမာက္လွ်င္ ထင္တိုင္းမျဖစ္သည္သာပင္၊ ဘယ္သူမွ် မျပစ္ မရွိေပ။ ကံကံ၏အက်ိဳးကိုတကယ္ယံုၾကည္သူသည္ အလုပ္ကိုႀကိဳးစားလုပ္သည္။ မျဖစ္သာလွ်င္ မျဖစ္လာျခင္းမွ်သာျဖစ္သည္။ အလုပ္လုပ္သူမွာေရာ ကံမွာပါ အျပစ္မရွိေပ။</item>
+        <item>ဇာတိလည္းညံ့၊ ပညာလည္းမရွိ၊ ရုပ္ရည္လည္းမသန္႔၊ ထိုသူတု႔ိသည္ အထင္အရွား ညံ့ၾက၏။ သို႔ေသာ္ဤေခတ္သည္ ဆုတ္ေခတ္၊ ေငြသာပဓာနေခတ္ ျဖစ္ေပတည္း။</item>
+    </string-array>
+    
+    
+    <string name="home_mm">ေလာကနီတိ</string>
+    <string name="home_en">LOKANITI</string>
+    
+    <string name="about_mm"> ဤ ပရိုုဂရမ္ သည္ ေရွးျမန္မာ ပညာ ရွိတို ့၏ ေလာကလမ္းညႊန္ က်မ္း ကိုု မေပ်ာက္ပ်က္ေစရန္၊ ထင္ရွားေစရန္ ႏွင့္ အသံုုးျပဳရ လြယ္ကူေစရန္ ဖန္တီး ျခင္းျဖစ္သည္။</string>
+	<string name="about_en">This application is created for the book about the guide of life written by the ancient Myanmar Sages to be remained , to be popular and to be used easily.</string>
+	
+	<string name="owner">Created by : SOE HTET</string>
+    <string name="feedback">Send Feedback</string>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
